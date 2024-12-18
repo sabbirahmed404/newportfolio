@@ -7,5 +7,9 @@ body {
 }
 
 .screen {
-  @apply md:w-[1000px] mx-auto;
+  @apply md:w-[1000px] mx-auto border;
+}
+
+.main-screen {
+  @apply py-3 border;
 }

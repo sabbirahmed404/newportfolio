@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner"
+import InfoCard from "@/components/InfoCard"
 import MainScreen from "@/layout/MainScreen"
 import Screen from "@/layout/Screen"
 
@@ -8,7 +9,7 @@ const Home = () => {
       <MainScreen>
         <Banner />
         <Screen>
-          <div>Home Page</div>
+          <InfoCard />
         </Screen>
       </MainScreen>
     </>

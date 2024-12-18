@@ -1,0 +1,1 @@
+const rinkitImage = "/rinkit.png"

@@ -7,12 +7,12 @@ const gruzBio = "Software Engineer"
 const gruzLink = [
   {
     name: "Github",
-    link: "https://github.com",
+    link: "https://github.com/rinkitadhana",
     icon: FaGithub,
   },
 
   {
-    name: "X",
+    name: "Twitter",
     link: "https://x.com/intent/follow?screen_name=damnGruz",
     icon: FaXTwitter,
   },
@@ -23,7 +23,7 @@ const gruzLink = [
   },
   {
     name: "BuyMeACoffee",
-    link: "https://github.com",
+    link: "",
     icon: SiBuymeacoffee,
   },
 ]

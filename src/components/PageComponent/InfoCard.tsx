@@ -4,7 +4,7 @@ import { InfoTip } from "../InfoTip"
 import Available from "../Available"
 const InfoCard: React.FC = () => {
   return (
-    <section className="">
+    <section>
       <div className=" flex flex-col gap-2">
         <div className=" block md:hidden">
           <Available text="Available" />

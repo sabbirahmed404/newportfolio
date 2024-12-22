@@ -33,7 +33,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
   const [show, setShow] = useState(false)
 
   return (
-    <section className="group/show">
+    <section className=" group/show">
       <div className=" bg-zinc-900 border border-zinc-700 rounded-md">
         {show && (
           <div className="p-2">
@@ -43,11 +43,11 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
             </video>
           </div>
         )}
-        <div className=" flex flex-row gap-3 p-3">
+        <div className=" flex flex-row gap-3 p-2">
           <div className=" basis-1/3  select-none ">
             <img
               className="rounded-md h-[140px] w-full object-cover "
-              src="https://media.licdn.com/dms/image/D4E12AQH8RK6Rn-O4Mg/article-cover_image-shrink_720_1280/0/1683802599512?e=2147483647&v=beta&t=BBGU2Gpv_wm2-S_UJSf9W_X8UMVcnxdGKYnd_qVPPlc"
+              src="https://images.deepai.org/machine-learning-models/af4d384431974ab5bfda622a20a27695/anime_fairy.jpg"
             />
           </div>
           <div className=" basis-2/3 ">
@@ -118,7 +118,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
         </div>
 
         <div className="hidden group-hover/show:flex border-t border-zinc-700 w-[97%] my-1 mx-auto" />
-        <div className="   hidden group-hover/show:flex justify-between items-center p-3 transition-all duration-100">
+        <div className="    hidden group-hover/show:flex justify-between items-center p-2 transition-all duration-100">
           <div className="flex flex-wrap gap-1.5 select-none">
             {skill.map((skill, index) => (
               <p
@@ -129,14 +129,18 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
               </p>
             ))}
           </div>
-          <div className=" flex gap-3 items-center px-2 text-lg ">
-            <InfoTipProjects text="Like">
-              <div className=" cursor-pointer">
+          <div className="flex gap-4 items-center px-4 text-lg ">
+            <div className=" cursor-pointer hover:text-pink-500 transition-colors duration-100 select-none flex  gap-1 items-center  ">
+              <div>
                 <FaRegHeart />
               </div>
-            </InfoTipProjects>
+              <div className=" text-sm">134</div>
+            </div>
             <InfoTipProjects text="Share">
-              <div className=" cursor-pointer ">
+              <div
+                className="cursor-pointer hover:text-zinc-400 transition-colors duration-100"
+                onClick={() => navigator.share({ url: url })}
+              >
                 <LuShare />
               </div>
             </InfoTipProjects>

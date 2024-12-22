@@ -15,14 +15,14 @@ body {
 }
 
 .screen {
-  @apply md:w-[800px] md:mx-auto px-4;
+  @apply md:w-[800px] md:mx-auto px-4 md:py-8 py-4;
 }
 .main-screen {
   @apply py-3 border;
 }
 
 .pro-pic {
-  @apply md:size-[130px] rounded-md select-none;
+  @apply md:size-[130px] size-auto rounded-md select-none;
 }
 
 .social-card {
@@ -33,7 +33,5 @@ body {
 }
 
 .head-name {
-  @apply font-bold;
-  font-size: 2rem;
-  line-height: 1.5rem;
+  @apply font-bold md:text-[2rem] text-[1.8rem] leading-[1.5rem];
 }

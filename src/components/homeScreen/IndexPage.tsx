@@ -5,7 +5,7 @@ import Skills from "../PageComponent/Skills"
 
 const IndexPage = () => {
   return (
-    <div className="flex flex-col gap-5 py-10">
+    <div className="flex flex-col gap-5 ">
       <InfoCard />
       <AboutMe />
       <Skills />

@@ -3,7 +3,7 @@ import React from "react"
 
 const Banner: React.FC = () => {
   return (
-    <section className="flex w-full items-center justify-between px-8 select-none">
+    <section className="flex w-full items-center justify-between md:px-8 px-4 select-none">
       <a
         href="https://www.google.com/search?q=time"
         target="_blank"

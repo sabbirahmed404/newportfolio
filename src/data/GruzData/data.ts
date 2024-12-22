@@ -6,6 +6,26 @@ const gruzLink = [
     name: "Github",
     link: "https://github.com",
   },
+  {
+    name: "Github",
+    link: "https://github.com",
+  },
+  {
+    name: "Github",
+    link: "https://github.com",
+  },
+  {
+    name: "Github",
+    link: "https://github.com",
+  },
+  {
+    name: "Github",
+    link: "https://github.com",
+  },
+  {
+    name: "Github",
+    link: "https://github.com",
+  },
 ]
 
 export { gruzName, gruzBio, gruzImage, gruzLink }

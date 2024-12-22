@@ -18,7 +18,7 @@ body {
   @apply md:w-[800px] md:mx-auto px-4 md:py-8 py-4;
 }
 .main-screen {
-  @apply py-3 border;
+  @apply py-3;
 }
 
 .pro-pic {

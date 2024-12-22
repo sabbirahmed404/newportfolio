@@ -12,7 +12,7 @@ const InfoCard: React.FC = () => {
 
         <div className=" flex flex-col gap-2">
           <div className="flex gap-4 items-center">
-            <h1 className=" head-name ">{gruzName} </h1>
+            <h1 className=" head-name ">{gruzName}</h1>
             <Available text="Available" />
           </div>
           <p className="">{gruzBio}</p>

@@ -1,5 +1,5 @@
 import Banner from "@/components/Banner"
-import InfoCard from "@/components/PageComponent/InfoCard"
+import IndexPage from "@/components/homeScreen/IndexPage"
 import MainScreen from "@/layout/MainScreen"
 import Screen from "@/layout/Screen"
 
@@ -9,7 +9,7 @@ const Home = () => {
       <MainScreen>
         <Banner />
         <Screen>
-          <InfoCard />
+          <IndexPage />
         </Screen>
       </MainScreen>
     </>

@@ -5,10 +5,32 @@
 body {
   @apply bg-mainBlack text-mainWhite;
 }
+::selection {
+  @apply bg-mainWhite text-mainBlack;
+}
+
+/* For Firefox-specific styling */
+::-moz-selection {
+  @apply bg-mainWhite text-mainBlack;
+}
 
 .screen {
-  @apply md:w-[1000px] mx-auto border;
+  @apply md:w-[800px] md:mx-auto px-4 border;
 }
 .main-screen {
   @apply py-3 border;
+}
+
+.pro-pic {
+  @apply md:size-[130px] rounded-xl select-none;
+}
+
+.social-card {
+  @apply select-none bg-black border border-zinc-700 rounded p-1.5 text-[1.35rem] hover:bg-mainBlack transition-all duration-100;
+}
+
+.head-name {
+  @apply font-bold;
+  font-size: 2rem;
+  line-height: 2rem;
 }

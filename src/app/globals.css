@@ -22,11 +22,11 @@ body {
 }
 
 .pro-pic {
-  @apply md:size-[130px] rounded-xl select-none;
+  @apply md:size-[130px] rounded-md select-none;
 }
 
 .social-card {
-  @apply select-none bg-black border border-zinc-700 rounded p-1.5 text-[1.35rem] hover:bg-mainBlack transition-all duration-100;
+  @apply select-none bg-black border border-zinc-700 rounded-md p-1.5 text-[1.35rem] hover:bg-mainBlack transition-all duration-100;
 }
 
 .head-name {

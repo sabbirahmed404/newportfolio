@@ -26,11 +26,11 @@ body {
 }
 
 .social-card {
-  @apply select-none bg-black border border-zinc-700 rounded-md p-1.5 text-[1.35rem] hover:bg-mainBlack transition-all duration-100;
+  @apply select-none bg-black border border-zinc-700 rounded-md p-1.5 text-[1.35rem] hover:bg-zinc-800 transition-all duration-100;
 }
 
 .head-name {
   @apply font-bold;
   font-size: 2rem;
-  line-height: 2rem;
+  line-height: 1.5rem;
 }

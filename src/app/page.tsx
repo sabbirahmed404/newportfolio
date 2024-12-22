@@ -1,5 +1,5 @@
 import Banner from "@/components/Banner"
-import InfoCard from "@/components/InfoCard"
+import InfoCard from "@/components/PageComponent/InfoCard"
 import MainScreen from "@/layout/MainScreen"
 import Screen from "@/layout/Screen"
 

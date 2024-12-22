@@ -21,7 +21,7 @@ const InfoCard: React.FC = () => {
               <InfoTip text={link.name}>
                 <a
                   className="social-card"
-                  key={link.name}
+                  key={link.id}
                   href={link.link}
                   target="_blank"
                 >

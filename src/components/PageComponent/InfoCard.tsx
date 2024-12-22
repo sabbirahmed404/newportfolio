@@ -6,7 +6,7 @@ const InfoCard: React.FC = () => {
   return (
     <section className="">
       <div className=" flex flex-col gap-2">
-        <div className="px-4 block md:hidden">
+        <div className=" block md:hidden">
           <Available text="Available" />
         </div>
 

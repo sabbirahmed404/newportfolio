@@ -4,7 +4,7 @@ import { InfoTip } from "../InfoTip"
 import Available from "../Available"
 const InfoCard: React.FC = () => {
   return (
-    <section className=" py-10">
+    <section className="">
       <div className=" flex gap-3 items-center">
         <div className=" select-none">
           <img src={gruzImage} alt="Profile Picture" className="pro-pic" />

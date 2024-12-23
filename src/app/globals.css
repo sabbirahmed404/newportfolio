@@ -37,5 +37,5 @@ body {
 }
 
 .btn {
-  @apply bg-zinc-700/30 w-full px-2 py-0.5 rounded-md hover:bg-zinc-700/50;
+  @apply select-none bg-zinc-700/30 w-full px-2 py-0.5 rounded-md hover:bg-zinc-700/50;
 }

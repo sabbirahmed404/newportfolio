@@ -1,13 +1,21 @@
+"use client"
 import { projects } from "@/data/Common/data"
 import ProjectBox from "../ProjectBox"
 import SectionTitle from "../SectionTitle"
+import { useState } from "react"
+import {
+  MdKeyboardDoubleArrowDown,
+  MdKeyboardDoubleArrowUp,
+} from "react-icons/md"
 
 const Projects = () => {
+  const [showAll, setShowAll] = useState(false)
+  const visibleProjects = showAll ? projects : projects.slice(0, 2)
   return (
     <div className="flex flex-col gap-3">
       <SectionTitle title="Projects" />
       <div className=" flex flex-col gap-4">
-        {projects.map((project) => (
+        {visibleProjects.map((project) => (
           <ProjectBox
             key={project.id}
             title={project.title}
@@ -15,11 +23,30 @@ const Projects = () => {
             content={project.content}
             status={project.status}
             skill={project.skill}
-            url={project.url}
+            url={project.url || ""}
             github={project.github}
             preview={project.preview}
           />
         ))}
+      </div>
+      <div>
+        <button className=" btn " onClick={() => setShowAll((prev) => !prev)}>
+          {showAll ? (
+            <div className="flex gap-0.5 justify-center items-center">
+              <div className=" animate-pulse">
+                <MdKeyboardDoubleArrowUp />
+              </div>
+              Show less
+            </div>
+          ) : (
+            <div className="flex gap-0.5 justify-center items-center">
+              <div className=" animate-pulse">
+                <MdKeyboardDoubleArrowDown />
+              </div>
+              Show all
+            </div>
+          )}
+        </button>
       </div>
     </div>
   )

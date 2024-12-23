@@ -35,3 +35,7 @@ body {
 .head-name {
   @apply font-bold md:text-[2rem] text-[1.8rem] leading-[1.5rem];
 }
+
+.btn {
+  @apply bg-zinc-700/30 w-full px-2 py-0.5 rounded-md hover:bg-zinc-700/50;
+}

@@ -1,5 +1,4 @@
 import AboutMe from "../PageComponent/AboutMe"
-import DaysICode from "../PageComponent/DaysICode"
 import InfoCard from "../PageComponent/InfoCard"
 import Projects from "../PageComponent/Projects"
 import Skills from "../PageComponent/Skills"
@@ -11,7 +10,6 @@ const IndexPage = () => {
       <AboutMe />
       <Skills />
       <Projects />
-      <DaysICode />
     </div>
   )
 }

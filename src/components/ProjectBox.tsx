@@ -70,7 +70,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
                   </div>
                 )}
               </div>
-              <div className=" select-none flex gap-2 px-2">
+              <div className=" select-none flex gap-2 px-2 text-base">
                 {show ? (
                   <InfoTipProjects text="Close">
                     <a

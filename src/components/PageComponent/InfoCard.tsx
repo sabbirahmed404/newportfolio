@@ -22,16 +22,11 @@ const InfoCard: React.FC = () => {
                 <Available text="Available" />
               </div>
             </div>
-            <p className="">{gruzBio}</p>
-            <div className=" flex flex-wrap gap-1.5">
+            <p>{gruzBio}</p>
+            <div className="flex flex-wrap gap-1.5">
               {gruzLink.map((link) => (
-                <InfoTip text={link.name}>
-                  <a
-                    className="social-card"
-                    key={link.id}
-                    href={link.link}
-                    target="_blank"
-                  >
+                <InfoTip key={link.id} text={link.name}>
+                  <a className="social-card" href={link.link} target="_blank">
                     {<link.icon />}
                   </a>
                 </InfoTip>

@@ -110,6 +110,22 @@ const gruzSkills = [
   { id: 19, icon: VscTerminalLinux, text: "Linux" },
   { id: 20, icon: SiVercel, text: "Vercel" },
 ]
+const gruzContact =
+  "Most of the time, you'll find me hanging out on my Discord channel while coding. I'm also super active on X, so feel free to DM me there!"
+const gruzContactLink = [
+  {
+    id: 1,
+    name: "Twitter",
+    link: "https://x.com/intent/follow?screen_name=damnGruz",
+    icon: FaXTwitter,
+  },
+  {
+    id: 2,
+    name: "Discord",
+    link: "https://discord.gg/JgcDzHpWum",
+    icon: FaDiscord,
+  },
+]
 export {
   gruzName,
   gruzBio,
@@ -118,4 +134,6 @@ export {
   gruzFooterLink,
   gruzAbout,
   gruzSkills,
+  gruzContact,
+  gruzContactLink,
 }

@@ -39,3 +39,7 @@ body {
 .btn {
   @apply select-none bg-zinc-700/30 w-full px-2 py-0.5 rounded-md hover:bg-zinc-700/50;
 }
+
+.contact-card {
+  @apply select-none transition-colors duration-100 flex flex-row gap-1 items-center bg-zinc-900 border border-zinc-700 hover:bg-zinc-800 px-2  py-1 rounded-md;
+}

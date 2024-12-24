@@ -4,6 +4,7 @@ import Footer from "../PageComponent/Footer"
 import InfoCard from "../PageComponent/InfoCard"
 import Projects from "../PageComponent/Projects"
 import Skills from "../PageComponent/Skills"
+import ReachOut from "../PageComponent/ReachOut"
 
 const IndexPage = () => {
   return (
@@ -14,6 +15,7 @@ const IndexPage = () => {
           <AboutMe />
           <Skills />
           <Projects />
+          <ReachOut />
         </div>
         <Footer />
       </Screen>

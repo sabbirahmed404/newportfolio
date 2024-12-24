@@ -21,7 +21,7 @@ const projects = [
     url: "https://therinkit-appleclone.vercel.app/",
     github: "https://github.com/rinkitadhana/iphone15-Apple-Clone",
     skill: ["ReactJs", "Tailwind", "GSAP", "ThreeJS"],
-    preview: "",
+    preview: "./preview/voiceforge.mp4",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const projects = [
     url: "https://brainrot-language-converter.vercel.app/",
     github: "https://github.com/rinkitadhana/BrainRot-Language-Converter",
     skill: ["React", "Tailwind", "Gemini api"],
-    preview: "",
+    preview: "./preview/voiceforge.mp4",
   },
   {
     id: 4,
@@ -82,7 +82,7 @@ const projects = [
     url: "https://anecblog.vercel.app/",
     github: "https://github.com/rinkitadhana/Anecdot",
     skill: ["React", "Tailwind", "Node", "Express", "MongoDB"],
-    preview: "",
+    preview: "./preview/voiceforge.mp4",
   },
   {
     id: 8,
@@ -107,7 +107,7 @@ const projects = [
     url: "https://therinkit-building.vercel.app",
     github: "https://therinkit-building.vercel.app",
     skill: ["React", "Tailwind", "Node", "Express", "MongoDB"],
-    preview: "",
+    preview: "./preview/voiceforge.mp4",
   },
   {
     id: 10,
@@ -143,7 +143,7 @@ const projects = [
     remove: true,
     github: "https://github.com/rinkitadhana/StopWatchByJava",
     skill: ["Java", "JavaFX"],
-    preview: "",
+    preview: "./preview/voiceforge.mp4",
   },
 ]
 

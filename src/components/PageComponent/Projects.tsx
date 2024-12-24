@@ -30,7 +30,10 @@ const Projects = () => {
         ))}
       </div>
       <div>
-        <button className=" btn " onClick={() => setShowAll((prev) => !prev)}>
+        <button
+          className=" showMore-btn "
+          onClick={() => setShowAll((prev) => !prev)}
+        >
           {showAll ? (
             <div className="flex gap-0.5 justify-center items-center">
               <div className=" animate-pulse">

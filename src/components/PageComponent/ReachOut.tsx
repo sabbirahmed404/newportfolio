@@ -11,7 +11,7 @@ const ReachOut = () => {
           <div className=" flex flex-wrap items-center gap-2">
             {gruzContactLink.map((link) => (
               <a
-                className="contact-card"
+                className="btn"
                 key={link.id}
                 target="_blank"
                 href={link.link}

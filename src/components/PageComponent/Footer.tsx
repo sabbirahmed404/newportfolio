@@ -8,6 +8,7 @@ const Footer = () => {
         <div className=" flex flex-wrap gap-2 md:gap-4 items-center md:text-base text-sm">
           {gruzFooterLink.map((link) => (
             <a
+              key={link.id}
               className=" select-none hover:text-zinc-400 flex gap-1 items-center"
               target="_blank"
               href={link.link}

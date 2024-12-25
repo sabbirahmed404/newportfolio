@@ -14,7 +14,7 @@ const Projects = () => {
   return (
     <div className="flex flex-col gap-3">
       <SectionTitle title="Projects" />
-      <div className=" flex flex-col gap-4">
+      <div className=" flex flex-col gap-2">
         {visibleProjects.map((project) => (
           <ProjectBox
             key={project.id}

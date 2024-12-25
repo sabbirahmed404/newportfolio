@@ -7,9 +7,9 @@ interface BlogBoxProps {
 
 const WritingsBox: React.FC<BlogBoxProps> = ({ img, head, des }) => {
   return (
-    <div className=" blog-post flex  items-center gap-2">
+    <div className=" blog-post flex md:flex-row flex-col   items-center gap-2">
       <img
-        className="size-[68px] object-cover select-none rounded-md"
+        className="  md:size-[68px] object-cover w-full h-[100px] select-none rounded-md"
         src={img}
         alt="Profile Picture"
       />

@@ -126,6 +126,9 @@ const gruzContactLink = [
     icon: FaDiscord,
   },
 ]
+
+const gruzHire =
+  "I’m currently available for internships, full-time opportunities, and freelance projects. If you’re looking for someone passionate, skilled, and ready to contribute, I’m here to help bring your ideas to life!"
 export {
   gruzName,
   gruzBio,
@@ -136,4 +139,5 @@ export {
   gruzSkills,
   gruzContact,
   gruzContactLink,
+  gruzHire,
 }

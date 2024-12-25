@@ -173,4 +173,7 @@ const writings = [
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores impedit dolore saepe vero expedita animi cumque rerum. Porro, nostrum assumenda.",
   },
 ]
-export { projects, writings }
+
+const emailLink =
+  "mailto:therinkit@gmail.com?subject=Interested%20in%20Hiring%20You"
+export { projects, writings, emailLink }

@@ -6,6 +6,7 @@ import Projects from "../PageComponent/Projects"
 import Skills from "../PageComponent/Skills"
 import ReachOut from "../PageComponent/ReachOut"
 import Writings from "../PageComponent/Writings"
+import HireMe from "../PageComponent/HireMe"
 
 const IndexPage = () => {
   return (
@@ -14,6 +15,7 @@ const IndexPage = () => {
         <div className="flex flex-col gap-5 ">
           <InfoCard />
           <AboutMe />
+          <HireMe />
           <Skills />
           <Projects />
           <Writings />

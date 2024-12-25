@@ -5,9 +5,7 @@ import { FiGithub } from "react-icons/fi"
 import { GoDotFill } from "react-icons/go"
 import { LuLink, LuShare } from "react-icons/lu"
 import { InfoTipProjects } from "./InfoTipProjects"
-import { RxShare2 } from "react-icons/rx"
-import { CiShare1 } from "react-icons/ci"
-import { FaRegHeart, FaRegShareFromSquare } from "react-icons/fa6"
+import { FaRegHeart } from "react-icons/fa6"
 
 interface ProjectBoxProps {
   img: string
@@ -43,17 +41,17 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
             </video>
           </div>
         )}
-        <div className=" flex flex-row gap-3 p-2">
+        <div className=" flex md:flex-row flex-col gap-3 p-2">
           <div className=" basis-1/3  select-none ">
             <img
-              className="rounded-md h-[140px] w-full object-cover "
+              className="rounded-md md:h-[140px] h-[200px] w-full object-cover "
               src="https://images.deepai.org/machine-learning-models/af4d384431974ab5bfda622a20a27695/anime_fairy.jpg"
             />
           </div>
-          <div className=" basis-2/3 ">
+          <div className=" basis-2/3 flex flex-col md:gap-0 gap-1 ">
             <div className=" flex justify-between items-center">
-              <div className=" flex gap-2 items-center">
-                <h1 className=" text-2xl font-semibold">{title}</h1>
+              <div className=" flex gap-2  items-center truncate ">
+                <h1 className=" text-2xl font-semibold  ">{title}</h1>
                 {status ? (
                   <div className="select-none font-medium text-xs w-fit   px-1.5 py-0.5 gap-0.5 rounded-md flex  items-center bg-green-400/10 text-green-400">
                     <span className="animate-pulse">
@@ -115,11 +113,21 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
             </div>
             <p>{content}</p>
           </div>
+          <div className="md:hidden flex flex-wrap gap-1.5 select-none">
+            {skill.map((skill, index) => (
+              <p
+                key={index}
+                className=" border border-zinc-700 px-2 py-0.5  rounded-md text-sm"
+              >
+                {skill}
+              </p>
+            ))}
+          </div>
         </div>
 
-        <div className="hidden group-hover/show:flex border-t border-zinc-700 w-[97%] my-1 mx-auto" />
-        <div className="    hidden group-hover/show:flex justify-between items-center p-2 transition-all duration-100">
-          <div className="flex flex-wrap gap-1.5 select-none">
+        <div className="md:hidden flex md:group-hover/show:flex border-t border-zinc-700 w-[97%] my-1 mx-auto" />
+        <div className="    md:hidden flex md:group-hover/show:flex md:justify-between justify-end items-center p-2 transition-all duration-100">
+          <div className=" hidden md:flex flex-wrap gap-1.5 select-none">
             {skill.map((skill, index) => (
               <p
                 key={index}

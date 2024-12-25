@@ -5,7 +5,7 @@ interface BlogBoxProps {
   des: string
 }
 
-const BlogBox: React.FC<BlogBoxProps> = ({ img, head, des }) => {
+const WritingsBox: React.FC<BlogBoxProps> = ({ img, head, des }) => {
   return (
     <div className=" blog-post flex  items-center gap-2">
       <img
@@ -21,4 +21,4 @@ const BlogBox: React.FC<BlogBoxProps> = ({ img, head, des }) => {
   )
 }
 
-export default BlogBox
+export default WritingsBox

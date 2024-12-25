@@ -147,4 +147,30 @@ const projects = [
   },
 ]
 
-export { projects }
+const writings = [
+  {
+    id: 1,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Q3Hv7-rg8dfuKPn-r79jjVJEQaeg7g17mA&s",
+    head: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, repellendus.",
+    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores impedit dolore saepe vero expedita animi cumque rerum. Porro, nostrum assumenda.",
+  },
+  {
+    id: 2,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Q3Hv7-rg8dfuKPn-r79jjVJEQaeg7g17mA&s",
+    head: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, repellendus.",
+    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores impedit dolore saepe vero expedita animi cumque rerum. Porro, nostrum assumenda.",
+  },
+  {
+    id: 3,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Q3Hv7-rg8dfuKPn-r79jjVJEQaeg7g17mA&s",
+    head: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, repellendus.",
+    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores impedit dolore saepe vero expedita animi cumque rerum. Porro, nostrum assumenda.",
+  },
+  {
+    id: 4,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Q3Hv7-rg8dfuKPn-r79jjVJEQaeg7g17mA&s",
+    head: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, repellendus.",
+    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores impedit dolore saepe vero expedita animi cumque rerum. Porro, nostrum assumenda.",
+  },
+]
+export { projects, writings }

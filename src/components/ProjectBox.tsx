@@ -16,7 +16,6 @@ interface ProjectBoxProps {
   github: string
   skill: string[]
   preview: string
-  remove: boolean
 }
 
 const ProjectBox: React.FC<ProjectBoxProps> = ({
@@ -28,7 +27,6 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
   github,
   skill,
   preview,
-  remove,
 }) => {
   const [show, setShow] = useState(false)
 
@@ -44,13 +42,13 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
           </div>
         )}
         <div className=" flex md:flex-row flex-col gap-3 p-2">
-          <div className=" basis-1/3  select-none ">
+          <div className=" basis-1/4  select-none ">
             <img
               className="rounded-md md:h-[140px] h-[200px] w-full object-cover "
               src={img}
             />
           </div>
-          <div className=" basis-2/3 flex flex-col md:gap-0 gap-1 ">
+          <div className=" basis-3/4 flex flex-col md:gap-0 gap-1 ">
             <div className=" flex justify-between items-center">
               <div className=" flex gap-2  items-center truncate ">
                 <h1 className=" text-2xl font-semibold  ">{title}</h1>
@@ -92,9 +90,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
                     </a>
                   </InfoTipProjects>
                 )}
-                {remove ? (
-                  <></>
-                ) : (
+                {url && (
                   <InfoTipProjects text="Live">
                     <a
                       target="_blank"
@@ -153,7 +149,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
             <InfoTipProjects text="Share">
               <div
                 className="cursor-pointer hover:text-zinc-400 transition-colors duration-100"
-                onClick={() => navigator.share({ url: url })}
+                onClick={() => navigator.share({ url: url ? url : github })}
               >
                 <LuShare />
               </div>

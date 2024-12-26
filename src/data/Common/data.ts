@@ -60,7 +60,6 @@ const projects = [
     github: "https://github.com/rinkitadhana/The-Daily-Crimes",
     skill: ["ReactJS", "TypeScript", "Tailwind", "GSAP"],
     preview: "./preview/dailycrimes.mp4",
-    remove: false,
   },
   {
     id: 2,
@@ -74,7 +73,6 @@ const projects = [
     github: "https://github.com/rinkitadhana/Anecdot",
     skill: ["React", "Tailwind", "Node", "Express", "MongoDB"],
     preview: "./preview/voiceforge.mp4",
-    remove: false,
   },
   {
     id: 3,
@@ -87,7 +85,6 @@ const projects = [
     github: "https://github.com/rinkitadhana/iphone15-Apple-Clone",
     skill: ["ReactJs", "Tailwind", "GSAP", "ThreeJS"],
     preview: "./preview/voiceforge.mp4",
-    remove: false,
   },
   {
     id: 4,
@@ -100,23 +97,9 @@ const projects = [
     github: "https://github.com/rinkitadhana/BrainRot-Language-Converter",
     skill: ["React", "Tailwind", "Gemini api"],
     preview: "./preview/voiceforge.mp4",
-    remove: false,
   },
   {
     id: 5,
-    img: "./assets/Images/project/promptopia.svg",
-    title: "Promptopia",
-    status: true,
-    content:
-      "A full-stack Next.js project for sharing your AI prompts and using others' shared prompts, featuring Google authentication, profile management, and options to like, edit, and delete prompts. It also includes advanced search and filtering capabilities to easily find and manage prompts.",
-    url: "https://therinkit-promptopia.vercel.app",
-    github: "https://github.com/rinkitadhana/Promptopia",
-    skill: ["NextJS", "MongoDB", "Tailwind"],
-    preview: "./preview/promptopia.mp4",
-    remove: false,
-  },
-  {
-    id: 6,
     img: "./assets/Images/project/TweetSpree.png",
     title: "TweetSpree",
     status: true,
@@ -126,7 +109,18 @@ const projects = [
     github: "https://github.com/rinkitadhana/TweetSpree",
     skill: ["React", "Tailwind"],
     preview: "./preview/tweetspree.mp4",
-    remove: false,
+  },
+  {
+    id: 6,
+    img: "./assets/Images/project/promptopia.svg",
+    title: "Promptopia",
+    status: true,
+    content:
+      "A full-stack Next.js project for sharing your AI prompts and using others' shared prompts, featuring Google authentication, profile management, and options to like, edit, and delete prompts. It also includes advanced search and filtering capabilities to easily find and manage prompts.",
+    url: "https://therinkit-promptopia.vercel.app",
+    github: "https://github.com/rinkitadhana/Promptopia",
+    skill: ["NextJS", "MongoDB", "Tailwind"],
+    preview: "./preview/promptopia.mp4",
   },
   {
     id: 7,
@@ -139,7 +133,6 @@ const projects = [
     github: "https://github.com/rinkitadhana/LinkIt",
     skill: ["React", "Tailwind", "GSAP"],
     preview: "./preview/linkit.mp4",
-    remove: false,
   },
 
   {
@@ -150,9 +143,7 @@ const projects = [
     statusColor: "text-blue-500",
     content:
       "A full-stack project showcasing the top 11 hackathon ideas from various students, ranked by popularity. This project helps you effectively implement these ideas and improve your chances of winning.",
-    url: "https://therinkit-building.vercel.app",
-    remove: false,
-    github: "https://therinkit-building.vercel.app",
+    github: "/error",
     skill: ["React", "Tailwind", "Node", "Express", "MongoDB"],
     preview: "./preview/voiceforge.mp4",
   },
@@ -164,7 +155,6 @@ const projects = [
     status: true,
     content:
       "I made this snake game in my first year just for fun. At that time, I was a big Java fan and created this project using Java and JavaFX. This project really helped me deepen my understanding of object-oriented programming.",
-    remove: true,
     github: "https://github.com/rinkitadhana/SnakeByJava",
     skill: ["Java", "JavaFX"],
     preview: "./preview/snake.mp4",
@@ -176,7 +166,6 @@ const projects = [
     status: true,
     content:
       "I created this stopwatch to customize its functionality. It was built using only Java and JavaFX and is fully operational. This project helped me enhance my skills in Java programming and GUI design.",
-    remove: true,
     github: "https://github.com/rinkitadhana/StopWatchByJava",
     skill: ["Java", "JavaFX"],
     preview: "./preview/voiceforge.mp4",

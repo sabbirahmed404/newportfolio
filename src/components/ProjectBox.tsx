@@ -31,7 +31,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
   const [show, setShow] = useState(false)
 
   return (
-    <section className=" group/show">
+    <section className=" group/show group/pi">
       <div className=" bg-zinc-900 border border-zinc-700 rounded-md">
         {show && (
           <div className="p-2">
@@ -44,7 +44,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
         <div className=" flex md:flex-row flex-col gap-3 p-2">
           <div className=" basis-1/4  select-none ">
             <img
-              className="rounded-md md:h-[140px] h-[200px] w-full object-cover "
+              className=" md:grayscale md:group-hover/pi:grayscale-0 rounded-md md:h-[140px] h-[200px] w-full object-cover "
               src={img}
             />
           </div>

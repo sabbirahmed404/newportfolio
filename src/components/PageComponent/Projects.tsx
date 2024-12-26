@@ -26,7 +26,6 @@ const Projects = () => {
             url={project.url || ""}
             github={project.github}
             preview={project.preview}
-            remove={project.remove}
           />
         ))}
       </div>

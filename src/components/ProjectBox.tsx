@@ -16,6 +16,7 @@ interface ProjectBoxProps {
   github: string
   skill: string[]
   preview: string
+  remove: boolean
 }
 
 const ProjectBox: React.FC<ProjectBoxProps> = ({
@@ -27,6 +28,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
   github,
   skill,
   preview,
+  remove,
 }) => {
   const [show, setShow] = useState(false)
 
@@ -45,7 +47,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
           <div className=" basis-1/3  select-none ">
             <img
               className="rounded-md md:h-[140px] h-[200px] w-full object-cover "
-              src="https://images.deepai.org/machine-learning-models/af4d384431974ab5bfda622a20a27695/anime_fairy.jpg"
+              src={img}
             />
           </div>
           <div className=" basis-2/3 flex flex-col md:gap-0 gap-1 ">
@@ -90,16 +92,20 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
                     </a>
                   </InfoTipProjects>
                 )}
+                {remove ? (
+                  <></>
+                ) : (
+                  <InfoTipProjects text="Live">
+                    <a
+                      target="_blank"
+                      className="hover:text-zinc-400 transition-colors duration-100"
+                      href={url}
+                    >
+                      <LuLink />
+                    </a>
+                  </InfoTipProjects>
+                )}
 
-                <InfoTipProjects text="Live">
-                  <a
-                    target="_blank"
-                    className="hover:text-zinc-400 transition-colors duration-100"
-                    href={url}
-                  >
-                    <LuLink />
-                  </a>
-                </InfoTipProjects>
                 <InfoTipProjects text="Github">
                   <a
                     target="_blank"

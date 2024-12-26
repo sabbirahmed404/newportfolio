@@ -22,7 +22,7 @@ const Banner: React.FC = () => {
       <div>
         <div
           onClick={toggleSwitch}
-          className="group/ms  flex gap-1 justify-center cursor-pointer border border-zinc-700 rounded-md py-1 px-1  bg-zinc-800"
+          className="group/ms  flex gap-1 justify-center cursor-pointer border border-zinc-700 rounded-md py-1 px-1.5  bg-zinc-800"
         >
           Meet
           <div className="relative  w-[50px] flex justify-center overflow-hidden">

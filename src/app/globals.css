@@ -22,7 +22,7 @@ body {
 }
 
 .pro-pic {
-  @apply md:size-[130px] size-auto rounded-md select-none;
+  @apply md:size-[130px] size-auto rounded-md select-none grayscale hover:grayscale-0 transition duration-300;
 }
 
 .social-card {

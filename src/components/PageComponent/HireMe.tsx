@@ -1,22 +1,30 @@
-import { gruzHire } from "@/data/GruzData/data"
+"use client"
 import SectionTitle from "../SectionTitle"
 import { PiSuitcaseSimpleBold } from "react-icons/pi"
-import { emailLink } from "@/data/Common/data"
+import { emailLink, hireText } from "@/data/Common/data"
+import { useSwitch } from "../Context/SwitchContext"
 
 const HireMe = () => {
+  const { isSwitchOn } = useSwitch()
   return (
-    <section className="flex flex-col gap-0.5">
-      <SectionTitle title="Hire Me" />
-      <div className=" flex flex-col gap-2">
-        <p>{gruzHire}</p>
-        <div>
-          <a className="btn" target="_blank" href={emailLink}>
-            <PiSuitcaseSimpleBold />
-            Hire Me
-          </a>
-        </div>
-      </div>
-    </section>
+    <>
+      {isSwitchOn ? (
+        <></>
+      ) : (
+        <section className="flex flex-col gap-0.5">
+          <SectionTitle title="Hire Me" />
+          <div className=" flex flex-col gap-2">
+            <p>{hireText}</p>
+            <div>
+              <a className="btn" target="_blank" href={emailLink}>
+                <PiSuitcaseSimpleBold />
+                Hire Me
+              </a>
+            </div>
+          </div>
+        </section>
+      )}
+    </>
   )
 }
 

@@ -8,6 +8,7 @@ import WritingsBox from "../WritingsBox"
 import StillWorking from "../StillWorking"
 
 const Writings = () => {
+  const showAllVis = writings.length > 2
   const [showAll, setShowAll] = useState(false)
   const visibleWritings = showAll ? writings : writings.slice(0, 2)
   return (
@@ -24,26 +25,28 @@ const Writings = () => {
           />
         ))}
       </div>
-      <button
-        className="  showMore-btn "
-        onClick={() => setShowAll((prev) => !prev)}
-      >
-        {showAll ? (
-          <div className="flex gap-0.5 justify-center items-center">
-            <div className=" animate-pulse">
-              <MdKeyboardDoubleArrowUp />
+      {showAllVis && (
+        <button
+          className="  showMore-btn "
+          onClick={() => setShowAll((prev) => !prev)}
+        >
+          {showAll ? (
+            <div className="flex gap-0.5 justify-center items-center">
+              <div className=" animate-pulse">
+                <MdKeyboardDoubleArrowUp />
+              </div>
+              Show less
             </div>
-            Show less
-          </div>
-        ) : (
-          <div className="flex gap-0.5 justify-center items-center">
-            <div className=" animate-pulse">
-              <MdKeyboardDoubleArrowDown />
+          ) : (
+            <div className="flex gap-0.5 justify-center items-center">
+              <div className=" animate-pulse">
+                <MdKeyboardDoubleArrowDown />
+              </div>
+              Show all
             </div>
-            Show all
-          </div>
-        )}
-      </button>
+          )}
+        </button>
+      )}
     </section>
   )
 }

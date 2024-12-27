@@ -32,10 +32,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
   const [open, setOpen] = useState(false)
 
   return (
-    <div
-      onClick={() => setOpen((prev) => !prev)}
-      className=" group/show group/pi"
-    >
+    <div onClick={() => setOpen((prev) => !prev)}>
       <div className=" cursor-pointer bg-zinc-900 hover:bg-zinc-800/75 transition-colors duration-100  border border-zinc-700 rounded-md">
         {show && (
           <div className="p-2">
@@ -46,14 +43,14 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
           </div>
         )}
         <div className=" flex md:flex-row flex-col gap-3 p-2">
-          <div className=" basis-1/4  select-none ">
+          <div className=" basis-[22%] p-1  select-none ">
             <img
-              className=" md:grayscale md:group-hover/pi:grayscale-0 rounded-md md:h-[140px] h-[200px] w-full object-cover "
+              className="  rounded-md md:h-[130px] h-[200px] w-full object-cover "
               src={img}
               alt="Project Image"
             />
           </div>
-          <div className=" basis-3/4 flex flex-col md:gap-0 gap-1 ">
+          <div className=" basis-[78%] flex flex-col md:gap-0 gap-1 ">
             <div className=" flex justify-between items-center">
               <div className=" flex gap-2  items-center truncate ">
                 <h1 className=" text-2xl font-semibold  ">{title}</h1>

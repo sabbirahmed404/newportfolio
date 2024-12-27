@@ -39,7 +39,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
       <div className=" cursor-pointer bg-zinc-900 hover:bg-zinc-800/75 transition-colors duration-100  border border-zinc-700 rounded-md">
         {show && (
           <div className="p-2">
-            <video className=" rounded-md" width="900" controls>
+            <video className=" rounded-md" width="900" loop controls>
               <source src={preview} type="video/mp4" />
               Your browser does not support the video tag.
             </video>

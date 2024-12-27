@@ -13,8 +13,8 @@ const Writings = () => {
   return (
     <section className="flex flex-col gap-3">
       <SectionTitle title="Writings" />
-      <StillWorking />
-      <div className=" hidden flex-col gap-2">
+      {/* <StillWorking /> */}
+      <div className="  flex flex-col gap-2">
         {visibleWritings.map((writings) => (
           <WritingsBox
             key={writings.id}
@@ -25,7 +25,7 @@ const Writings = () => {
         ))}
       </div>
       <button
-        className=" hidden showMore-btn "
+        className="  showMore-btn "
         onClick={() => setShowAll((prev) => !prev)}
       >
         {showAll ? (

@@ -32,7 +32,7 @@ const skills = [
   { id: 4, icon: TbBrandTypescript, text: "TypeScript" },
   { id: 5, icon: RiTailwindCssFill, text: "Tailwind" },
   { id: 6, icon: SiShadcnui, text: "shadcn" },
-  { id: 7, icon: TbBrandFramerMotion, text: "Framer Motion" },
+  { id: 7, icon: TbBrandFramerMotion, text: "Motion" },
   { id: 8, icon: SiGreensock, text: "GSAP" },
   { id: 9, icon: IoLogoNodejs, text: "NodeJS" },
   { id: 10, icon: SiExpress, text: "ExpressJS" },
@@ -59,7 +59,7 @@ const projects = [
     url: "https://thedailycrimes.vercel.app/",
     github: "https://github.com/rinkitadhana/The-Daily-Crimes",
     skill: ["ReactJS", "TypeScript", "Tailwind", "GSAP"],
-    preview: "./preview/dailycrimes.mp4",
+    preview: "./assets/Videos/preview/dailycrimes.mp4",
   },
   {
     id: 2,
@@ -72,7 +72,7 @@ const projects = [
     url: "https://anecblog.vercel.app/",
     github: "https://github.com/rinkitadhana/Anecdot",
     skill: ["React", "Tailwind", "Node", "Express", "MongoDB"],
-    preview: "./preview/voiceforge.mp4",
+    preview: "./assets/Videos/preview/building.mp4",
   },
   {
     id: 3,
@@ -84,7 +84,7 @@ const projects = [
     url: "https://therinkit-appleclone.vercel.app/",
     github: "https://github.com/rinkitadhana/iphone15-Apple-Clone",
     skill: ["ReactJs", "Tailwind", "GSAP", "ThreeJS"],
-    preview: "./preview/voiceforge.mp4",
+    preview: "./assets/Videos/preview/building.mp4",
   },
   {
     id: 4,
@@ -96,7 +96,7 @@ const projects = [
     url: "https://brainrot-language-converter.vercel.app/",
     github: "https://github.com/rinkitadhana/BrainRot-Language-Converter",
     skill: ["React", "Tailwind", "Gemini api"],
-    preview: "./preview/voiceforge.mp4",
+    preview: "./assets/Videos/preview/building.mp4",
   },
   {
     id: 5,
@@ -108,7 +108,7 @@ const projects = [
     url: "https://therinkit-tweetspree.vercel.app/",
     github: "https://github.com/rinkitadhana/TweetSpree",
     skill: ["React", "Tailwind"],
-    preview: "./preview/tweetspree.mp4",
+    preview: "./assets/Videos/preview/tweetspree.mp4",
   },
   {
     id: 6,
@@ -120,7 +120,7 @@ const projects = [
     url: "https://therinkit-promptopia.vercel.app",
     github: "https://github.com/rinkitadhana/Promptopia",
     skill: ["NextJS", "MongoDB", "Tailwind"],
-    preview: "./preview/promptopia.mp4",
+    preview: "./assets/Videos/preview/promptopia.mp4",
   },
   {
     id: 7,
@@ -132,7 +132,7 @@ const projects = [
     url: "https://therinkit-linkit.vercel.app/",
     github: "https://github.com/rinkitadhana/LinkIt",
     skill: ["React", "Tailwind", "GSAP"],
-    preview: "./preview/linkit.mp4",
+    preview: "./assets/Videos/preview/linkit.mp4",
   },
 
   {
@@ -145,7 +145,7 @@ const projects = [
       "A full-stack project showcasing the top 11 hackathon ideas from various students, ranked by popularity. This project helps you effectively implement these ideas and improve your chances of winning.",
     github: "/error",
     skill: ["React", "Tailwind", "Node", "Express", "MongoDB"],
-    preview: "./preview/voiceforge.mp4",
+    preview: "./assets/Videos/preview/building.mp4",
   },
 
   {
@@ -157,7 +157,7 @@ const projects = [
       "I made this snake game in my first year just for fun. At that time, I was a big Java fan and created this project using Java and JavaFX. This project really helped me deepen my understanding of object-oriented programming.",
     github: "https://github.com/rinkitadhana/SnakeByJava",
     skill: ["Java", "JavaFX"],
-    preview: "./preview/snake.mp4",
+    preview: "./assets/Videos/preview/snake.mp4",
   },
   {
     id: 10,
@@ -168,7 +168,7 @@ const projects = [
       "I created this stopwatch to customize its functionality. It was built using only Java and JavaFX and is fully operational. This project helped me enhance my skills in Java programming and GUI design.",
     github: "https://github.com/rinkitadhana/StopWatchByJava",
     skill: ["Java", "JavaFX"],
-    preview: "./preview/voiceforge.mp4",
+    preview: "./assets/Videos/preview/building.mp4",
   },
 ]
 

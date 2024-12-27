@@ -11,7 +11,7 @@ const WritingsBox: React.FC<BlogBoxProps> = ({ img, head, des }) => {
       <img
         className="  md:size-[68px] object-cover w-full h-[100px] select-none rounded-md"
         src={img}
-        alt="Profile Picture"
+        alt="Blog Image"
       />
       <div className="flex flex-col ">
         <h1>{head}</h1>

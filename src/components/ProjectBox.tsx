@@ -50,6 +50,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
             <img
               className=" md:grayscale md:group-hover/pi:grayscale-0 rounded-md md:h-[140px] h-[200px] w-full object-cover "
               src={img}
+              alt="Project Image"
             />
           </div>
           <div className=" basis-3/4 flex flex-col md:gap-0 gap-1 ">

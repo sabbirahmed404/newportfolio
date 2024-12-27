@@ -11,7 +11,7 @@ const SwitchContext = createContext<SwitchContextType | undefined>(undefined)
 export const SwitchProvider: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
-  const [isSwitchOn, setIsSwitchOn] = useState<boolean>(false)
+  const [isSwitchOn, setIsSwitchOn] = useState<boolean>(true)
   const [isLoaded, setIsLoaded] = useState(false) // Ensure client-side rendering
 
   useEffect(() => {

@@ -1,9 +1,9 @@
 "use client"
 import { rinkitShortName } from "@/data/RinkitData/data"
-import LocalTime from "@/utils/LocalTime"
 import React from "react"
 import { useSwitch } from "./Context/SwitchContext"
 import { gruzName } from "@/data/GruzData/data"
+import LocalTime from "@/utils/LocalTime"
 
 const Banner: React.FC = () => {
   const { isSwitchOn, toggleSwitch } = useSwitch()
@@ -15,9 +15,8 @@ const Banner: React.FC = () => {
         className=" flex gap-2 items-center text-white/65 hover:text-white/90 transition-all duration-100 font-medium"
       >
         <span>Local time</span>
-        <div className=" text-sm">
-          <LocalTime />
-        </div>
+
+        <LocalTime />
       </a>
       <div>
         <div

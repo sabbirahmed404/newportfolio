@@ -1,44 +1,21 @@
-"use client"
+import React, { useState, useEffect } from "react"
 
-import React, { Component } from "react"
+const LocalTime = () => {
+  const [time, setTime] = useState(new Date())
 
-interface State {
-  date: Date
-}
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTime(new Date())
+    }, 1000)
 
-class LocalTime extends Component<{}, State> {
-  private timerID!: NodeJS.Timeout
+    return () => clearInterval(timer)
+  }, [])
 
-  constructor(props: {}) {
-    super(props)
-
-    this.state = { date: new Date() }
-  }
-
-  componentDidMount() {
-    this.timerID = setInterval(() => this.tick(), 1000)
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.timerID)
-  }
-
-  tick() {
-    this.setState({
-      date: new Date(),
-    })
-  }
-
-  render() {
-    return (
-      <div>
-        {this.state.date.toLocaleTimeString([], {
-          hour: "2-digit",
-          minute: "2-digit",
-        })}
-      </div>
-    )
-  }
+  return (
+    <div className="font-medium text-sm">
+      {time.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
+    </div>
+  )
 }
 
 export default LocalTime

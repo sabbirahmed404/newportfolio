@@ -5,7 +5,6 @@ import { writings } from "@/data/Common/data"
 import { MdKeyboardDoubleArrowDown } from "react-icons/md"
 import { MdKeyboardDoubleArrowUp } from "react-icons/md"
 import WritingsBox from "../WritingsBox"
-import StillWorking from "../StillWorking"
 
 const Writings = () => {
   const showAllVis = writings.length > 2

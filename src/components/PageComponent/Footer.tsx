@@ -14,7 +14,7 @@ const Footer = () => {
           {footerLinks.map((link) => (
             <a
               key={link.id}
-              className=" select-none hover:text-zinc-400 flex gap-1 items-center"
+              className=" select-none text-zinc-400 hover:text-mainWhite flex gap-1 items-center transition duration-100"
               target="_blank"
               href={link.link}
             >

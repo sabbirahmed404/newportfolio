@@ -1,7 +1,6 @@
 import { FaLinkedinIn } from "react-icons/fa6"
-
 import { FaXTwitter } from "react-icons/fa6"
-
+import { FaInstagram } from "react-icons/fa6"
 import { FaGithub } from "react-icons/fa6"
 import { SiLeetcode } from "react-icons/si"
 import { MdOutlineMail } from "react-icons/md"
@@ -48,6 +47,12 @@ const rinkitLink = [
     link: "https://leetcode.com/u/therinkit",
     icon: SiLeetcode,
   },
+  {
+    id: 5,
+    name: "Instagram",
+    link: "https://www.instagram.com/rnkktt",
+    icon: FaInstagram,
+  },
 ]
 
 const rinkitContact =
@@ -70,9 +75,9 @@ const rinkitContactLink = [
 const rinkitFooterLink = [
   {
     id: 1,
-    name: "Github",
-    link: "https://github.com/rinkitadhana",
-    icon: FaGithub,
+    name: "Mail",
+    link: "mailto:therinkit@gmail.com",
+    icon: MdOutlineMail,
   },
 
   {
@@ -88,10 +93,10 @@ const rinkitFooterLink = [
     icon: FaLinkedinIn,
   },
   {
-    id: 4,
-    name: "LeetCode",
-    link: "https://leetcode.com/u/therinkit",
-    icon: SiLeetcode,
+    id: 5,
+    name: "Instagram",
+    link: "https://www.instagram.com/rnkktt",
+    icon: FaInstagram,
   },
 ]
 

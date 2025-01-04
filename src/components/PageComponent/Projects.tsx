@@ -9,6 +9,7 @@ import {
 } from "react-icons/md"
 
 const Projects = () => {
+  const showAllVis = projects.length > 2
   const [showAll, setShowAll] = useState(false)
   const visibleProjects = showAll ? projects : projects.slice(0, 2)
   return (
@@ -30,26 +31,28 @@ const Projects = () => {
         ))}
       </div>
       <div>
-        <button
-          className=" showMore-btn "
-          onClick={() => setShowAll((prev) => !prev)}
-        >
-          {showAll ? (
-            <div className="flex gap-0.5 justify-center items-center">
-              <div className=" animate-pulse">
-                <MdKeyboardDoubleArrowUp />
+        {showAllVis && (
+          <button
+            className=" showMore-btn "
+            onClick={() => setShowAll((prev) => !prev)}
+          >
+            {showAll ? (
+              <div className="flex gap-0.5 justify-center items-center">
+                <div className=" animate-pulse">
+                  <MdKeyboardDoubleArrowUp />
+                </div>
+                Show less
               </div>
-              Show less
-            </div>
-          ) : (
-            <div className="flex gap-0.5 justify-center items-center">
-              <div className=" animate-pulse">
-                <MdKeyboardDoubleArrowDown />
+            ) : (
+              <div className="flex gap-0.5 justify-center items-center">
+                <div className=" animate-pulse">
+                  <MdKeyboardDoubleArrowDown />
+                </div>
+                Show all
               </div>
-              Show all
-            </div>
-          )}
-        </button>
+            )}
+          </button>
+        )}
       </div>
     </div>
   )

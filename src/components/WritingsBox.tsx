@@ -3,11 +3,16 @@ interface BlogBoxProps {
   img: string
   head: string
   des: string
+  link: string
 }
 
-const WritingsBox: React.FC<BlogBoxProps> = ({ img, head, des }) => {
+const WritingsBox: React.FC<BlogBoxProps> = ({ img, head, des, link }) => {
   return (
-    <div className=" blog-post flex md:flex-row flex-col   items-center gap-2">
+    <a
+      href={link}
+      target="_blank"
+      className=" blog-post flex md:flex-row flex-col   items-center gap-2"
+    >
       <img
         className="  md:size-[68px] object-cover w-full h-[100px] select-none rounded-md"
         src={img}
@@ -17,7 +22,7 @@ const WritingsBox: React.FC<BlogBoxProps> = ({ img, head, des }) => {
         <h1>{head}</h1>
         <p className=" text-sm text-zinc-400">{des}</p>
       </div>
-    </div>
+    </a>
   )
 }
 

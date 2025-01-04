@@ -21,6 +21,7 @@ const Writings = () => {
             img={writings.img}
             head={writings.head}
             des={writings.des}
+            link={writings.link}
           />
         ))}
       </div>

@@ -32,8 +32,9 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
   const [open, setOpen] = useState(false)
 
   useEffect(() => {
-    const handleOutsideClick = (event: any) => {
-      if (!event.target.closest(".project-box")) {
+    const handleOutsideClick = (event: MouseEvent) => {
+      const target = event.target as HTMLElement
+      if (!target.closest(".project-box")) {
         setOpen(false)
       }
     }
@@ -44,7 +45,6 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
       document.removeEventListener("click", handleOutsideClick)
     }
   }, [])
-
   return (
     <div className="project-box bg-zinc-900 hover:bg-zinc-800/75 transition-colors duration-100  border border-zinc-700 rounded-md">
       {show && (

@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { FaEye, FaEyeSlash } from "react-icons/fa"
 import { FiGithub } from "react-icons/fi"
 import { GoDotFill } from "react-icons/go"
@@ -31,8 +31,22 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
   const [show, setShow] = useState(false)
   const [open, setOpen] = useState(false)
 
+  useEffect(() => {
+    const handleOutsideClick = (event: any) => {
+      if (!event.target.closest(".project-box")) {
+        setOpen(false)
+      }
+    }
+
+    document.addEventListener("click", handleOutsideClick)
+
+    return () => {
+      document.removeEventListener("click", handleOutsideClick)
+    }
+  }, [])
+
   return (
-    <div className="  bg-zinc-900 hover:bg-zinc-800/75 transition-colors duration-100  border border-zinc-700 rounded-md">
+    <div className="project-box bg-zinc-900 hover:bg-zinc-800/75 transition-colors duration-100  border border-zinc-700 rounded-md">
       {show && (
         <div className="p-2">
           <video className=" rounded-md" width="900" loop autoPlay controls>

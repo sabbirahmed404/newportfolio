@@ -32,20 +32,20 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
   const [open, setOpen] = useState(false)
 
   return (
-    <div
-      onClick={() => setOpen((prev) => !prev)}
-      className=" cursor-pointer bg-zinc-900 hover:bg-zinc-800/75 transition-colors duration-100  border border-zinc-700 rounded-md"
-    >
+    <div className="  bg-zinc-900 hover:bg-zinc-800/75 transition-colors duration-100  border border-zinc-700 rounded-md">
       {show && (
         <div className="p-2">
-          <video className=" rounded-md" width="900" loop controls>
+          <video className=" rounded-md" width="900" loop autoPlay controls>
             <source src={preview} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
       )}
       <div className=" flex md:flex-row flex-col gap-3 p-2">
-        <div className=" basis-[22%] p-1  select-none ">
+        <div
+          onClick={() => setOpen((prev) => !prev)}
+          className="cursor-pointer  basis-[22%] p-1  select-none "
+        >
           <img
             className="  rounded-md md:h-[130px] h-[200px] w-full object-cover "
             src={img}
@@ -54,7 +54,10 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
         </div>
         <div className=" basis-[78%] flex flex-col md:gap-0 gap-1 ">
           <div className=" flex justify-between items-center">
-            <div className=" flex gap-2  items-center truncate ">
+            <div
+              onClick={() => setOpen((prev) => !prev)}
+              className="cursor-pointer  flex gap-2  items-center truncate "
+            >
               <h1 className=" text-2xl font-semibold  ">{title}</h1>
               {status ? (
                 <div className="select-none font-medium text-xs w-fit   px-1.5 py-0.5 gap-0.5 rounded-md flex  items-center bg-green-400/10 text-green-400">
@@ -117,7 +120,12 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
               </InfoTipProjects>
             </div>
           </div>
-          <p>{content}</p>
+          <p
+            onClick={() => setOpen((prev) => !prev)}
+            className=" cursor-pointer opacity-80"
+          >
+            {content}
+          </p>
         </div>
         <div className="md:hidden flex flex-wrap gap-1.5 select-none">
           {skill.map((skill, index) => (
@@ -132,8 +140,8 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
       </div>
       {open && (
         <>
-          <div className="flex border-t border-zinc-700 w-[97%] my-1 mx-auto" />
-          <div className="flex md:justify-between justify-end items-center p-2 transition-all duration-100">
+          <div className="flex border-t border-zinc-700 w-[97%] mx-auto" />
+          <div className="flex md:justify-between justify-end items-center py-2 px-3 transition-all duration-100">
             <div className=" hidden md:flex flex-wrap gap-1.5 select-none">
               {skill.map((skill, index) => (
                 <p
@@ -144,13 +152,13 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
                 </p>
               ))}
             </div>
-            <div className="flex gap-4 items-center px-4 text-lg ">
-              <div className=" cursor-pointer hover:text-pink-500 transition-colors duration-100 select-none flex  gap-1 items-center  ">
+            <div className="flex gap-4 items-center px-2 text-lg ">
+              {/* <div className=" cursor-pointer hover:text-pink-500 transition-colors duration-100 select-none flex  gap-1 items-center  ">
                 <div>
                   <FaRegHeart />
                 </div>
                 <div className=" text-sm">134</div>
-              </div>
+              </div> */}
               <InfoTipProjects text="Share">
                 <div
                   className="cursor-pointer hover:text-zinc-400 transition-colors duration-100"

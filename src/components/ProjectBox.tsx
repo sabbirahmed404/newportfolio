@@ -154,8 +154,8 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
       </div>
       {open && (
         <>
-          <div className="flex border-t border-zinc-700 w-[97%] mx-auto" />
-          <div className="flex md:justify-between justify-end items-center py-2 px-3 transition-all duration-100">
+          <div className="flex border-t border-zinc-700 w-[97%] mt-3 md:mt-0 mx-auto" />
+          <div className="flex md:justify-between justify-end items-center md:py-2 py-3 px-3 transition-all duration-100">
             <div className=" hidden md:flex flex-wrap gap-1.5 select-none">
               {skill.map((skill, index) => (
                 <p
@@ -166,7 +166,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
                 </p>
               ))}
             </div>
-            <div className="flex gap-4 items-center px-2 text-lg ">
+            <div className="flex gap-4 items-center md:px-2 px-2.5 md:text-lg text-xl ">
               {/* <div className=" cursor-pointer hover:text-pink-500 transition-colors duration-100 select-none flex  gap-1 items-center  ">
                 <div>
                   <FaRegHeart />

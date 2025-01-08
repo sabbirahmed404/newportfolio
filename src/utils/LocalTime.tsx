@@ -12,7 +12,7 @@ const LocalTime = () => {
   }, [])
 
   return (
-    <div className="font-medium text-sm">
+    <div>
       {time.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
     </div>
   )

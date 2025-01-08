@@ -1,7 +1,7 @@
 "use client"
 import { rinkitShortName } from "@/data/RinkitData/data"
 import React from "react"
-import { useSwitch } from "./Context/SwitchContext"
+import { useSwitch } from "../Context/SwitchContext"
 import { gruzName } from "@/data/GruzData/data"
 import LocalTime from "@/utils/LocalTime"
 

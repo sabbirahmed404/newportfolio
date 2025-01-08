@@ -1,4 +1,4 @@
-import Banner from "@/components/Banner"
+import Banner from "@/components/PageComponent/Banner"
 import { SwitchProvider } from "@/components/Context/SwitchContext"
 import IndexPage from "@/components/homeScreen/IndexPage"
 import MainScreen from "@/layout/MainScreen"

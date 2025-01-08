@@ -14,7 +14,7 @@ const Writings = () => {
     <section className="flex flex-col gap-3">
       <SectionTitle title="Writings" />
       {/* <StillWorking /> */}
-      <div className="  flex flex-col gap-2">
+      <div className="  flex flex-col md:gap-2.5 gap-3.5">
         {visibleWritings.map((writings) => (
           <WritingsBox
             key={writings.id}

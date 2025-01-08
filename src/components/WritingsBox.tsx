@@ -20,7 +20,7 @@ const WritingsBox: React.FC<BlogBoxProps> = ({ img, head, des, link }) => {
       />
       <div className="flex flex-col ">
         <h1>{head}</h1>
-        <p className=" text-sm text-zinc-400">{des}</p>
+        <p className=" text-sm opacity-80">{des}</p>
       </div>
     </a>
   )

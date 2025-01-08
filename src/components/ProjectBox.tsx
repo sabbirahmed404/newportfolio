@@ -5,7 +5,7 @@ import { FiGithub } from "react-icons/fi"
 import { GoDotFill } from "react-icons/go"
 import { LuLink, LuShare } from "react-icons/lu"
 import { InfoTipProjects } from "./InfoTipProjects"
-import { FaRegHeart } from "react-icons/fa6"
+// import { FaRegHeart } from "react-icons/fa6"
 
 interface ProjectBoxProps {
   img: string

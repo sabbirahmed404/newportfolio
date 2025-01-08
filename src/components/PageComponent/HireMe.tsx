@@ -2,7 +2,6 @@
 import SectionTitle from "../SectionTitle"
 import { PiSuitcaseSimpleBold } from "react-icons/pi"
 import { emailLink, hireText } from "@/data/Common/data"
-import { useSwitch } from "../Context/SwitchContext"
 
 const HireMe = () => {
   return (

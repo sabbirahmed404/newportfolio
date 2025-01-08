@@ -5,26 +5,19 @@ import { emailLink, hireText } from "@/data/Common/data"
 import { useSwitch } from "../Context/SwitchContext"
 
 const HireMe = () => {
-  const { isSwitchOn } = useSwitch()
   return (
-    <>
-      {isSwitchOn ? (
-        <></>
-      ) : (
-        <section className="flex flex-col gap-0.5">
-          <SectionTitle title="Hire Me" />
-          <div className=" flex flex-col gap-2">
-            <p>{hireText}</p>
-            <div>
-              <a className="btn" target="_blank" href={emailLink}>
-                <PiSuitcaseSimpleBold />
-                Hire Me
-              </a>
-            </div>
-          </div>
-        </section>
-      )}
-    </>
+    <section className="flex flex-col gap-0.5">
+      <SectionTitle title="Hire Me" />
+      <div className=" flex flex-col gap-2">
+        <p>{hireText}</p>
+        <div>
+          <a className="btn" target="_blank" href={emailLink}>
+            <PiSuitcaseSimpleBold />
+            Hire Me
+          </a>
+        </div>
+      </div>
+    </section>
   )
 }
 

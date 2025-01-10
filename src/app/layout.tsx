@@ -12,10 +12,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 })
 
-export const metadata: Metadata = {
-  title: "Gruz",
-  description: "Gruz's portfolio",
-}
+// export const metadata: Metadata = {
+//   title: "Gruz",
+//   description: "Gruz's portfolio",
+// }
 
 export default function RootLayout({
   children,

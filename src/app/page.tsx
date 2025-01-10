@@ -7,8 +7,8 @@ import { TitleUpdater } from "@/utils/TitleUpdater"
 const Home = () => {
   return (
     <SwitchProvider>
+      <TitleUpdater />
       <MainScreen>
-        <TitleUpdater />
         <Banner />
         <IndexPage />
       </MainScreen>

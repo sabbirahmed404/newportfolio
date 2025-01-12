@@ -2,31 +2,25 @@
 
 import React from "react"
 import { motion, useInView } from "framer-motion"
+import { useSwitch } from "@/components/Context/SwitchContext"
 
 interface AnimatedWrapperProps {
   children: React.ReactNode
   delay?: number
-  threshold?: number
-  once?: boolean
+  
 }
 
 const AnimatedWrapper = ({
   children,
-  delay = 0,
-  threshold = 0.2,
-  once = true,
+  delay = 0, 
 }: AnimatedWrapperProps) => {
-  const ref = React.useRef(null)
-  const isInView = useInView(ref, {
-    amount: threshold,
-    once: once,
-  })
-
+  const { isSwitchOn } = useSwitch()
+  
   return (
     <motion.div
-      ref={ref}
+      key={String(isSwitchOn)}
       initial={{ opacity: 0, y: -20 }}
-      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: -20 }}
+      animate={ { opacity: 1, y: 0 }}
       transition={{
         duration: 0.35,
         delay: delay,

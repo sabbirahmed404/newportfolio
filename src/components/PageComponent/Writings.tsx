@@ -20,7 +20,6 @@ const Writings = () => {
         {visibleWritings.map((writings) => (
           <AnimatedWrapper
             key={writings.id}
-            threshold={0.5}
             delay={(delayValue += 0.1)}
           >
             <WritingsBox

@@ -21,7 +21,6 @@ const Projects = () => {
         {visibleProjects.map((project) => (
           <AnimatedWrapper
             key={project.id}
-            threshold={0.5}
             delay={(delayValue += 0.075)}
           >
             <ProjectBox

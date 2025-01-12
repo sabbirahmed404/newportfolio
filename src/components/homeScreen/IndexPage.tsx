@@ -28,7 +28,7 @@ const IndexPage = () => {
           </AnimatedWrapper>
           <Projects />
           <Writings />
-          <AnimatedWrapper threshold={0.5} delay={0.45}>
+          <AnimatedWrapper threshold={0.5} delay={0.25}>
             <ReachOut />
           </AnimatedWrapper>
         </div>

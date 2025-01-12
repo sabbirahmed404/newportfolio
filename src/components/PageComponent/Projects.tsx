@@ -7,27 +7,34 @@ import {
   MdKeyboardDoubleArrowDown,
   MdKeyboardDoubleArrowUp,
 } from "react-icons/md"
+import AnimatedWrapper from "@/utils/AnimatedWrapper"
 
 const Projects = () => {
   const showAllVis = projects.length > 2
   const [showAll, setShowAll] = useState(false)
   const visibleProjects = showAll ? projects : projects.slice(0, 2)
+  let delayValue = 0
   return (
     <div className="flex flex-col gap-3">
       <SectionTitle title="Projects" />
       <div className=" flex flex-col md:gap-2.5 gap-3.5">
         {visibleProjects.map((project) => (
-          <ProjectBox
+          <AnimatedWrapper
             key={project.id}
-            title={project.title}
-            img={project.img}
-            content={project.content}
-            status={project.status}
-            skill={project.skill}
-            url={project.url || ""}
-            github={project.github}
-            preview={project.preview}
-          />
+            threshold={0.5}
+            delay={(delayValue += 0.075)}
+          >
+            <ProjectBox
+              title={project.title}
+              img={project.img}
+              content={project.content}
+              status={project.status}
+              skill={project.skill}
+              url={project.url || ""}
+              github={project.github}
+              preview={project.preview}
+            />
+          </AnimatedWrapper>
         ))}
       </div>
       <div>

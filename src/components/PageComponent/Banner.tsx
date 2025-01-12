@@ -9,6 +9,7 @@ import { FaHeart, FaRegHeart } from "react-icons/fa6"
 const Banner: React.FC = () => {
   const { isSwitchOn, toggleSwitch } = useSwitch()
   const [open, setOpen] = useState(false)
+
   return (
     <section className="flex w-full items-center justify-between md:px-8 px-4 select-none">
       <a
@@ -22,18 +23,20 @@ const Banner: React.FC = () => {
           <LocalTime />
         </span>
       </a>
-      <div onClick={()=>setOpen(prev => !prev)} className=" flex gap-2.5 items-center">
+      <div
+        onClick={() => setOpen((prev) => !prev)}
+        className=" flex gap-2.5 items-center"
+      >
         {isSwitchOn && (
           <div className="cursor-pointer text  border border-zinc-700 rounded-md p-2  bg-zinc-800">
-            {open? <FaHeart />
-             :<FaRegHeart /> 
-            }
-            
+            {open ? <FaHeart /> : <FaRegHeart />}
           </div>
         )}
 
         <div
-          onClick={toggleSwitch}
+          onClick={() => {
+            toggleSwitch()
+          }}
           className="group/ms  flex gap-1 justify-center cursor-pointer border border-zinc-700 rounded-md py-1 px-1.5  bg-zinc-800"
         >
           Meet

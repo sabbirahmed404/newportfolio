@@ -1,3 +1,4 @@
+"use client"
 import Screen from "@/layout/Screen"
 import AboutMe from "../PageComponent/AboutMe"
 import Footer from "../PageComponent/Footer"
@@ -8,27 +9,39 @@ import ReachOut from "../PageComponent/ReachOut"
 import Writings from "../PageComponent/Writings"
 import HireMe from "../PageComponent/HireMe"
 import AnimatedWrapper from "@/utils/AnimatedWrapper"
+import { useSwitch } from "../Context/SwitchContext"
+
 
 const IndexPage = () => {
+  const { isSwitchOn } = useSwitch()
+
   return (
     <>
       <Screen>
         <div className="flex flex-col gap-5">
-          <AnimatedWrapper threshold={0.5} delay={0}>
+          <AnimatedWrapper  delay={0.15}>
             <InfoCard />
           </AnimatedWrapper>
-          <AnimatedWrapper threshold={0.5} delay={0.15}>
+          <AnimatedWrapper  delay={0.25}>
             <AboutMe />
           </AnimatedWrapper>
-          <AnimatedWrapper threshold={0.5} delay={0.25}>
+          {isSwitchOn ? (
+           <></>
+            ) : (
+          <AnimatedWrapper  delay={0.35}>
             <HireMe />
           </AnimatedWrapper>
-          <AnimatedWrapper threshold={0.5} delay={0.35}>
+            )}
+          <AnimatedWrapper  delay={0.45}>
             <Skills />
           </AnimatedWrapper>
+          <AnimatedWrapper  delay={0.55}>
           <Projects />
+          </AnimatedWrapper>
+          <AnimatedWrapper  delay={0.65}>
           <Writings />
-          <AnimatedWrapper threshold={0.5} delay={0.25}>
+          </AnimatedWrapper>
+          <AnimatedWrapper  delay={0.75}>
             <ReachOut />
           </AnimatedWrapper>
         </div>

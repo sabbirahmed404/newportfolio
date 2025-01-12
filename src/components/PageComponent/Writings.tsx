@@ -5,24 +5,31 @@ import { writings } from "@/data/Common/data"
 import { MdKeyboardDoubleArrowDown } from "react-icons/md"
 import { MdKeyboardDoubleArrowUp } from "react-icons/md"
 import WritingsBox from "../WritingsBox"
+import AnimatedWrapper from "@/utils/AnimatedWrapper"
 
 const Writings = () => {
   const showAllVis = writings.length > 2
   const [showAll, setShowAll] = useState(false)
   const visibleWritings = showAll ? writings : writings.slice(0, 2)
+  let delayValue = 0
   return (
     <section className="flex flex-col gap-3">
       <SectionTitle title="Writings" />
       {/* <StillWorking /> */}
       <div className="  flex flex-col md:gap-2.5 gap-3.5">
         {visibleWritings.map((writings) => (
-          <WritingsBox
+          <AnimatedWrapper
             key={writings.id}
-            img={writings.img}
-            head={writings.head}
-            des={writings.des}
-            link={writings.link}
-          />
+            threshold={0.5}
+            delay={(delayValue += 0.1)}
+          >
+            <WritingsBox
+              img={writings.img}
+              head={writings.head}
+              des={writings.des}
+              link={writings.link}
+            />
+          </AnimatedWrapper>
         ))}
       </div>
       {showAllVis && (

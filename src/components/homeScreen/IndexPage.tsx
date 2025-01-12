@@ -11,7 +11,6 @@ import HireMe from "../PageComponent/HireMe"
 import AnimatedWrapper from "@/utils/AnimatedWrapper"
 import { useSwitch } from "../Context/SwitchContext"
 
-
 const IndexPage = () => {
   const { isSwitchOn } = useSwitch()
 
@@ -19,33 +18,35 @@ const IndexPage = () => {
     <>
       <Screen>
         <div className="flex flex-col gap-5">
-          <AnimatedWrapper  delay={0.15}>
+          <AnimatedWrapper delay={0.15}>
             <InfoCard />
           </AnimatedWrapper>
-          <AnimatedWrapper  delay={0.25}>
+          <AnimatedWrapper delay={0.25}>
             <AboutMe />
           </AnimatedWrapper>
           {isSwitchOn ? (
-           <></>
-            ) : (
-          <AnimatedWrapper  delay={0.35}>
-            <HireMe />
-          </AnimatedWrapper>
-            )}
-          <AnimatedWrapper  delay={0.45}>
+            <></>
+          ) : (
+            <AnimatedWrapper delay={0.35}>
+              <HireMe />
+            </AnimatedWrapper>
+          )}
+          <AnimatedWrapper delay={0.45}>
             <Skills />
           </AnimatedWrapper>
-          <AnimatedWrapper  delay={0.55}>
-          <Projects />
+          <AnimatedWrapper delay={0.55}>
+            <Projects />
           </AnimatedWrapper>
-          <AnimatedWrapper  delay={0.65}>
-          <Writings />
+          <AnimatedWrapper delay={0.65}>
+            <Writings />
           </AnimatedWrapper>
-          <AnimatedWrapper  delay={0.75}>
+          <AnimatedWrapper delay={0.75}>
             <ReachOut />
           </AnimatedWrapper>
         </div>
-        <Footer />
+        <AnimatedWrapper delay={0.85}>
+          <Footer />
+        </AnimatedWrapper>
       </Screen>
     </>
   )

@@ -79,21 +79,33 @@ const rinkitFooterLink = [
     link: "mailto:therinkit@gmail.com",
     icon: MdOutlineMail,
   },
-
   {
     id: 2,
+    name: "Github",
+    link: "https://github.com/rinkitadhana",
+    icon: FaGithub,
+  },
+
+  {
+    id: 3,
     name: "Twitter",
     link: "https://x.com/intent/follow?screen_name=damnGruz",
     icon: FaXTwitter,
   },
   {
-    id: 3,
+    id: 4,
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/rinkitadhana",
     icon: FaLinkedinIn,
   },
   {
     id: 5,
+    name: "LeetCode",
+    link: "https://leetcode.com/u/therinkit",
+    icon: SiLeetcode,
+  },
+  {
+    id: 6,
     name: "Instagram",
     link: "https://www.instagram.com/rnkktt",
     icon: FaInstagram,

@@ -10,19 +10,19 @@ const Footer = () => {
     <footer>
       <div className=" border-t border-zinc-700 my-6" />
       <div className=" flex flex-col gap-2.5 items-center">
-        <div className=" flex flex-wrap gap-2 md:gap-4 items-center md:text-base text-sm">
+        <div className=" flex flex-wrap gap-4 items-center md:text-base text-sm">
           {footerLinks.map((link) => (
             <a
               key={link.id}
-              className=" select-none text-zinc-400 hover:text-mainWhite flex gap-1 items-center transition duration-100"
+              className=" select-none md:text-base text-xl  hover:opacity-75 flex gap-1 items-center transition duration-100"
               target="_blank"
               href={link.link}
             >
-              <link.icon /> {link.name}
+              <link.icon /> <span className="hidden md:block">{link.name}</span>
             </a>
           ))}
         </div>
-        <p className="text-sm">
+        <p className="text-sm ">
           © 2024 {isSwitchOn ? gruzName : rinkitShortName}. All rights reserved.
         </p>
       </div>

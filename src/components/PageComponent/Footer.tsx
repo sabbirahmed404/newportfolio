@@ -23,7 +23,7 @@ const Footer = () => {
           ))}
         </div>
         <p className="text-sm ">
-          © 2024 {isSwitchOn ? gruzName : rinkitShortName}. All rights reserved.
+          © 2025 {isSwitchOn ? gruzName : rinkitShortName}. All rights reserved.
         </p>
       </div>
     </footer>

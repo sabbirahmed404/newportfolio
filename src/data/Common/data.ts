@@ -112,6 +112,18 @@ const projects = [
   },
   {
     id: 6,
+    img: "./assets/Images/project/port.jpg",
+    title: "Old Portfolio",
+    status: true,
+    content:
+      "This is my old portfolio. At first glance, it looks minimalistic, but it’s packed with features. It includes sections like About, Projects, and Blog, along with seamless routing and a theme switcher.",
+    url: "https://therinkit.online",
+    github: "https://github.com/rinkitadhana/My-Portfolio-Website",
+    skill: ["React", "Tailwind", "Motion"],
+    preview: "./assets/Videos/preview/building.mp4",
+  },
+  {
+    id: 7,
     img: "./assets/Images/project/promptopia.svg",
     title: "Promptopia",
     status: true,

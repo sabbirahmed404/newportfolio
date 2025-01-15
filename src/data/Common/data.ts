@@ -135,7 +135,7 @@ const projects = [
     preview: "./assets/Videos/preview/promptopia.mp4",
   },
   {
-    id: 7,
+    id: 8,
     img: "./assets/Images/project/LinkIt.png",
     title: "LinkIt",
     status: true,
@@ -148,7 +148,7 @@ const projects = [
   },
 
   {
-    id: 8,
+    id: 9,
     img: "./assets/Images/project/11Hack.png",
     title: "11Hack",
     status: false,
@@ -161,7 +161,7 @@ const projects = [
   },
 
   {
-    id: 9,
+    id: 10,
     img: "./assets/Images/project/Snake.png",
     title: "Snake Game",
     status: true,
@@ -172,7 +172,7 @@ const projects = [
     preview: "./assets/Videos/preview/snake.mp4",
   },
   {
-    id: 10,
+    id: 11,
     img: "./assets/Images/project/StopWatch.png",
     title: "Stop Watch",
     status: true,

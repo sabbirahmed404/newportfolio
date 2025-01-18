@@ -63,7 +63,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
               opacity: 0,
               height: 0,
             }}
-            transition={{ duration: 0.3 }}
+            transition={{ ease: "easeInOut", duration: 0.3 }}
             className=" overflow-hidden"
           >
             <div className="p-2">
@@ -187,7 +187,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
               opacity: 0,
               height: 0,
             }}
-            transition={{ duration: 0.3 }}
+            transition={{ ease: "easeInOut", duration: 0.3 }}
             className=" overflow-hidden"
           >
             <div className="flex border-t border-zinc-700 w-[97%] mt-3 md:mt-0 mx-auto" />

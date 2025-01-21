@@ -20,7 +20,7 @@ const Writings = () => {
         {visibleWritings.map((writings) => (
           <AnimatedWrapper
             key={writings.id}
-            delay={(delayValue += 0.1)}
+            delay={writings.id === 1 ? delayValue : (delayValue += 0.075)}
           >
             <WritingsBox
               img={writings.img}

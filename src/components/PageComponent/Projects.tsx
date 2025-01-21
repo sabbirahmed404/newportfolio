@@ -21,7 +21,7 @@ const Projects = () => {
         {visibleProjects.map((project) => (
           <AnimatedWrapper
             key={project.id}
-            delay={(delayValue += 0.075)}
+            delay={project.id === 1 ? delayValue : (delayValue += 0.075)}
           >
             <ProjectBox
               title={project.title}

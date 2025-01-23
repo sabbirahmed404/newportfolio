@@ -1,6 +1,6 @@
 "use client"
 import { rinkitShortName } from "@/data/RinkitData/data"
-import React, { useState, useEffect } from "react"
+import React from "react"
 import { useSwitch } from "../Context/SwitchContext"
 import { gruzName } from "@/data/GruzData/data"
 import LocalTime from "@/utils/LocalTime"
@@ -8,41 +8,6 @@ import { FaRegStar, FaStar } from "react-icons/fa6"
 
 const Banner: React.FC = () => {
   const { isSwitchOn, toggleSwitch } = useSwitch()
-  const [open, setOpen] = useState(false)
-
-  useEffect(() => {
-    const handleOutsideClick = (event: MouseEvent) => {
-      const target = event.target as HTMLElement
-      if (!target.closest(".banner-button")) {
-        setOpen(false)
-      }
-    }
-
-    document.addEventListener("click", handleOutsideClick)
-
-    return () => {
-      document.removeEventListener("click", handleOutsideClick)
-    }
-  }, [])
-
-  const list = [
-    {
-      id: 1,
-      name: "Gruz",
-    },
-    {
-      id: 2,
-      name: "Rinkit",
-    },
-    {
-      id: 3,
-      name: "Chinese",
-    },
-    {
-      id: 4,
-      name: "Chumui",
-    },
-  ]
 
   return (
     <>

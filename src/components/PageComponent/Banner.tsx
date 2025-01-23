@@ -4,8 +4,7 @@ import React, { useState, useEffect } from "react"
 import { useSwitch } from "../Context/SwitchContext"
 import { gruzName } from "@/data/GruzData/data"
 import LocalTime from "@/utils/LocalTime"
-import { FaHeart, FaRegHeart } from "react-icons/fa6"
-import { AnimatePresence, motion } from "motion/react"
+
 
 const Banner: React.FC = () => {
   const { isSwitchOn, toggleSwitch } = useSwitch()
@@ -59,15 +58,7 @@ const Banner: React.FC = () => {
             <LocalTime />
           </span>
         </a>
-        <div className=" flex gap-2.5 items-center">
-          {isSwitchOn && (
-            <button
-              onClick={() => setOpen((prev) => !prev)}
-              className="cursor-pointer border border-zinc-700 rounded-md p-2 bg-zinc-800 banner-button"
-            >
-              {open ? <FaHeart /> : <FaRegHeart />}
-            </button>
-          )}
+          
 
           <div
             onClick={() => {
@@ -83,27 +74,9 @@ const Banner: React.FC = () => {
               </span>
             </div>
           </div>
-        </div>
+     
       </section>
-      <AnimatePresence mode="wait">
-        {open && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: "auto" }}
-            exit={{ opacity: 0, height: 0 }}
-            className=" overflow-hidden bg-zinc-800 absolute flex flex-col gap-0.5 right-8 mt-2.5 border border-zinc-700 p-2 items-center rounded-md w-[150px]"
-          >
-            {list.map((list) => (
-              <a
-                className="w-full  text-center rounded-md cursor-pointer p-1 hover:bg-zinc-900 transition duration-100"
-                key={list.id}
-              >
-                {list.name}
-              </a>
-            ))}
-          </motion.div>
-        )}
-      </AnimatePresence>
+      
     </>
   )
 }

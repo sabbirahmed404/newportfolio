@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react"
 import { useSwitch } from "../Context/SwitchContext"
 import { gruzName } from "@/data/GruzData/data"
 import LocalTime from "@/utils/LocalTime"
-
+import { FaRegStar, FaStar } from "react-icons/fa6"
 
 const Banner: React.FC = () => {
   const { isSwitchOn, toggleSwitch } = useSwitch()
@@ -58,13 +58,31 @@ const Banner: React.FC = () => {
             <LocalTime />
           </span>
         </a>
-          
+        <div className=" flex gap-2.5 items-center">
+          <a
+            title="github"
+            href="https://github.com/rinkitadhana/Switchfolio"
+            target="_blank"
+            className="  flex gap-2 items-center group cursor-pointer border border-zinc-700 rounded-md px-2 py-1.5 bg-zinc-800 banner-button"
+          >
+            <span className="text-lg md:group-hover:hidden">
+              <FaRegStar />
+            </span>
+
+            <span className="text-lg hidden md:group-hover:block text-yellow-400">
+              <FaStar />
+            </span>
+
+            <span className=" text-sm hidden md:group-hover:block">
+              Star on github
+            </span>
+          </a>
 
           <div
             onClick={() => {
               toggleSwitch()
             }}
-            className="group/ms  flex gap-1 justify-center cursor-pointer border border-zinc-700 rounded-md py-1 px-1.5  bg-zinc-800"
+            className="group/ms flex gap-1 justify-center cursor-pointer border border-zinc-700 rounded-md py-1 px-1.5  bg-zinc-800"
           >
             Meet
             <div className="relative  w-[50px] flex justify-center overflow-hidden">
@@ -74,9 +92,8 @@ const Banner: React.FC = () => {
               </span>
             </div>
           </div>
-     
+        </div>
       </section>
-      
     </>
   )
 }

@@ -60,7 +60,6 @@ const Banner: React.FC = () => {
         </a>
         <div className=" flex gap-2.5 items-center">
           <a
-            title="github"
             href="https://github.com/rinkitadhana/Switchfolio"
             target="_blank"
             className="  flex gap-2 items-center group cursor-pointer border border-zinc-700 rounded-md px-2 py-1.5 bg-zinc-800 banner-button"

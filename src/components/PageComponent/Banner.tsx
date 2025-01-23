@@ -73,8 +73,8 @@ const Banner: React.FC = () => {
               <FaStar />
             </span>
 
-            <span className=" text-sm hidden md:group-hover:block">
-              Star on github
+            <span className=" text-sm font-medium hidden md:group-hover:block">
+              Star on GitHub
             </span>
           </a>
 
@@ -86,8 +86,8 @@ const Banner: React.FC = () => {
           >
             Meet
             <div className="relative  w-[50px] flex justify-center overflow-hidden">
-              <div className=" absolute group-hover/ms:translate-x-0 translate-x-full inset-0 bg-mainWhite rounded-md transition duration-300 ease-in-out"></div>
-              <span className=" relative font-semibold group-hover/ms:text-mainBlack transition duration-300 ease-in-out px-1 z-10">
+              <div className=" absolute md:group-hover/ms:translate-x-0 md:translate-x-full translate-x-0 inset-0 bg-mainWhite rounded-md transition duration-300 ease-in-out"></div>
+              <span className=" relative font-semibold md:group-hover/ms:text-mainBlack md:text-white text-mainBlack transition-all duration-300 ease-in-out px-1 z-10">
                 {isSwitchOn ? rinkitShortName : gruzName}
               </span>
             </div>

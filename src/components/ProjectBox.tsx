@@ -76,7 +76,6 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
         )}
       </AnimatePresence>
       <div className="flex md:flex-row flex-col gap-3 p-2">
-        {/* Rest of the component remains the same */}
         <div
           onClick={() => setOpen((prev) => !prev)}
           className="cursor-pointer basis-[22%] p-1 select-none"
@@ -113,7 +112,6 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
             <div className="select-none flex gap-2 px-2 text-base">
               {preview && (
                 <>
-                  {" "}
                   {show ? (
                     <InfoTipProjects text="Close">
                       <a

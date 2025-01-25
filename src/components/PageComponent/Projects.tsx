@@ -30,8 +30,8 @@ const Projects = () => {
               status={project.status}
               skill={project.skill}
               url={project.url || ""}
-              github={project.github}
-              preview={project.preview}
+              github={project.github || ""}
+              preview={project.preview || ""}
             />
           </AnimatedWrapper>
         ))}

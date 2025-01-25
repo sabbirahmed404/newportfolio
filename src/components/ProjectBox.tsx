@@ -99,7 +99,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
                   <span className="animate-pulse">
                     <GoDotFill />
                   </span>
-                  Live
+                  Running
                 </div>
               ) : (
                 <div className="select-none font-medium text-xs w-fit px-1.5 py-0.5 gap-0.5 rounded-md flex items-center bg-red-400/10 text-red-400">
@@ -111,27 +111,33 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
               )}
             </div>
             <div className="select-none flex gap-2 px-2 text-base">
-              {show ? (
-                <InfoTipProjects text="Close">
-                  <a
-                    onClick={() => setShow((prev) => !prev)}
-                    target="_blank"
-                    className="cursor-pointer hover:text-zinc-400 transition-colors duration-100"
-                  >
-                    <FaEyeSlash />
-                  </a>
-                </InfoTipProjects>
-              ) : (
-                <InfoTipProjects text="Preview">
-                  <a
-                    onClick={() => setShow((prev) => !prev)}
-                    target="_blank"
-                    className="cursor-pointer hover:text-zinc-400 transition-colors duration-100"
-                  >
-                    <FaEye />
-                  </a>
-                </InfoTipProjects>
+              {preview && (
+                <>
+                  {" "}
+                  {show ? (
+                    <InfoTipProjects text="Close">
+                      <a
+                        onClick={() => setShow((prev) => !prev)}
+                        target="_blank"
+                        className="cursor-pointer hover:text-zinc-400 transition-colors duration-100"
+                      >
+                        <FaEyeSlash />
+                      </a>
+                    </InfoTipProjects>
+                  ) : (
+                    <InfoTipProjects text="Preview">
+                      <a
+                        onClick={() => setShow((prev) => !prev)}
+                        target="_blank"
+                        className="cursor-pointer hover:text-zinc-400 transition-colors duration-100"
+                      >
+                        <FaEye />
+                      </a>
+                    </InfoTipProjects>
+                  )}
+                </>
               )}
+
               {url && (
                 <InfoTipProjects text="Live">
                   <a
@@ -143,15 +149,17 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
                   </a>
                 </InfoTipProjects>
               )}
-              <InfoTipProjects text="Github">
-                <a
-                  target="_blank"
-                  className="hover:text-zinc-400 transition-colors duration-100"
-                  href={github}
-                >
-                  <FiGithub />
-                </a>
-              </InfoTipProjects>
+              {github && (
+                <InfoTipProjects text="Github">
+                  <a
+                    target="_blank"
+                    className="hover:text-zinc-400 transition-colors duration-100"
+                    href={github}
+                  >
+                    <FiGithub />
+                  </a>
+                </InfoTipProjects>
+              )}
             </div>
           </div>
           <p

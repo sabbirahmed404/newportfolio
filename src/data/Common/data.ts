@@ -80,7 +80,7 @@ const projects = [
     title: "Apple Clone",
     status: true,
     content:
-      "This is a clone website of the iPhone 15 Pro, featuring 3D models and dynamic animations that bring the device to life. The smooth interactions and immersive visuals replicate the experience of a real product site. Explore every detail as if you’re navigating the official Apple page.",
+      "This is a clone website of the iPhone 15 Pro, featuring 3D models and dynamic animations that bring the device to life. The smooth interactions and immersive visuals replicate the experience of a real product site. Explore every detail as if you're navigating the official Apple page.",
     url: "https://therinkit-appleclone.vercel.app/",
     github: "https://github.com/rinkitadhana/iphone15-Apple-Clone",
     skill: ["ReactJs", "Tailwind", "GSAP", "ThreeJS"],
@@ -88,18 +88,28 @@ const projects = [
   },
   {
     id: 4,
+    img: "./assets/Images/project/jwt.jpg",
+    title: "jwt-auth",
+    status: false,
+    content:
+      "A ready-to-use JWT authentication system built with Next.js, Express, TypeScript, and MongoDB. This system provides secure user authentication, including registration, login, logout, and token management, all packaged for easy integration.",
+    github: "https://github.com/rinkitadhana/JWT-auth",
+    skill: ["TypeScript", "Node", "Express", "MongoDB", "JWT"],
+  },
+  {
+    id: 5,
     img: "./assets/Images/project/brain-rot.png",
     title: "Brain-Rot Converter",
     status: true,
     content:
-      "Transform your text into trendy Gen Z language with just a click. Our converter adds slang, abbreviations, and casual phrases to make your message sound like it’s straight out of a meme. Give it a try and speak like the cool crowd!",
+      "Transform your text into trendy Gen Z language with just a click. Our converter adds slang, abbreviations, and casual phrases to make your message sound like it's straight out of a meme. Give it a try and speak like the cool crowd!",
     url: "https://brainrot-language-converter.vercel.app/",
     github: "https://github.com/rinkitadhana/BrainRot-Language-Converter",
     skill: ["React", "Tailwind", "Gemini api"],
     preview: "./assets/Videos/preview/building.mp4",
   },
   {
-    id: 5,
+    id: 6,
     img: "./assets/Images/project/TweetSpree.png",
     title: "TweetSpree",
     status: true,
@@ -111,19 +121,19 @@ const projects = [
     preview: "./assets/Videos/preview/tweetspree.mp4",
   },
   {
-    id: 6,
-    img: "./assets/Images/project/port.jpg",
+    id: 7,
+    img: "./assets/Images/project/port.jpeg",
     title: "Old Portfolio",
     status: true,
     content:
-      "This is my old portfolio. At first glance, it looks minimalistic, but it’s packed with features. It includes sections like About, Projects, and Blog, along with seamless routing and a theme switcher.",
+      "This is my old portfolio. At first glance, it looks minimalistic, but it's packed with features. It includes sections like About, Projects, and Blog, along with seamless routing and a theme switcher.",
     url: "https://therinkit.online",
     github: "https://github.com/rinkitadhana/My-Portfolio-Website",
     skill: ["React", "Tailwind", "Motion"],
     preview: "./assets/Videos/preview/building.mp4",
   },
   {
-    id: 7,
+    id: 8,
     img: "./assets/Images/project/promptopia.svg",
     title: "Promptopia",
     status: true,
@@ -135,7 +145,7 @@ const projects = [
     preview: "./assets/Videos/preview/promptopia.mp4",
   },
   {
-    id: 8,
+    id: 9,
     img: "./assets/Images/project/LinkIt.png",
     title: "LinkIt",
     status: true,
@@ -146,9 +156,8 @@ const projects = [
     skill: ["React", "Tailwind", "GSAP"],
     preview: "./assets/Videos/preview/linkit.mp4",
   },
-
   {
-    id: 9,
+    id: 10,
     img: "./assets/Images/project/11Hack.png",
     title: "11Hack",
     status: false,
@@ -159,9 +168,8 @@ const projects = [
     skill: ["React", "Tailwind", "Node", "Express", "MongoDB"],
     preview: "./assets/Videos/preview/building.mp4",
   },
-
   {
-    id: 10,
+    id: 11,
     img: "./assets/Images/project/Snake.png",
     title: "Snake Game",
     status: true,
@@ -172,7 +180,7 @@ const projects = [
     preview: "./assets/Videos/preview/snake.mp4",
   },
   {
-    id: 11,
+    id: 12,
     img: "./assets/Images/project/StopWatch.png",
     title: "Stop Watch",
     status: true,
@@ -180,7 +188,6 @@ const projects = [
       "I created this stopwatch to customize its functionality. It was built using only Java and JavaFX and is fully operational. This project helped me enhance my skills in Java programming and GUI design.",
     github: "https://github.com/rinkitadhana/StopWatchByJava",
     skill: ["Java", "JavaFX"],
-    preview: "./assets/Videos/preview/building.mp4",
   },
 ]
 

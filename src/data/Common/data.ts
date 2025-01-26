@@ -89,12 +89,12 @@ const projects = [
   {
     id: 4,
     img: "./assets/Images/project/jwt.jpg",
-    title: "jwt-auth",
-    status: false,
+    title: "JWT-auth",
+    status: true,
     content:
-      "A ready-to-use JWT authentication system built with Next.js, Express, TypeScript, and MongoDB. This system provides secure user authentication, including registration, login, logout, and token management, all packaged for easy integration.",
+      "A ready-to-use JWT authentication API built with Express, TypeScript, and MongoDB. It includes secure password hashing and robust authentication measures. Perfect for integrating secure user authentication into your projects effortlessly",
     github: "https://github.com/rinkitadhana/JWT-auth",
-    skill: ["TypeScript", "Node", "Express", "MongoDB", "JWT"],
+    skill: ["TypeScript", "Express", "MongoDB", "JWT"],
   },
   {
     id: 5,

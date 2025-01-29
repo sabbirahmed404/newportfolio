@@ -3,6 +3,10 @@ import { FaGithub } from "react-icons/fa6"
 import { DiJavascript } from "react-icons/di"
 import { FaGitAlt } from "react-icons/fa6"
 import { IoLogoNodejs } from "react-icons/io5"
+import { PiFigmaLogoBold } from "react-icons/pi"
+import { FaDocker } from "react-icons/fa"
+import { BsFiletypeSql } from "react-icons/bs"
+
 import {
   RiJavaLine,
   RiNextjsLine,
@@ -10,6 +14,7 @@ import {
   RiTailwindCssFill,
 } from "react-icons/ri"
 import {
+  SiRedis,
   SiExpress,
   SiGreensock,
   SiMongodb,
@@ -36,16 +41,20 @@ const skills = [
   { id: 8, icon: SiGreensock, text: "GSAP" },
   { id: 9, icon: IoLogoNodejs, text: "NodeJS" },
   { id: 10, icon: SiExpress, text: "ExpressJS" },
-  { id: 11, icon: SiPostman, text: "Postman" },
-  { id: 12, icon: BiLogoPostgresql, text: "PostgreSQL" },
-  { id: 13, icon: SiMongodb, text: "MongoDB" },
-  { id: 14, icon: FaGitAlt, text: "Git" },
-  { id: 15, icon: FaGithub, text: "GitHub" },
-  { id: 16, icon: RiJavaLine, text: "Java" },
-  { id: 17, icon: TbHexagonLetterC, text: "C" },
-  { id: 18, icon: TbBrandCpp, text: "C++" },
-  { id: 19, icon: VscTerminalLinux, text: "Linux" },
-  { id: 20, icon: SiVercel, text: "Vercel" },
+  { id: 11, icon: BiLogoPostgresql, text: "PostgreSQL" },
+  { id: 12, icon: SiMongodb, text: "MongoDB" },
+  { id: 13, icon: SiRedis, text: "Redis" },
+  { id: 14, icon: SiPostman, text: "Postman" },
+  { id: 15, icon: FaGitAlt, text: "Git" },
+  { id: 16, icon: FaGithub, text: "GitHub" },
+  { id: 17, icon: RiJavaLine, text: "Java" },
+  { id: 18, icon: TbHexagonLetterC, text: "C" },
+  { id: 19, icon: TbBrandCpp, text: "C++" },
+  { id: 20, icon: BsFiletypeSql, text: "SQL" },
+  { id: 21, icon: FaDocker, text: "Docker" },
+  { id: 22, icon: VscTerminalLinux, text: "Linux" },
+  { id: 23, icon: SiVercel, text: "Vercel" },
+  { id: 24, icon: PiFigmaLogoBold, text: "Figma" },
 ]
 
 const projects = [

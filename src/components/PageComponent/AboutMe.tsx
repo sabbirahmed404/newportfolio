@@ -27,7 +27,7 @@ const AboutMe = () => {
         {!isSwitchOn && (
           <div
             onClick={() => setClick((prev) => !prev)}
-            className="group opacity-70 hover:opacity-100  flex items-center gap-1 transition-all duration-100 cursor-pointer"
+            className=" w-fit group opacity-70 hover:opacity-100  flex items-center gap-1 transition-all duration-100 cursor-pointer"
           >
             <span>{click ? "Show less about me" : "Show more about me"}</span>
             <span className="group-hover:-rotate-45 transform transition-all duration-100">

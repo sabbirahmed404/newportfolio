@@ -20,6 +20,10 @@ const rinkitAbout = `
     If you have an idea and would like to collaborate, feel free to DM me! I'm always open and ready to connect and work on exciting projects. Also, be sure to check out my other side, just click the top right button!
   </p>
 `
+const rinkitMoreAbout = `
+<p>Hey, I’m Rinkit Adhana, an undergraduate computer science student and a full-stack developer based in Delhi, India. I’m passionate about building and shipping cool, practical projects that people actually use. My expertise lies in working with technologies like React, Next.js, and Node.js for both frontend and backend development. Over time, I’ve built numerous projects using these tools and am constantly working on new ones to expand my skills. As a computer science student, I also have a strong grasp of data structures and algorithms, and I make it a point to sharpen my problem-solving abilities daily.</p>
+<p>Beyond academics, I’ve actively participated in multiple hackathons, where I’ve brought innovative ideas to life using diverse tech stacks. These experiences have not only earned me exciting merchandise, certificates, and prizes but have also honed my ability to work effectively as a team player and leader. I thrive under pressure and have successfully delivered projects within tight deadlines, adapting quickly to challenges to ensure success. These opportunities have strengthened my technical skills and reinforced my ability to collaborate and lead in dynamic environments.</p>
+<p>When I’m not coding, you’ll find me on the volleyball court as a member of my college team. Playing volleyball has taught me the importance of teamwork, communication, and adaptability—skills that translate seamlessly into my professional life. Additionally, I’ve been an active member of various societies and have attended numerous orientations, which have deepened my understanding of computer science and allowed me to explore this field more thoroughly. Whether it’s coding, collaborating, or competing, I’m always eager to learn, grow, and make an impact.</p>`
 
 const rinkitLink = [
   {
@@ -116,4 +120,5 @@ export {
   rinkitAbout,
   rinkitLink,
   rinkitFooterLink,
+  rinkitMoreAbout,
 }

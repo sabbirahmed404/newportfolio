@@ -55,10 +55,10 @@ const projects = [
     title: "Daily Crimes",
     status: true,
     content:
-      "This is a newspaper UI website designed to give you the authentic feel of reading a traditional newspaper. Explore news stories in a classic layout, blending modern web design with old-world charm.",
+      "Created a newspaper-inspired website combining classic layouts with modern design for an authentic feel. Covered the rise in crime in India, offering insightful and engaging news stories on this pressing issue. Added animations and moving visuals to deliver a dynamic and immersive user experience.",
     url: "https://thedailycrimes.vercel.app/",
     github: "https://github.com/rinkitadhana/The-Daily-Crimes",
-    skill: ["ReactJS", "TypeScript", "Tailwind", "GSAP"],
+    skill: ["React", "TypeScript", "Tailwind", "GSAP", "Motion"],
     preview: "./assets/Videos/preview/dailycrimes.mp4",
   },
   {
@@ -66,12 +66,21 @@ const projects = [
     img: "./assets/Images/project/Anecdot.png",
     title: "Anecdot.",
     status: false,
-    statusColor: "text-blue-500",
     content:
-      "A full stack blogging website built using the MERN stack, offering a variety of features to enhance user experience. The website allows users to manage their profiles, and engage through comments and likes. It also includes user authentication and real-time updates.",
+      "Built a full-stack blogging platform with profile management and CRUD functionality for blogs. Integrated JWT authentication, real-time updates, and Redis caching for security and performance. Designed a sleek, user-friendly interface for an engaging experience.",
     url: "https://anecblog.vercel.app/",
     github: "https://github.com/rinkitadhana/Anecdot",
-    skill: ["React", "Tailwind", "Node", "Express", "MongoDB"],
+    skill: [
+      "React",
+      "Tailwind",
+      "ShanCN",
+      "Motion",
+      "Context",
+      "Node",
+      "Express",
+      "MongoDB",
+      "Redis",
+    ],
     preview: "./assets/Videos/preview/building.mp4",
   },
   {
@@ -80,10 +89,10 @@ const projects = [
     title: "Apple Clone",
     status: true,
     content:
-      "This is a clone website of the iPhone 15 Pro, featuring 3D models and dynamic animations that bring the device to life. The smooth interactions and immersive visuals replicate the experience of a real product site. Explore every detail as if you're navigating the official Apple page.",
+      "Built a replica website of the iPhone 15 Pro, featuring interactive 3D models and dynamic animations for a lifelike experience. Designed seamless interactions to closely mimic the official Apple product page. Delivered a polished, engaging user experience with meticulous attention to detail and functionality.",
     url: "https://therinkit-appleclone.vercel.app/",
     github: "https://github.com/rinkitadhana/iphone15-Apple-Clone",
-    skill: ["ReactJs", "Tailwind", "GSAP", "ThreeJS"],
+    skill: ["React", "Tailwind", "GSAP", "Motion", "ThreeJS"],
     preview: "./assets/Videos/preview/building.mp4",
   },
   {
@@ -94,7 +103,7 @@ const projects = [
     content:
       "A ready-to-use JWT authentication API built with Express, TypeScript, and MongoDB. It includes secure password hashing and robust authentication measures. Perfect for integrating secure user authentication into your projects effortlessly",
     github: "https://github.com/rinkitadhana/JWT-auth",
-    skill: ["TypeScript", "Express", "MongoDB", "JWT"],
+    skill: ["TypeScript", "Node", "Express", "JWT", "MongoDB"],
   },
   {
     id: 5,
@@ -102,7 +111,7 @@ const projects = [
     title: "Brain-Rot Converter",
     status: true,
     content:
-      "Transform your text into trendy Gen Z language with just a click. Our converter adds slang, abbreviations, and casual phrases to make your message sound like it's straight out of a meme. Give it a try and speak like the cool crowd!",
+      "Created a fun and interactive project designed to convert normal text into GenZ or brainrot slang with just one click. This tool ensures everyone can stay up-to-date with the latest trends and internet language. A playful solution to keep no one feeling left behind in the ever-evolving digital culture.",
     url: "https://brainrot-language-converter.vercel.app/",
     github: "https://github.com/rinkitadhana/BrainRot-Language-Converter",
     skill: ["React", "Tailwind", "Gemini api"],
@@ -126,10 +135,10 @@ const projects = [
     title: "Old Portfolio",
     status: true,
     content:
-      "This is my old portfolio. At first glance, it looks minimalistic, but it's packed with features. It includes sections like About, Projects, and Blog, along with seamless routing and a theme switcher.",
+      "My old portfolio combines a sleek, minimalistic design with powerful features, including About, Projects, and Blog sections. It offers seamless routing for smooth navigation and a theme switcher for personalized customization. A simple yet functional showcase of my work and creativity.",
     url: "https://therinkit.online",
     github: "https://github.com/rinkitadhana/My-Portfolio-Website",
-    skill: ["React", "Tailwind", "Motion"],
+    skill: ["React", "Tailwind", "Motion", "GSAP"],
     preview: "./assets/Videos/preview/building.mp4",
   },
   {
@@ -141,7 +150,7 @@ const projects = [
       "A full-stack Next.js project for sharing your AI prompts and using others' shared prompts, featuring Google authentication, profile management, and options to like, edit, and delete prompts. It also includes advanced search and filtering capabilities to easily find and manage prompts.",
     url: "https://therinkit-promptopia.vercel.app",
     github: "https://github.com/rinkitadhana/Promptopia",
-    skill: ["NextJS", "MongoDB", "Tailwind"],
+    skill: ["NextJS", "Tailwind", "MongoDB"],
     preview: "./assets/Videos/preview/promptopia.mp4",
   },
   {
@@ -161,27 +170,23 @@ const projects = [
     img: "./assets/Images/project/11Hack.png",
     title: "11Hack",
     status: false,
-    statusColor: "text-blue-500",
     content:
       "A full-stack project showcasing the top 11 hackathon ideas from various students, ranked by popularity. This project helps you effectively implement these ideas and improve your chances of winning.",
-    github: "/error",
     skill: ["React", "Tailwind", "Node", "Express", "MongoDB"],
-    preview: "./assets/Videos/preview/building.mp4",
   },
   {
     id: 11,
-    img: "./assets/Images/project/Snake.png",
+    img: "./assets/Images/project/snake.jpg",
     title: "Snake Game",
     status: true,
     content:
       "I made this snake game in my first year just for fun. At that time, I was a big Java fan and created this project using Java and JavaFX. This project really helped me deepen my understanding of object-oriented programming.",
     github: "https://github.com/rinkitadhana/SnakeByJava",
     skill: ["Java", "JavaFX"],
-    preview: "./assets/Videos/preview/snake.mp4",
   },
   {
     id: 12,
-    img: "./assets/Images/project/StopWatch.png",
+    img: "./assets/Images/project/stopwatch.jpg",
     title: "Stop Watch",
     status: true,
     content:

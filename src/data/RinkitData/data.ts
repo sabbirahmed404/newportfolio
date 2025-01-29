@@ -47,12 +47,6 @@ const rinkitLink = [
     link: "https://leetcode.com/u/therinkit",
     icon: SiLeetcode,
   },
-  {
-    id: 5,
-    name: "Instagram",
-    link: "https://www.instagram.com/rnkktt",
-    icon: FaInstagram,
-  },
 ]
 
 const rinkitContact =

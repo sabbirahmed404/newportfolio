@@ -197,7 +197,7 @@ const writings = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Q3Hv7-rg8dfuKPn-r79jjVJEQaeg7g17mA&s",
     head: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, repellendus.",
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores impedit dolore saepe vero expedita animi cumque rerum. Porro, nostrum assumenda.",
-    link: "anecblog.vercel.app",
+    link: "https://anecblog.vercel.app",
   },
 ]
 

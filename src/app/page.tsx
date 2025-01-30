@@ -17,15 +17,3 @@ const Home = () => {
 }
 
 export default Home
-
-// export const metadata: Metadata = {
-//   openGraph: {
-//     url: "therinkit.online",
-//     siteName: "Portfolio Website",
-//     images: [
-//       getCldOgImageUrl({
-//         src: `my-store_t4rgo2`,
-//       }),
-//     ],
-//   },
-// }

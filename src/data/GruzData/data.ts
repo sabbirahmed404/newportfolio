@@ -1,5 +1,6 @@
 import { SiBuymeacoffee } from "react-icons/si"
 import { FaXTwitter, FaGithub, FaDiscord } from "react-icons/fa6"
+import { SiBluesky } from "react-icons/si"
 
 const gruzImage = "/assets/Images/pfps/gruz.jpeg"
 const gruzName = "Gruz"
@@ -71,6 +72,12 @@ const gruzFooterLink = [
     link: "",
     icon: SiBuymeacoffee,
   },
+   {
+      id: 5,
+      name: "Bluesky",
+      link: "https://bsky.app/profile/damngruz.bsky.social",
+      icon: SiBluesky,
+    },
 ]
 
 const gruzContact =

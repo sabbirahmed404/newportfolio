@@ -4,6 +4,7 @@ import { FaInstagram } from "react-icons/fa6"
 import { FaGithub } from "react-icons/fa6"
 import { SiLeetcode } from "react-icons/si"
 import { MdOutlineMail } from "react-icons/md"
+import { SiBluesky } from "react-icons/si"
 
 const rinkitImage = "/assets/Images/pfps/rinkit.jpg"
 const rinkitName = "Rinkit Adhana"
@@ -39,12 +40,14 @@ const rinkitLink = [
     link: "https://x.com/intent/follow?screen_name=damnGruz",
     icon: FaXTwitter,
   },
+
   {
     id: 3,
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/rinkitadhana",
     icon: FaLinkedinIn,
   },
+
   {
     id: 4,
     name: "LeetCode",
@@ -107,6 +110,12 @@ const rinkitFooterLink = [
     name: "Instagram",
     link: "https://www.instagram.com/rnkktt",
     icon: FaInstagram,
+  },
+  {
+    id: 7,
+    name: "Bluesky",
+    link: "https://bsky.app/profile/damngruz.bsky.social",
+    icon: SiBluesky,
   },
 ]
 

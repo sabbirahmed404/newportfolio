@@ -41,7 +41,7 @@ const gruzLink = [
   {
     id: 4,
     name: "BuyMeACoffee",
-    link: "",
+    link: "https://buymeacoffee.com/damngruz",
     icon: SiBuymeacoffee,
   },
 ]
@@ -72,12 +72,12 @@ const gruzFooterLink = [
     link: "",
     icon: SiBuymeacoffee,
   },
-   {
-      id: 5,
-      name: "Bluesky",
-      link: "https://bsky.app/profile/damngruz.bsky.social",
-      icon: SiBluesky,
-    },
+  {
+    id: 5,
+    name: "Bluesky",
+    link: "https://bsky.app/profile/damngruz.bsky.social",
+    icon: SiBluesky,
+  },
 ]
 
 const gruzContact =

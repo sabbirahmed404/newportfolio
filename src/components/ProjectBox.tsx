@@ -167,16 +167,6 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
             {content}
           </p>
         </div>
-        <div className="md:hidden flex flex-wrap gap-1.5 select-none">
-          {skill.map((skill, index) => (
-            <p
-              key={index}
-              className="border border-zinc-700 px-2 py-0.5 rounded-md text-sm"
-            >
-              {skill}
-            </p>
-          ))}
-        </div>
       </div>
       <AnimatePresence mode="wait">
         {open && (
@@ -198,7 +188,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
           >
             <div className="flex border-t border-zinc-700 w-[97%] mt-3 md:mt-0 mx-auto" />
             <div className="flex md:justify-between justify-end items-center md:py-2 py-3 px-3 transition-all duration-100">
-              <div className="hidden md:flex flex-wrap gap-1.5 select-none">
+              <div className="flex flex-wrap gap-1.5 select-none">
                 {skill.map((skill, index) => (
                   <p
                     key={index}

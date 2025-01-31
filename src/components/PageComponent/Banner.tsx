@@ -18,7 +18,6 @@ const Banner: React.FC = () => {
           className="  flex gap-1 md:gap-2 items-center text-white/65 hover:text-white/90 transition-all duration-100 font-medium"
         >
           <span className=" hidden md:block">Local time</span>
-          <span className=" md:hidden block">LT</span>
           <span className="md:text-sm text-base">
             <LocalTime />
           </span>
@@ -27,7 +26,7 @@ const Banner: React.FC = () => {
           <a
             href="https://github.com/rinkitadhana/Switchfolio"
             target="_blank"
-            className="  flex gap-2 items-center group cursor-pointer border border-zinc-700 rounded-md px-2 py-1.5 bg-zinc-800 banner-button"
+            className=" hidden  md:flex gap-2 items-center group cursor-pointer border border-zinc-700 rounded-md px-2 py-1.5 bg-zinc-800 banner-button"
           >
             <span className="text-lg md:group-hover:hidden">
               <FaRegStar />

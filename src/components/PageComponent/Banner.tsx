@@ -5,6 +5,7 @@ import { useSwitch } from "../Context/SwitchContext"
 import { gruzName } from "@/data/GruzData/data"
 import LocalTime from "@/utils/LocalTime"
 import { FaRegStar, FaStar } from "react-icons/fa6"
+import StarButton from "../StarButton"
 
 const Banner: React.FC = () => {
   const { isSwitchOn, toggleSwitch } = useSwitch()
@@ -23,7 +24,7 @@ const Banner: React.FC = () => {
           </span>
         </a>
         <div className=" flex gap-2.5 items-center">
-          <a
+          {/* <a
             href="https://github.com/rinkitadhana/Switchfolio"
             target="_blank"
             className=" hidden  md:flex gap-2 items-center group cursor-pointer border border-zinc-700 rounded-md px-2 py-1.5 bg-zinc-800 banner-button"
@@ -39,7 +40,8 @@ const Banner: React.FC = () => {
             <span className=" text-sm font-medium hidden md:group-hover:block">
               Star on GitHub
             </span>
-          </a>
+          </a> */}
+          <StarButton />
 
           <div
             onClick={() => {

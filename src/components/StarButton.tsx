@@ -15,7 +15,7 @@ const StarButton = () => {
       className=" group hidden md:flex items-center gap-2 px-2 py-1 bg-zinc-800 border border-zinc-700 rounded-md text-white cursor-pointer overflow-hidden"
     >
       <Star
-        className="min-w-6 h-5 group-hover:fill-yellow-400 group-hover:text-yellow-400"
+        className="min-w-6 h-[1.19rem] - group-hover:fill-yellow-400 group-hover:text-yellow-400 transition-all duration-300"
         strokeWidth={1.5}
       />
       <span className="font-medium whitespace-nowrap">Star on GitHub</span>

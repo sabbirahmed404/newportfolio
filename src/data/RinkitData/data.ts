@@ -51,7 +51,7 @@ const rinkitLink = [
   {
     id: 4,
     name: "LeetCode",
-    link: "https://leetcode.com/u/therinkit",
+    link: "https://leetcode.com/u/rinkitadhana",
     icon: SiLeetcode,
   },
 ]

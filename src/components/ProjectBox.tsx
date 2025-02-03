@@ -187,7 +187,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
             className=" overflow-hidden"
           >
             <div className="flex border-t border-zinc-700 w-[97%] mt-3 md:mt-0 mx-auto" />
-            <div className="flex md:justify-between justify-end items-center md:py-2 py-3 px-3 transition-all duration-100">
+            <div className="flex justify-between items-center md:py-2 py-3 px-3 transition-all duration-100">
               <div className="flex flex-wrap gap-1.5 select-none">
                 {skill.map((skill, index) => (
                   <p

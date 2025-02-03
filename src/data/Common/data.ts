@@ -208,10 +208,10 @@ const projects = [
 const writings = [
   {
     id: 1,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Q3Hv7-rg8dfuKPn-r79jjVJEQaeg7g17mA&s",
-    head: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, repellendus.",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores impedit dolore saepe vero expedita animi cumque rerum. Porro, nostrum assumenda.",
-    link: "https://anecblog.vercel.app",
+    img: "./assets/Images/writing/jwt.png",
+    head: "JWT Authentication APIs with TypeScript, Node.js, and MongoDB.",
+    des: "This blog guides you through building a JWT authentication system using TypeScript, Node.js, Express, and MongoDB. Learn to implement secure authentication, protect routes, and test APIs with Postman.",
+    link: "https://medium.com/@rinkitadhana/jwt-authentication-apis-with-typescript-node-js-and-mongodb-b05a8a3cb062",
   },
 ]
 

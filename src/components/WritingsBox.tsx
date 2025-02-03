@@ -11,16 +11,16 @@ const WritingsBox: React.FC<BlogBoxProps> = ({ img, head, des, link }) => {
     <a
       href={link}
       target="_blank"
-      className=" blog-post flex md:flex-row flex-col   items-center gap-2"
+      className=" blog-post flex md:flex-row flex-col   items-center gap-3"
     >
       <img
-        className="  md:size-[68px] object-cover w-full h-[100px] select-none rounded-md"
+        className=" md:w-[20%] w-full object-cover  h-[100px] select-none rounded-md"
         src={img}
         alt="Blog Image"
       />
-      <div className="flex flex-col ">
-        <h1>{head}</h1>
-        <p className=" text-sm opacity-80">{des}</p>
+      <div className=" md:w-[80%] flex flex-col gap-0.5 ">
+        <h1 className=" text-lg font-semibold">{head}</h1>
+        <p className=" opacity-80">{des}</p>
       </div>
     </a>
   )

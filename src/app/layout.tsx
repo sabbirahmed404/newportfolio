@@ -14,8 +14,30 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   icons: {
-    icon: ["./assets/Images/icon/icon.png"],
-    shortcut: ["./assets/Images/icon/icon.png"],
+    icon: [
+      {
+        media: "(prefers-color-scheme: light)",
+        url: "./assets/Images/icon/icon-light.png",
+        type: "image/png",
+      },
+      {
+        media: "(prefers-color-scheme: dark)",
+        url: "./assets/Images/icon/icon-dark.png",
+        type: "image/png",
+      },
+    ],
+    shortcut: [
+      {
+        media: "(prefers-color-scheme: light)",
+        url: "./assets/Images/icon/icon-light.png",
+        type: "image/png",
+      },
+      {
+        media: "(prefers-color-scheme: dark)",
+        url: "./assets/Images/icon/icon-dark.png",
+        type: "image/png",
+      },
+    ],
   },
   openGraph: {
     title: "Rinkit Adhana",

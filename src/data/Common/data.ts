@@ -74,7 +74,7 @@ const projects = [
     id: 2,
     img: "./assets/Images/project/Anecdot.png",
     title: "Anecdot.",
-    status: false,
+    status: true,
     content:
       "Built a full-stack blogging platform with profile management and CRUD functionality for blogs. Integrated JWT authentication, real-time updates, and Redis caching for security and performance. Designed a sleek, user-friendly interface for an engaging experience.",
     url: "https://anecblog.vercel.app/",
@@ -84,7 +84,6 @@ const projects = [
       "Tailwind",
       "ShanCN",
       "Motion",
-      "Context",
       "Node",
       "Express",
       "MongoDB",

@@ -10,6 +10,7 @@ import Writings from "../PageComponent/Writings"
 import HireMe from "../PageComponent/HireMe"
 import AnimatedWrapper from "@/utils/AnimatedWrapper"
 import { useSwitch } from "../Context/SwitchContext"
+import Nav from "../PageComponent/Nav"
 
 const IndexPage = () => {
   const { isSwitchOn } = useSwitch()
@@ -47,6 +48,7 @@ const IndexPage = () => {
         <AnimatedWrapper delay={0.85}>
           <Footer />
         </AnimatedWrapper>
+        <Nav />
       </Screen>
     </>
   )

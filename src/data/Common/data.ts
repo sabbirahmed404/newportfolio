@@ -1,10 +1,10 @@
 import { BiLogoPostgresql } from "react-icons/bi"
-import { FaGithub } from "react-icons/fa6"
+import { FaGithub, FaLinkedinIn, FaXTwitter } from "react-icons/fa6"
 import { DiJavascript } from "react-icons/di"
 import { FaGitAlt } from "react-icons/fa6"
 import { IoLogoNodejs } from "react-icons/io5"
 import { PiFigmaLogoBold } from "react-icons/pi"
-import { FaDocker } from "react-icons/fa"
+import { FaDocker, FaMediumM } from "react-icons/fa"
 import { BsFiletypeSql } from "react-icons/bs"
 
 import {
@@ -22,6 +22,7 @@ import {
   SiShadcnui,
   SiVercel,
   SiReactquery,
+  SiLeetcode,
 } from "react-icons/si"
 import {
   TbBrandCpp,
@@ -221,4 +222,38 @@ const hireText =
 
 const emailLink =
   "mailto:therinkit@gmail.com?subject=Interested%20in%20Hiring%20You"
-export { projects, writings, emailLink, skills, hireText }
+
+const navLinks = [
+  {
+    id: 1,
+    name: "Github",
+    link: "https://github.com/rinkitadhana",
+    icon: FaGithub,
+  },
+  {
+    id: 2,
+    name: "Twitter",
+    link: "https://x.com/intent/follow?screen_name=damnGruz",
+    icon: FaXTwitter,
+  },
+  {
+    id: 3,
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/rinkitadhana",
+    icon: FaLinkedinIn,
+  },
+  {
+    id: 4,
+    name: "Medium",
+    link: "https://medium.com/@rinkitadhana",
+    icon: FaMediumM,
+  },
+  {
+    id: 5,
+    name: "LeetCode",
+    link: "https://leetcode.com/u/rinkitadhana",
+    icon: SiLeetcode,
+  },
+]
+
+export { projects, writings, emailLink, skills, hireText, navLinks }

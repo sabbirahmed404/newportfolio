@@ -18,7 +18,7 @@ const rinkitAbout = `
     I mainly work with React.js, Next.js, and Node.js for both frontend and backend, using TypeScript alongside them. I have created many cool projects using these technologies.
   </p>
   <p>
-    If you have an idea and would like to collaborate, feel free to DM me! I'm always open and ready to connect and work on exciting projects. Also, be sure to check out my other side, just click the top right button!
+    If you have an idea and would like to collaborate, feel free to DM me! I'm always open and ready to connect and work on exciting projects. Also, be sure to check out my other side, just click on the navbar image!
   </p>
 `
 const rinkitMoreAbout = `

@@ -15,7 +15,7 @@ const Projects = () => {
   const visibleProjects = showAll ? projects : projects.slice(0, 2)
   let delayValue = 0
   return (
-    <div className="flex flex-col gap-3">
+    <div id="projects" className="flex flex-col gap-3">
       <SectionTitle title="Projects" />
       <div className=" flex flex-col md:gap-2.5 gap-3.5">
         {visibleProjects.map((project) => (

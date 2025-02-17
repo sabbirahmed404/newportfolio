@@ -12,7 +12,7 @@ const gruzAbout = `
     Besides programming, I'm a volleyball player who loves football. I also enjoy playing video games, mostly FIFA and Valorant (I'm not gay) in my free time.
   </p>
   <p>
-    If you have an idea and would like to collaborate, feel free to DM me! I'm always open and ready to connect and work on exciting projects. Also, be sure to check out my other side, just click the top right button!
+    If you have an idea and would like to collaborate, feel free to DM me! I'm always open and ready to connect and work on exciting projects. Also, be sure to check out my other side, just click on the navbar image!
   </p>
 `
 
@@ -69,7 +69,7 @@ const gruzFooterLink = [
   {
     id: 4,
     name: "BuyCoffee",
-    link: "",
+    link: "https://buymeacoffee.com/damngruz",
     icon: SiBuymeacoffee,
   },
   {

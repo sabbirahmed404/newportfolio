@@ -10,13 +10,13 @@ const Nav = () => {
   return (
     <div className="fixed bottom-6 left-0 right-0 flex justify-center items-center">
       <div className="bg-mainBlack border border-zinc-700 px-3 py-2 rounded-xl flex items-center gap-3">
-        <div className=" flex gap-1 items-center">
+        <div className=" flex gap-0.5 items-center">
           {navLinks.map((nav) => (
             <a
               key={nav.id}
               title={nav.name}
               target="_blank"
-              className=" text-lg p-2 hover:bg-zinc-800 transition duration-100 rounded-md"
+              className="  p-2 hover:bg-zinc-800 transition duration-100 rounded-md"
               href={nav.link}
             >
               {<nav.icon />}

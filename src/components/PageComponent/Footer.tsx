@@ -7,7 +7,7 @@ const Footer = () => {
   const { isSwitchOn } = useSwitch()
   const footerLinks = isSwitchOn ? gruzFooterLink : rinkitFooterLink
   return (
-    <footer className="mb-12">
+    <footer className="md:mb-12 mb-16">
       <div className=" border-t border-zinc-700 my-6" />
       <div className=" flex flex-col gap-2.5 items-center">
         <div className=" flex flex-wrap gap-4 items-center md:text-base text-sm">

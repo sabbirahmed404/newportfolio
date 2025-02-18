@@ -22,7 +22,7 @@ const Nav = () => {
         </div>
         <div className="h-8 w-[1px] bg-zinc-500  mr-1"></div>
         <div
-          className="rounded-md hover:brightness-75 transition duration-200 cursor-pointer"
+          className="rounded-md md:hover:brightness-75 transition duration-200 cursor-pointer"
           onClick={toggleSwitch}
         >
           <Image

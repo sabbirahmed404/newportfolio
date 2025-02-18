@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Rinkit Adhana",
-    description: "Portfolio",
+    description: "This is my portfolio website.",
     url: "https://www.rinkit.tech",
     siteName: "Switchfolio",
     images: [{ url: "./assets/Images/OG/og.png", width: 1200, height: 630 }],

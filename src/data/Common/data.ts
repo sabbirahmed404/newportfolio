@@ -23,6 +23,7 @@ import {
   SiVercel,
   SiReactquery,
   SiLeetcode,
+  SiPrisma,
 } from "react-icons/si"
 import {
   TbBrandCpp,
@@ -47,17 +48,18 @@ const skills = [
   { id: 12, icon: BiLogoPostgresql, text: "PostgreSQL" },
   { id: 13, icon: SiMongodb, text: "MongoDB" },
   { id: 14, icon: SiRedis, text: "Redis" },
-  { id: 15, icon: SiPostman, text: "Postman" },
-  { id: 16, icon: FaGitAlt, text: "Git" },
-  { id: 17, icon: FaGithub, text: "GitHub" },
-  { id: 18, icon: RiJavaLine, text: "Java" },
-  { id: 19, icon: TbHexagonLetterC, text: "C" },
-  { id: 20, icon: TbBrandCpp, text: "C++" },
-  { id: 21, icon: BsFiletypeSql, text: "SQL" },
-  { id: 22, icon: FaDocker, text: "Docker" },
-  { id: 23, icon: VscTerminalLinux, text: "Linux" },
-  { id: 24, icon: SiVercel, text: "Vercel" },
-  { id: 25, icon: PiFigmaLogoBold, text: "Figma" },
+  { id: 15, icon: SiPrisma, text: "Prisma" },
+  { id: 16, icon: SiPostman, text: "Postman" },
+  { id: 17, icon: FaGitAlt, text: "Git" },
+  { id: 18, icon: FaGithub, text: "GitHub" },
+  { id: 19, icon: RiJavaLine, text: "Java" },
+  { id: 20, icon: TbHexagonLetterC, text: "C" },
+  { id: 21, icon: TbBrandCpp, text: "C++" },
+  { id: 22, icon: BsFiletypeSql, text: "SQL" },
+  { id: 23, icon: FaDocker, text: "Docker" },
+  { id: 24, icon: VscTerminalLinux, text: "Linux" },
+  { id: 25, icon: SiVercel, text: "Vercel" },
+  { id: 26, icon: PiFigmaLogoBold, text: "Figma" },
 ]
 
 const projects = [

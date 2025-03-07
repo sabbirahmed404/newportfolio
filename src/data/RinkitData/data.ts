@@ -6,7 +6,7 @@ import { SiLeetcode } from "react-icons/si"
 import { MdOutlineMail } from "react-icons/md"
 import { SiBluesky } from "react-icons/si"
 
-const rinkitImage = "/assets/Images/pfps/rinkit.jpg"
+const rinkitImage = "/assets/Images/pfps/mark.jpeg"
 const rinkitName = "Rinkit Adhana"
 const rinkitShortName = "Rinkit"
 const rinkitBio = "Software Engineer"

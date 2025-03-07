@@ -1,16 +1,23 @@
+"use client"
 import { gruzImage } from "@/data/GruzData/data"
 import { useSwitch } from "../Context/SwitchContext"
 import { rinkitImage } from "@/data/RinkitData/data"
 import Image from "next/image"
 import { navLinks } from "@/data/Common/data"
 import { InfoTipNav } from "../InfoTipNav"
+import { useState } from "react"
 
 const Nav = () => {
   const { isSwitchOn, toggleSwitch } = useSwitch()
+  const [isArrowVisible, setIsArrowVisible] = useState(true)
+
+  const handleArrowVisibility = () => {
+    setIsArrowVisible(false)
+  }
 
   return (
     <div className="fixed bottom-6 left-0 right-0 flex justify-center items-center">
-      <div className="bg-mainBlack border border-zinc-700 px-3 py-2 rounded-xl flex items-center gap-3">
+      <div className="relative bg-mainBlack border border-zinc-700 px-3 py-2 rounded-xl flex items-center gap-3">
         <div className=" flex gap-4 items-center">
           {navLinks.map((nav) => (
             <InfoTipNav key={nav.id} text={nav.name}>
@@ -24,6 +31,7 @@ const Nav = () => {
         <div
           className="rounded-md md:hover:brightness-75 transition duration-200 cursor-pointer"
           onClick={toggleSwitch}
+          onMouseEnter={handleArrowVisibility}
         >
           <Image
             src={isSwitchOn ? rinkitImage : gruzImage}
@@ -34,6 +42,13 @@ const Nav = () => {
             // title={isSwitchOn ? rinkitShortName : gruzName}
           />
         </div>
+        {
+          isArrowVisible && 
+          <div id="arrow" className="absolute -rotate-90 bottom-6 -right-9">
+          <img src="./assets/Images/gif/arrow.gif" alt="arrow" className="size-12 " />
+        </div>
+        }
+        
       </div>
     </div>
   )

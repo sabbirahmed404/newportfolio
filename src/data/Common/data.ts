@@ -64,7 +64,6 @@ const skills = [
   { id: 28, icon: SiVercel, text: "Vercel" },
   { id: 29, icon: PiFigmaLogoBold, text: "Figma" },
 ]
-
 const projects = [
   {
     id: 1,
@@ -101,6 +100,17 @@ const projects = [
   },
   {
     id: 3,
+    img: "./assets/Images/project/cuez.png",
+    title: "Cuez",
+    status: false,
+    content:
+      "Cuez is a social media platform designed specifically for programmers. It offers multiple features tailored to developers, including the ability to upload projects, ask doubts, and explore job opportunities. With a community-driven approach, Cuez helps programmers connect, learn, and grow together.",
+    github: "https://github.com/rinkitadhana/Cuez",
+    skill: ["Next", "Tailwind", "Motion", "Tanstack Query", "Zustand", "Axios", "Express", "MongoDB", "Redis"],
+    preview: "./assets/Videos/preview/building.mp4",
+  },
+  {
+    id: 4,
     img: "./assets/Images/project/apple.jpg",
     title: "Apple Clone",
     status: true,
@@ -112,7 +122,7 @@ const projects = [
     preview: "./assets/Videos/preview/building.mp4",
   },
   {
-    id: 4,
+    id: 5,
     img: "./assets/Images/project/jwt.jpg",
     title: "JWT-auth",
     status: true,
@@ -122,7 +132,7 @@ const projects = [
     skill: ["TypeScript", "Node", "Express", "JWT", "MongoDB"],
   },
   {
-    id: 5,
+    id: 6,
     img: "./assets/Images/project/brain-rot.png",
     title: "Brain-Rot Converter",
     status: true,
@@ -134,7 +144,7 @@ const projects = [
     preview: "./assets/Videos/preview/building.mp4",
   },
   {
-    id: 6,
+    id: 7,
     img: "./assets/Images/project/TweetSpree.png",
     title: "TweetSpree",
     status: true,
@@ -146,7 +156,7 @@ const projects = [
     preview: "./assets/Videos/preview/tweetspree.mp4",
   },
   {
-    id: 7,
+    id: 8,
     img: "./assets/Images/project/port.jpeg",
     title: "Old Portfolio",
     status: true,
@@ -158,7 +168,7 @@ const projects = [
     preview: "./assets/Videos/preview/building.mp4",
   },
   {
-    id: 8,
+    id: 9,
     img: "./assets/Images/project/promptopia.svg",
     title: "Promptopia",
     status: true,
@@ -170,7 +180,7 @@ const projects = [
     preview: "./assets/Videos/preview/promptopia.mp4",
   },
   {
-    id: 9,
+    id: 10,
     img: "./assets/Images/project/LinkIt.png",
     title: "LinkIt",
     status: true,
@@ -182,7 +192,7 @@ const projects = [
     preview: "./assets/Videos/preview/linkit.mp4",
   },
   {
-    id: 10,
+    id: 11,
     img: "./assets/Images/project/11Hack.png",
     title: "11Hack",
     status: false,
@@ -191,7 +201,7 @@ const projects = [
     skill: ["React", "Tailwind", "Node", "Express", "MongoDB"],
   },
   {
-    id: 11,
+    id: 12,
     img: "./assets/Images/project/snake.jpg",
     title: "Snake Game",
     status: true,
@@ -201,7 +211,7 @@ const projects = [
     skill: ["Java", "JavaFX"],
   },
   {
-    id: 12,
+    id: 13,
     img: "./assets/Images/project/stopwatch.jpg",
     title: "Stop Watch",
     status: true,

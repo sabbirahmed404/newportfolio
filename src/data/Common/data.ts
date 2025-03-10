@@ -106,6 +106,7 @@ const projects = [
     content:
       "Cuez is a social media platform designed specifically for programmers. It offers multiple features tailored to developers, including the ability to upload projects, ask doubts, and explore job opportunities. With a community-driven approach, Cuez helps programmers connect, learn, and grow together.",
     github: "https://github.com/rinkitadhana/Cuez",
+    url: "https://cuez.vercel.app/",
     skill: ["Next", "Tailwind", "Motion", "Tanstack Query", "Zustand", "Axios", "Express", "MongoDB", "Redis"],
     preview: "./assets/Videos/preview/building.mp4",
   },

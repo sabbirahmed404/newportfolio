@@ -68,7 +68,7 @@ const projects = [
   {
     id: 1,
     img: "./assets/Images/project/DailyCrime.png",
-    title: "Daily Crimes",
+    title: "The Daily Crimes",
     status: true,
     content:
       "Created a newspaper-inspired website combining classic layouts with modern design for an authentic feel. Covered the rise in crime in India, offering insightful and engaging news stories on this pressing issue. Added animations and moving visuals to deliver a dynamic and immersive user experience.",

@@ -4,7 +4,7 @@ import LocalTime from "@/utils/LocalTime"
 // import { rinkitShortName } from "@/data/RinkitData/data"
 // import { useSwitch } from "../Context/SwitchContext"
 // import { gruzName } from "@/data/GruzData/data"
-// import StarButton from "../StarButton"
+import StarButton from "../StarButton"
 
 const Banner: React.FC = () => {
   // const { isSwitchOn, toggleSwitch } = useSwitch()
@@ -23,7 +23,7 @@ const Banner: React.FC = () => {
           </span>
         </a>
         <div className=" flex gap-2.5 items-center">
-          {/* <StarButton /> */}
+          <StarButton />
 
           {/* <div
             onClick={() => {

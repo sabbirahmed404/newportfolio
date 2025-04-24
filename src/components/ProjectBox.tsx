@@ -45,12 +45,35 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
       document.removeEventListener("click", handleOutsideClick)
     }
   }, [])
+  const handleShare = async (url: string) => {
+    const shareData = {
+      title: "Check out this Project",
+      url: url,
+    }
+
+    try {
+      if (navigator.share) {
+        await navigator.share(shareData)
+      } else {
+        await navigator.clipboard.writeText(shareData.url)
+        alert("Copied to clipboard")
+      }
+    } catch (error) {
+      console.error("Error sharing:", error)
+    }
+  }
 
   return (
-    <div className="project-box bg-zinc-900 hover:bg-zinc-800/75 transition-colors duration-100 border border-zinc-700 rounded-md">
+    <div
+      onClick={() => setOpen((prev) => !prev)}
+      className="project-box bg-zinc-900 hover:bg-zinc-800/75 transition-colors duration-100 border border-zinc-700 rounded-md"
+    >
       <AnimatePresence mode="wait">
         {show && (
           <motion.div
+            onClick={(e) => {
+              e.stopPropagation()
+            }}
             initial={{
               opacity: 0,
               height: 0,
@@ -76,10 +99,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
         )}
       </AnimatePresence>
       <div className="flex md:flex-row flex-col gap-3 p-2">
-        <div
-          onClick={() => setOpen((prev) => !prev)}
-          className="cursor-pointer basis-[22%] p-1 select-none"
-        >
+        <div className="cursor-pointer basis-[22%] p-1 select-none">
           <img
             className="rounded-md md:h-[130px] h-[200px] w-full object-cover"
             src={img}
@@ -88,10 +108,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
         </div>
         <div className="basis-[78%] flex flex-col md:gap-0 gap-1">
           <div className="flex justify-between items-center">
-            <div
-              onClick={() => setOpen((prev) => !prev)}
-              className="cursor-pointer flex gap-2 items-center truncate"
-            >
+            <div className="cursor-pointer flex gap-2 items-center truncate">
               <h1 className="text-2xl font-semibold">{title}</h1>
               {status ? (
                 <div className="select-none font-medium text-xs w-fit px-1.5 py-0.5 gap-0.5 rounded-md flex items-center bg-green-400/10 text-green-400">
@@ -115,7 +132,10 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
                   {show ? (
                     <InfoTipProjects text="Close">
                       <a
-                        onClick={() => setShow((prev) => !prev)}
+                        onClick={(e) => {
+                          e.stopPropagation()
+                          setShow((prev) => !prev)
+                        }}
                         target="_blank"
                         className="cursor-pointer hover:text-zinc-400 transition-colors duration-100"
                       >
@@ -125,7 +145,10 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
                   ) : (
                     <InfoTipProjects text="Preview">
                       <a
-                        onClick={() => setShow((prev) => !prev)}
+                        onClick={(e) => {
+                          e.stopPropagation()
+                          setShow((prev) => !prev)
+                        }}
                         target="_blank"
                         className="cursor-pointer hover:text-zinc-400 transition-colors duration-100"
                       >
@@ -142,6 +165,9 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
                     target="_blank"
                     className="hover:text-zinc-400 transition-colors duration-100"
                     href={url}
+                    onClick={(e) => {
+                      e.stopPropagation()
+                    }}
                   >
                     <LuLink />
                   </a>
@@ -150,6 +176,9 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
               {github && (
                 <InfoTipProjects text="Github">
                   <a
+                    onClick={(e) => {
+                      e.stopPropagation()
+                    }}
                     target="_blank"
                     className="hover:text-zinc-400 transition-colors duration-100"
                     href={github}
@@ -160,12 +189,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
               )}
             </div>
           </div>
-          <p
-            onClick={() => setOpen((prev) => !prev)}
-            className="cursor-pointer opacity-80"
-          >
-            {content}
-          </p>
+          <p className="cursor-pointer opacity-80">{content}</p>
         </div>
       </div>
       <AnimatePresence mode="wait">
@@ -201,7 +225,10 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
               <div className="flex gap-4 items-center md:px-2 px-2.5 md:text-lg text-xl">
                 <div
                   className="cursor-pointer hover:text-zinc-400 transition-colors duration-100"
-                  onClick={() => navigator.share({ url: url ? url : github })}
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    handleShare(url ? url : github)
+                  }}
                 >
                   <LuShare />
                 </div>

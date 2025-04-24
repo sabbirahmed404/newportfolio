@@ -16,7 +16,7 @@ const gruzAbout = `
   </p>
 `
 
-const gruzBio = "Autistic with OCD"
+const gruzBio = "Autistic with OCPD"
 
 const gruzLink = [
   {

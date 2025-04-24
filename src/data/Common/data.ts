@@ -25,6 +25,7 @@ import {
   SiReactquery,
   SiLeetcode,
   SiPrisma,
+  SiDjango,
 } from "react-icons/si"
 import {
   TbBrandCpp,
@@ -37,11 +38,12 @@ import { VscTerminalLinux } from "react-icons/vsc"
 const skills = [
   { id: 1, icon: RiReactjsLine, text: "ReactJs" },
   { id: 2, icon: RiNextjsLine, text: "NextJs" },
-  { id: 3, icon: DiJavascript, text: "JavaScript" },
-  { id: 4, icon: TbBrandTypescript, text: "TypeScript" },
+  { id: 3, icon: SiDjango, text: "Django" },
+  { id: 4, icon: DiJavascript, text: "JavaScript" },
+  { id: 5, icon: TbBrandTypescript, text: "TypeScript" },
   { id: 6, icon: RiTailwindCssFill, text: "Tailwind" },
-  { id: 7, icon: SiReactquery, text: "Tanstack Query" },
-  { id: 8, icon: RiBearSmileLine, text: "Zustand" },
+  { id: 7, icon: RiBearSmileLine, text: "Zustand" },
+  { id: 8, icon: SiReactquery, text: "Tanstack Query" },
   { id: 9, icon: SiShadcnui, text: "shadcn" },
   { id: 10, icon: TbBrandFramerMotion, text: "Motion" },
   { id: 11, icon: SiGreensock, text: "GSAP" },
@@ -71,7 +73,7 @@ const projects = [
     title: "The Daily Crimes",
     status: true,
     content:
-      "Created a newspaper-inspired website combining classic layouts with modern design for an authentic feel. Covered the rise in crime in India, offering insightful and engaging news stories on this pressing issue. Added animations and moving visuals to deliver a dynamic and immersive user experience.",
+      "A newspaper-inspired website combining classic layouts with modern design for an authentic feel. Covered the rise in crime in India, offering insightful and engaging news stories on this pressing issue. Added animations and moving visuals to deliver a dynamic and immersive user experience.",
     url: "https://thedailycrimes.vercel.app/",
     github: "https://github.com/rinkitadhana/The-Daily-Crimes",
     skill: ["React", "TypeScript", "Tailwind", "GSAP", "Motion"],
@@ -83,7 +85,7 @@ const projects = [
     title: "Anecdot.",
     status: true,
     content:
-      "Built a full-stack blogging platform with profile management and CRUD functionality for blogs. Integrated JWT authentication, real-time updates, and Redis caching for security and performance. Designed a sleek, user-friendly interface for an engaging experience.",
+      "Developed a full-stack blogging platform with secure user authentication, profile management, and CRUD functionality for blog posts. Designed an intuitive, responsive UI with a modern aesthetic to enhance user engagement and streamline content creation.",
     url: "https://anecblog.vercel.app/",
     github: "https://github.com/rinkitadhana/Anecdot",
     skill: [
@@ -107,7 +109,17 @@ const projects = [
       "Cuez is a social media platform designed specifically for programmers. It offers multiple features tailored to developers, including the ability to upload projects, ask doubts, and explore job opportunities. With a community-driven approach, Cuez helps programmers connect, learn, and grow together.",
     github: "https://github.com/rinkitadhana/Cuez",
     url: "https://cuez.vercel.app/",
-    skill: ["Next", "Tailwind", "Motion", "Tanstack Query", "Zustand", "Axios", "Express", "MongoDB", "Redis"],
+    skill: [
+      "Next",
+      "Tailwind",
+      "Motion",
+      "Tanstack Query",
+      "Zustand",
+      "Axios",
+      "Express",
+      "MongoDB",
+      "Redis",
+    ],
     preview: "./assets/Videos/preview/building.mp4",
   },
   {

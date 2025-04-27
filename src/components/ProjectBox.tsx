@@ -7,6 +7,7 @@ import { LuLink, LuShare } from "react-icons/lu"
 import { InfoTipProjects } from "./InfoTipProjects"
 import { AnimatePresence, motion } from "motion/react"
 import Image from "next/image"
+import { toast } from "react-hot-toast"
 
 interface ProjectBoxProps {
   img: string
@@ -57,7 +58,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
         await navigator.share(shareData)
       } else {
         await navigator.clipboard.writeText(shareData.url)
-        alert("Copied to clipboard")
+        toast("Copied to clipboard")
       }
     } catch (error) {
       console.error("Error sharing:", error)

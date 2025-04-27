@@ -228,7 +228,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
               </div>
               <div className="flex gap-4 items-center md:px-2 px-2.5 md:text-lg text-xl">
                 <div
-                  className="cursor-pointer hover:text-zinc-400 transition-colors duration-100"
+                  className="cursor-pointer select-none hover:text-zinc-400 transition-colors duration-100"
                   onClick={(e) => {
                     e.stopPropagation()
                     handleShare(url ? url : github)

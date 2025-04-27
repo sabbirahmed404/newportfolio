@@ -6,6 +6,7 @@ import { GoDotFill } from "react-icons/go"
 import { LuLink, LuShare } from "react-icons/lu"
 import { InfoTipProjects } from "./InfoTipProjects"
 import { AnimatePresence, motion } from "motion/react"
+import Image from "next/image"
 
 interface ProjectBoxProps {
   img: string
@@ -100,10 +101,12 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
       </AnimatePresence>
       <div className="flex md:flex-row flex-col gap-3 p-2">
         <div className="cursor-pointer basis-[22%] p-1 select-none">
-          <img
+          <Image
             className="rounded-md md:h-[130px] h-[200px] w-full object-cover"
             src={img}
             alt="Project Image"
+            width={100}
+            height={100}
           />
         </div>
         <div className="basis-[78%] flex flex-col md:gap-0 gap-1">

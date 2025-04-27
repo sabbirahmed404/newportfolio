@@ -42,13 +42,17 @@ const Nav = () => {
             // title={isSwitchOn ? rinkitShortName : gruzName}
           />
         </div>
-        {
-          isArrowVisible && 
+        {isArrowVisible && (
           <div id="arrow" className="absolute -rotate-90 bottom-6 -right-9">
-          <img src="./assets/Images/gif/arrow.gif" alt="arrow" className="size-12 " />
-        </div>
-        }
-        
+            <Image
+              src="/assets/Images/gif/arrow.gif"
+              alt="arrow"
+              className="size-12 "
+              width={100}
+              height={100}
+            />
+          </div>
+        )}
       </div>
     </div>
   )

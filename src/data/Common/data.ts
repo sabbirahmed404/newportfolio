@@ -69,7 +69,7 @@ const skills = [
 const projects = [
   {
     id: 1,
-    img: "./assets/Images/project/DailyCrime.png",
+    img: "/assets/Images/project/DailyCrime.png",
     title: "The Daily Crimes",
     status: true,
     content:
@@ -77,11 +77,11 @@ const projects = [
     url: "https://thedailycrimes.vercel.app/",
     github: "https://github.com/rinkitadhana/The-Daily-Crimes",
     skill: ["React", "TypeScript", "Tailwind", "GSAP", "Motion"],
-    preview: "./assets/Videos/preview/dailycrimes.mp4",
+    preview: "/assets/Videos/preview/dailycrimes.mp4",
   },
   {
     id: 2,
-    img: "./assets/Images/project/cuez.png",
+    img: "/assets/Images/project/cuez.png",
     title: "Cuez",
     status: false,
     content:
@@ -99,11 +99,11 @@ const projects = [
       "MongoDB",
       "Redis",
     ],
-    preview: "./assets/Videos/preview/building.mp4",
+    preview: "/assets/Videos/preview/building.mp4",
   },
   {
     id: 3,
-    img: "./assets/Images/project/apple.jpg",
+    img: "/assets/Images/project/apple.jpg",
     title: "Apple Clone",
     status: true,
     content:
@@ -111,11 +111,11 @@ const projects = [
     url: "https://therinkit-appleclone.vercel.app/",
     github: "https://github.com/rinkitadhana/iphone15-Apple-Clone",
     skill: ["React", "Tailwind", "GSAP", "Motion", "ThreeJS"],
-    preview: "./assets/Videos/preview/building.mp4",
+    preview: "/assets/Videos/preview/building.mp4",
   },
   {
     id: 4,
-    img: "./assets/Images/project/Anecdot.png",
+    img: "/assets/Images/project/Anecdot.png",
     title: "Anecdot.",
     status: true,
     content:
@@ -132,11 +132,11 @@ const projects = [
       "MongoDB",
       "Redis",
     ],
-    preview: "./assets/Videos/preview/building.mp4",
+    preview: "/assets/Videos/preview/building.mp4",
   },
   {
     id: 5,
-    img: "./assets/Images/project/jwt.jpg",
+    img: "/assets/Images/project/jwt.jpg",
     title: "JWT-auth",
     status: true,
     content:
@@ -146,7 +146,7 @@ const projects = [
   },
   {
     id: 6,
-    img: "./assets/Images/project/brain-rot.png",
+    img: "/assets/Images/project/brain-rot.png",
     title: "Brain-Rot Converter",
     status: true,
     content:
@@ -154,11 +154,11 @@ const projects = [
     url: "https://brainrot-language-converter.vercel.app/",
     github: "https://github.com/rinkitadhana/BrainRot-Language-Converter",
     skill: ["React", "Tailwind", "Gemini api"],
-    preview: "./assets/Videos/preview/building.mp4",
+    preview: "/assets/Videos/preview/building.mp4",
   },
   {
     id: 7,
-    img: "./assets/Images/project/TweetSpree.png",
+    img: "/assets/Images/project/TweetSpree.png",
     title: "TweetSpree",
     status: true,
     content:
@@ -166,11 +166,11 @@ const projects = [
     url: "https://therinkit-tweetspree.vercel.app/",
     github: "https://github.com/rinkitadhana/TweetSpree",
     skill: ["React", "Tailwind"],
-    preview: "./assets/Videos/preview/tweetspree.mp4",
+    preview: "/assets/Videos/preview/tweetspree.mp4",
   },
   {
     id: 8,
-    img: "./assets/Images/project/port.jpeg",
+    img: "/assets/Images/project/port.jpeg",
     title: "Old Portfolio",
     status: true,
     content:
@@ -178,11 +178,11 @@ const projects = [
     url: "https://therinkit.online",
     github: "https://github.com/rinkitadhana/My-Portfolio-Website",
     skill: ["React", "Tailwind", "Motion", "GSAP"],
-    preview: "./assets/Videos/preview/building.mp4",
+    preview: "/assets/Videos/preview/building.mp4",
   },
   {
     id: 9,
-    img: "./assets/Images/project/promptopia.svg",
+    img: "/assets/Images/project/promptopia.svg",
     title: "Promptopia",
     status: true,
     content:
@@ -190,11 +190,11 @@ const projects = [
     url: "https://therinkit-promptopia.vercel.app",
     github: "https://github.com/rinkitadhana/Promptopia",
     skill: ["NextJS", "Tailwind", "MongoDB"],
-    preview: "./assets/Videos/preview/promptopia.mp4",
+    preview: "/assets/Videos/preview/promptopia.mp4",
   },
   {
     id: 10,
-    img: "./assets/Images/project/LinkIt.png",
+    img: "/assets/Images/project/LinkIt.png",
     title: "LinkIt",
     status: true,
     content:
@@ -202,11 +202,11 @@ const projects = [
     url: "https://therinkit-linkit.vercel.app/",
     github: "https://github.com/rinkitadhana/LinkIt",
     skill: ["React", "Tailwind", "GSAP"],
-    preview: "./assets/Videos/preview/linkit.mp4",
+    preview: "/assets/Videos/preview/linkit.mp4",
   },
   {
     id: 11,
-    img: "./assets/Images/project/11Hack.png",
+    img: "/assets/Images/project/11Hack.png",
     title: "11Hack",
     status: false,
     content:
@@ -215,7 +215,7 @@ const projects = [
   },
   {
     id: 12,
-    img: "./assets/Images/project/snake.jpg",
+    img: "/assets/Images/project/snake.jpg",
     title: "Snake Game",
     status: true,
     content:
@@ -225,7 +225,7 @@ const projects = [
   },
   {
     id: 13,
-    img: "./assets/Images/project/stopwatch.jpg",
+    img: "/assets/Images/project/stopwatch.jpg",
     title: "Stop Watch",
     status: true,
     content:
@@ -238,14 +238,14 @@ const projects = [
 const writings = [
   {
     id: 1,
-    img: "./assets/Images/writing/jwt.png",
+    img: "/assets/Images/writing/jwt.png",
     head: "JWT Authentication APIs with TypeScript, Node.js, and MongoDB.",
     des: "This blog guides you through building a JWT authentication system using TypeScript, Node.js, Express, and MongoDB. Learn to implement secure authentication, protect routes, and test APIs with Postman.",
     link: "https://medium.com/@rinkitadhana/jwt-authentication-apis-with-typescript-node-js-and-mongodb-b05a8a3cb062",
   },
   {
     id: 2,
-    img: "./assets/Images/writing/docker1.png",
+    img: "/assets/Images/writing/docker1.png",
     head: "Part 1: Docker with Node.js & Express.js — Basics.",
     des: "This blog is part one of the Docker series, and it will guide you through how to containerize your simple Node.js application at a basic level with some extra CLI commands.",
     link: "https://medium.com/@rinkitadhana/part-1-docker-with-node-js-express-js-basics-06229c95ff7a",

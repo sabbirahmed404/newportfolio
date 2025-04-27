@@ -12,6 +12,7 @@ import {
 } from "@/data/RinkitData/data"
 import { AnimatePresence } from "framer-motion"
 import { motion } from "framer-motion"
+import Image from "next/image"
 const InfoCard: React.FC = () => {
   const { isSwitchOn } = useSwitch()
   const [isOpen, setIsOpen] = useState(false)
@@ -28,10 +29,12 @@ const InfoCard: React.FC = () => {
             onClick={() => setIsOpen(true)}
             className=" cursor-pointer hover:brightness-75 transition duration-200 select-none w-1/3 md:w-auto"
           >
-            <img
+            <Image
               src={isSwitchOn ? gruzImage : rinkitImage}
               alt="Profile Picture"
               className="pro-pic"
+              width={100}
+              height={100}
             />
           </div>
 
@@ -99,10 +102,12 @@ const InfoCard: React.FC = () => {
               className="w-[600px]  max-w-[90vw]  md:max-w-[25vw]  rounded-lg overflow-hidden"
               onClick={(e) => e.stopPropagation()}
             >
-              <img
+              <Image
                 src={isSwitchOn ? gruzImage : rinkitImage}
                 alt="Profile Picture"
                 className=" rounded-lg w-full h-full object-contain"
+                width={100}
+                height={100}
               />
             </motion.div>
           </motion.div>

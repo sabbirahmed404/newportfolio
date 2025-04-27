@@ -1,3 +1,4 @@
+import Image from "next/image"
 import React from "react"
 interface BlogBoxProps {
   img: string
@@ -13,10 +14,12 @@ const WritingsBox: React.FC<BlogBoxProps> = ({ img, head, des, link }) => {
       target="_blank"
       className=" blog-post flex md:flex-row flex-col   items-center gap-3"
     >
-      <img
+      <Image
         className=" md:w-[20%] w-full object-cover  h-[100px] select-none rounded-md"
         src={img}
         alt="Blog Image"
+        width={100}
+        height={100}
       />
       <div className=" md:w-[80%] flex flex-col gap-0.5 ">
         <h1 className=" md:text-lg text-xl font-semibold">{head}</h1>

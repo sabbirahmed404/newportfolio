@@ -68,7 +68,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
   return (
     <div
       onClick={() => setOpen((prev) => !prev)}
-      className="project-box bg-zinc-900 hover:bg-zinc-800/75 transition-colors duration-100 border border-zinc-700 rounded-md"
+      className="project-box bg-zinc-900 cursor-pointer hover:bg-zinc-800/75 transition-colors duration-100 border border-zinc-700 rounded-md"
     >
       <AnimatePresence mode="wait">
         {show && (
@@ -101,7 +101,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
         )}
       </AnimatePresence>
       <div className="flex md:flex-row flex-col gap-3 p-2">
-        <div className="cursor-pointer basis-[22%] p-1 select-none">
+        <div className="basis-[22%] p-1 select-none">
           <Image
             className="rounded-md md:h-[130px] h-[200px] w-full object-cover"
             src={img}
@@ -112,7 +112,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
         </div>
         <div className="basis-[78%] flex flex-col md:gap-0 gap-1">
           <div className="flex justify-between items-center">
-            <div className="cursor-pointer flex gap-2 items-center truncate">
+            <div className="flex gap-2 items-center truncate">
               <h1 className="text-2xl font-semibold">{title}</h1>
               {status ? (
                 <div className="select-none font-medium text-xs w-fit px-1.5 py-0.5 gap-0.5 rounded-md flex items-center bg-green-400/10 text-green-400">
@@ -193,7 +193,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
               )}
             </div>
           </div>
-          <p className="cursor-pointer opacity-80">{content}</p>
+          <p className="opacity-80">{content}</p>
         </div>
       </div>
       <AnimatePresence mode="wait">

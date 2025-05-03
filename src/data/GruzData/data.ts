@@ -9,7 +9,7 @@ const gruzAbout = `
     Hey, I'm Gruz, a full-stack developer with OCD. I love building things that people genuinely use and love, not just for showcases (like the typical engineer).
   </p>
   <p>
-    Besides programming, I'm a volleyball player who loves football. I also enjoy playing video games, mostly FIFA and Valorant (I'm not gay) in my free time.
+    Besides programming, I'm a volleyball player who loves football. I also enjoy playing video games, mostly FIFA and Valorant in my free time.
   </p>
   <p>
     If you have an idea and would like to collaborate, feel free to DM me! I'm always open and ready to connect and work on exciting projects. Also, be sure to check out my other side, just click on the navbar image!

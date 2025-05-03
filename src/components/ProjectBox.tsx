@@ -58,10 +58,11 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
         await navigator.share(shareData)
       } else {
         await navigator.clipboard.writeText(shareData.url)
-        toast("Copied to clipboard")
+        toast.success("Copied to clipboard")
       }
     } catch (error) {
       console.error("Error sharing:", error)
+      toast.error("Error sharing")
     }
   }
 

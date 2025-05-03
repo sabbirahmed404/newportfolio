@@ -77,7 +77,7 @@ const projects = [
     url: "https://thedailycrimes.vercel.app/",
     github: "https://github.com/rinkitadhana/The-Daily-Crimes",
     skill: ["React", "TypeScript", "Tailwind", "GSAP", "Motion", "Figma"],
-    preview: "/assets/Videos/preview/dailycrimes.mp4",
+    preview: "/assets/Videos/demo/TheDailyCrimes.mp4",
   },
   {
     id: 2,
@@ -101,7 +101,7 @@ const projects = [
       "Redis",
       "Cloudinary",
     ],
-    preview: "/assets/Videos/preview/building.mp4",
+    preview: "/assets/Videos/demo/cuez.mp4",
   },
   {
     id: 3,
@@ -113,7 +113,7 @@ const projects = [
     url: "https://therinkit-appleclone.vercel.app/",
     github: "https://github.com/rinkitadhana/iphone15-Apple-Clone",
     skill: ["React", "Tailwind", "GSAP", "Motion", "ThreeJS"],
-    preview: "/assets/Videos/preview/building.mp4",
+    preview: "/assets/Videos/demo/apple.mp4",
   },
   {
     id: 4,
@@ -135,7 +135,7 @@ const projects = [
       "Redis",
       "Cloudinary",
     ],
-    preview: "/assets/Videos/preview/building.mp4",
+    preview: "/assets/Videos/demo/anecdot.mp4",
   },
   {
     id: 5,
@@ -157,7 +157,7 @@ const projects = [
     url: "https://brainrot-language-converter.vercel.app/",
     github: "https://github.com/rinkitadhana/BrainRot-Language-Converter",
     skill: ["React", "Tailwind", "Gemini API"],
-    preview: "/assets/Videos/preview/building.mp4",
+    preview: "/assets/Videos/demo/brainrot.mp4",
   },
   {
     id: 7,
@@ -169,7 +169,7 @@ const projects = [
     url: "https://therinkit-tweetspree.vercel.app/",
     github: "https://github.com/rinkitadhana/TweetSpree",
     skill: ["React", "Tailwind"],
-    preview: "/assets/Videos/preview/tweetspree.mp4",
+    preview: "/assets/Videos/demo/tweetspree.mp4",
   },
   {
     id: 8,
@@ -181,7 +181,7 @@ const projects = [
     url: "https://therinkit.online",
     github: "https://github.com/rinkitadhana/My-Portfolio-Website",
     skill: ["React", "Tailwind", "Motion", "GSAP"],
-    preview: "/assets/Videos/preview/building.mp4",
+    preview: "/assets/Videos/demo/portfolio.mp4",
   },
   {
     id: 9,
@@ -193,7 +193,7 @@ const projects = [
     url: "https://therinkit-promptopia.vercel.app",
     github: "https://github.com/rinkitadhana/Promptopia",
     skill: ["NextJS", "Tailwind", "MongoDB"],
-    preview: "/assets/Videos/preview/promptopia.mp4",
+    preview: "/assets/Videos/demo/promptopia.mp4",
   },
   {
     id: 10,
@@ -205,7 +205,7 @@ const projects = [
     url: "https://therinkit-linkit.vercel.app/",
     github: "https://github.com/rinkitadhana/LinkIt",
     skill: ["React", "Tailwind", "GSAP"],
-    preview: "/assets/Videos/preview/linkit.mp4",
+    preview: "/assets/Videos/demo/linkit.mp4",
   },
   {
     id: 11,

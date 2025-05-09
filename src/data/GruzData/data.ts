@@ -6,7 +6,7 @@ const gruzImage = "/assets/Images/pfps/gruz.jpeg"
 const gruzName = "Gruz"
 const gruzAbout = `
   <p>
-    Hey, I'm Gruz, a full-stack developer with OCD. I love building things that people genuinely use and love, not just for showcases (like the typical engineer).
+    Hey, I'm Gruz, a full-stack developer with OCPD. I love building things that people genuinely use and love, not just for showcases (like the typical engineer).
   </p>
   <p>
     Besides programming, I'm a volleyball player who loves football. I also enjoy playing video games, mostly FIFA and Valorant in my free time.

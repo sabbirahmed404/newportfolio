@@ -44,6 +44,7 @@ const Newsletter = () => {
       }
     } catch (error) {
       setLoading(false)
+      console.log(error)
       toast.error("Something Went Wrong!")
     }
   }

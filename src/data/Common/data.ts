@@ -302,7 +302,7 @@ const navLinks = [
 ]
 
 const supportText =
-  "If you love what I do, whether it’s my work, the content I share, my posts, or anything else, please consider supporting me. Your support helps me continue creating, improving, and sharing my work. Below, you’ll find a few ways to show your support. Feel free to choose what works best for you."
+  "If you love what I do, whether it’s my work, the content I share, or anything else, please consider supporting me. Your support helps me continue creating, improving, and sharing my work."
 
 export {
   projects,

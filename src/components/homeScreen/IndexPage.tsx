@@ -12,6 +12,7 @@ import AnimatedWrapper from "@/utils/AnimatedWrapper"
 import { useSwitch } from "../Context/SwitchContext"
 import Nav from "../PageComponent/Nav"
 import SupportMe from "../PageComponent/SupportMe"
+import Newsletter from "../PageComponent/Newsletter"
 
 const IndexPage = () => {
   const { isSwitchOn } = useSwitch()
@@ -44,6 +45,9 @@ const IndexPage = () => {
           </AnimatedWrapper>
           <AnimatedWrapper delay={0.65}>
             <Writings />
+          </AnimatedWrapper>
+          <AnimatedWrapper delay={0.75}>
+            <Newsletter />
           </AnimatedWrapper>
           <AnimatedWrapper delay={0.75}>
             <ReachOut />

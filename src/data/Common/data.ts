@@ -304,6 +304,8 @@ const navLinks = [
 const supportText =
   "If you love what I do, whether it’s my work, the content I share, or anything else, please consider supporting me. Your support helps me continue creating, improving, and sharing my work."
 
+const newsText =
+  "Subscribe to my newsletter to get updates on my latest projects, blogs, and news. Stay connected and be the first to know what I’m working on!"
 export {
   projects,
   writings,
@@ -312,4 +314,5 @@ export {
   hireText,
   navLinks,
   supportText,
+  newsText,
 }

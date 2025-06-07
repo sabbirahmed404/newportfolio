@@ -1,4 +1,4 @@
-import { FaLinkedinIn } from "react-icons/fa6"
+import { FaDiscord, FaLinkedinIn } from "react-icons/fa6"
 import { FaXTwitter } from "react-icons/fa6"
 import { FaInstagram } from "react-icons/fa6"
 import { FaGithub } from "react-icons/fa6"
@@ -53,7 +53,7 @@ const rinkitLink = [
 ]
 
 const rinkitContact =
-  "Feel free to reach out to me via email for any queries, collaboration opportunities, or further details. I'm also super active on X, so feel free to DM me there!"
+  "Most of the time, you'll find me hanging out on my Discord channel while coding. I'm also super active on X, so feel free to DM me there or reach out to me via email if you have any queries."
 const rinkitContactLink = [
   {
     id: 1,
@@ -63,6 +63,12 @@ const rinkitContactLink = [
   },
   {
     id: 2,
+    name: "Discord",
+    link: "https://discord.gg/JgcDzHpWum",
+    icon: FaDiscord,
+  },
+  {
+    id: 3,
     name: "Email",
     link: "mailto:therinkit@gmail.com",
     icon: MdOutlineMail,

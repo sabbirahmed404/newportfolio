@@ -41,7 +41,7 @@ const gruzLink = [
   {
     id: 4,
     name: "BuyMeACoffee",
-    link: "https://buymeacoffee.com/damngruz",
+    link: "https://buymeacoffee.com/rinkitadhana",
     icon: SiBuymeacoffee,
   },
 ]

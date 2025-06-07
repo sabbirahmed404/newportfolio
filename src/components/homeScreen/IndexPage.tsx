@@ -11,6 +11,7 @@ import HireMe from "../PageComponent/HireMe"
 import AnimatedWrapper from "@/utils/AnimatedWrapper"
 import { useSwitch } from "../Context/SwitchContext"
 import Nav from "../PageComponent/Nav"
+import SupportMe from "../PageComponent/SupportMe"
 
 const IndexPage = () => {
   const { isSwitchOn } = useSwitch()
@@ -32,6 +33,9 @@ const IndexPage = () => {
               <HireMe />
             </AnimatedWrapper>
           )}
+          <AnimatedWrapper delay={0.45}>
+            <SupportMe />
+          </AnimatedWrapper>
           <AnimatedWrapper delay={0.45}>
             <Skills />
           </AnimatedWrapper>

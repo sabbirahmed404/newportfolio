@@ -33,8 +33,8 @@ const InfoCard: React.FC = () => {
               src={isSwitchOn ? gruzImage : rinkitImage}
               alt="Profile Picture"
               className="pro-pic"
-              width={100}
-              height={100}
+              width={200}
+              height={200}
             />
           </div>
 
@@ -106,8 +106,8 @@ const InfoCard: React.FC = () => {
                 src={isSwitchOn ? gruzImage : rinkitImage}
                 alt="Profile Picture"
                 className=" rounded-lg w-full h-full object-contain"
-                width={100}
-                height={100}
+                width={200}
+                height={200}
               />
             </motion.div>
           </motion.div>

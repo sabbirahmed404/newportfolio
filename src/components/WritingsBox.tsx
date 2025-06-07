@@ -18,8 +18,8 @@ const WritingsBox: React.FC<BlogBoxProps> = ({ img, head, des, link }) => {
         className=" md:w-[20%] w-full object-cover  h-[100px] select-none rounded-md"
         src={img}
         alt="Blog Image"
-        width={100}
-        height={100}
+        width={200}
+        height={200}
       />
       <div className=" md:w-[80%] flex flex-col gap-0.5 ">
         <h1 className=" md:text-lg text-xl font-semibold">{head}</h1>

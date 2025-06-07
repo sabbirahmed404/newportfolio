@@ -107,8 +107,8 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
             className="rounded-md md:h-[130px] h-[200px] w-full object-cover"
             src={img}
             alt="Project Image"
-            width={100}
-            height={100}
+            width={200}
+            height={200}
           />
         </div>
         <div className="basis-[78%] flex flex-col md:gap-0 gap-1">

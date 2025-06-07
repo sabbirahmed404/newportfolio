@@ -15,7 +15,7 @@ const SupportMe = () => {
       <SectionTitle title="Support Me" />
       <div className=" flex flex-col gap-2">
         <p>{supportText}</p>
-        <div className="flex  items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2">
           <a
             className="btn"
             target="_blank"

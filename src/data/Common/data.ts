@@ -253,6 +253,13 @@ const writings = [
     des: "This blog is part one of the Docker series, and it will guide you through how to containerize your simple Node.js application at a basic level with some extra CLI commands.",
     link: "https://medium.com/@rinkitadhana/part-1-docker-with-node-js-express-js-basics-06229c95ff7a",
   },
+  {
+    id: 3,
+    img: "/assets/Images/writing/gsoc.png",
+    head: "My GSOC Journey: The 2-Month Sprint from Doubt to Done",
+    des: "This blog details my intense, two-month journey to cracking GSOC 2025, from nearly giving up to securing a spot through hard work, strategic learning, and crucial mentorship.",
+    link: "https://medium.com/@rinkitadhana/my-gsoc-journey-the-2-month-sprint-from-doubt-to-done-b92aee22dc1f",
+  },
 ]
 
 const hireText =
@@ -294,6 +301,15 @@ const navLinks = [
   },
 ]
 
-const supportText = "If you love what I do, whether it’s my work, the content I share, my posts, or anything else, please consider supporting me. Your support helps me continue creating, improving, and sharing my work. Below, you’ll find a few ways to show your support. Feel free to choose what works best for you."
+const supportText =
+  "If you love what I do, whether it’s my work, the content I share, my posts, or anything else, please consider supporting me. Your support helps me continue creating, improving, and sharing my work. Below, you’ll find a few ways to show your support. Feel free to choose what works best for you."
 
-export { projects, writings, emailLink, skills, hireText, navLinks, supportText }
+export {
+  projects,
+  writings,
+  emailLink,
+  skills,
+  hireText,
+  navLinks,
+  supportText,
+}

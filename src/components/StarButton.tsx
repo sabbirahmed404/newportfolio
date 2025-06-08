@@ -8,7 +8,7 @@ const StarButton = () => {
   }
   return (
     <a
-      className="px-4 py-1.5 border border-zinc-700 flex items-center gap-2 rounded-[9px] bg-zinc-900 hover:bg-zinc-900/60 transition-all duration-200"
+      className="px-3 py-1.5 border border-zinc-700 hidden md:flex items-center gap-2 rounded-[9px] bg-zinc-900 hover:bg-zinc-900/60 transition-all duration-200"
       target="_blank"
       onClick={handleClick}
       href="https://github.com/rinkitadhana/Switchfolio"
@@ -20,7 +20,7 @@ const StarButton = () => {
       )}
 
       <span className="text-sm">{click ? "Starred" : "Star"}</span>
-      <span className="bg-zinc-800 rounded-xl px-3 py-1 text-xs font-medium">
+      <span className="bg-zinc-800 rounded-xl px-3 py-0.5 text-xs font-medium">
         {click ? "15" : "14"}
       </span>
     </a>

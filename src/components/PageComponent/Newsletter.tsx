@@ -78,13 +78,13 @@ const Newsletter = () => {
             />
 
             {loading ? (
-              <div className="px-3 w-[110px] text-center flex items-center justify-center py-1.5 mx-auto h-full bg-white rounded-md border border-white text-black whitespace-nowrap">
+              <div className="px-3 md:w-[110px] text-center flex items-center justify-center py-1.5 mx-auto h-full bg-white rounded-md border border-white text-black whitespace-nowrap">
                 <AiOutlineLoading3Quarters className="animate-spin text-xl" />
               </div>
             ) : (
               <button
                 type="submit"
-                className="px-3 w-[110px] mx-auto py-1 h-full bg-white hover:bg-white/80 hover:border-white/80 rounded-md border border-white text-black whitespace-nowrap transition-all duration-200"
+                className="px-3 md:w-[110px] w-full mx-auto py-1 h-full bg-white hover:bg-white/80 hover:border-white/80 rounded-md border border-white text-black whitespace-nowrap transition-all duration-200"
               >
                 Subscribe!
               </button>

@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     siteName: "Switchfolio",
     images: [
       {
-        url: "https://www.rinkit.tech/assets/Images/OG/og.png",
+        url: "https://res.cloudinary.com/dhcocqegu/image/upload/v1749401017/og_k1rjzx.png",
         width: 1200,
         height: 630,
       },

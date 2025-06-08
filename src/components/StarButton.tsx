@@ -20,7 +20,7 @@ const StarButton = () => {
       )}
 
       <span className="text-sm">{click ? "Starred" : "Star"}</span>
-      <span className="bg-zinc-800 rounded-xl px-3 py-0.5 text-xs">
+      <span className="bg-zinc-800 rounded-xl px-3 py-1 text-xs font-medium">
         {click ? "15" : "14"}
       </span>
     </a>

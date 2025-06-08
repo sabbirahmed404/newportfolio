@@ -45,7 +45,13 @@ export const metadata: Metadata = {
     description: "This is my portfolio website.",
     url: "https://www.rinkit.tech",
     siteName: "Switchfolio",
-    images: [{ url: "./assets/Images/OG/og.png", width: 1200, height: 630 }],
+    images: [
+      {
+        url: "https://www.rinkit.tech/assets/Images/OG/og.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
     locale: "en-IN",
     type: "website",
   },

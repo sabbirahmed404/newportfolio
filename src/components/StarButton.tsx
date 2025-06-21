@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react"
 import { AiOutlineLoading3Quarters } from "react-icons/ai"
 import { FaRegStar } from "react-icons/fa6"
+import { IoMdArrowDropdown } from "react-icons/io"
 
 interface StarData {
   stargazers_count: number
@@ -42,13 +43,13 @@ const StarButton = () => {
 
   return (
     <a
-      className="px-3 py-1.5 border border-zinc-700 hidden md:flex items-center gap-2 rounded-[9px] bg-zinc-900 hover:bg-zinc-900/60 transition-all duration-200"
+      className="  px-3 border border-zinc-700 hidden md:flex items-center gap-2 rounded-[8px] bg-zinc-900 hover:bg-zinc-900/60 transition-all duration-200"
       target="_blank"
       href="https://github.com/rinkitadhana/Switchfolio"
     >
-      <FaRegStar className="size-[17px]" />
+      <FaRegStar className="size-[16px]" />
       <span className="text-sm">{"Star"}</span>
-      <span className="bg-zinc-800 rounded-xl px-3 py-0.5 text-xs font-medium">
+      <span className="bg-zinc-800 rounded-xl px-1.5 py-0.5 text-xs font-medium">
         {error ? (
           "16"
         ) : loading ? (
@@ -57,6 +58,10 @@ const StarButton = () => {
           stars
         )}
       </span>
+
+      <div className="w-px h-[28px] bg-zinc-700" />
+
+      <IoMdArrowDropdown className="size-[16px]" />
     </a>
   )
 }

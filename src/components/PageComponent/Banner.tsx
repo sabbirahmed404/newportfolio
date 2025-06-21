@@ -11,7 +11,7 @@ const Banner: React.FC = () => {
 
   return (
     <>
-      <section className=" fixed top-4 right-4 flex w-full items-center justify-between md:px-8 px-4 select-none">
+      <section className=" fixed top-4 flex w-full items-center justify-between md:px-8 px-4 select-none">
         <a
           href="https://www.google.com/search?q=time"
           target="_blank"

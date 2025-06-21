@@ -260,6 +260,13 @@ const writings = [
     des: "This blog details my intense, two-month journey to cracking GSOC 2025, from nearly giving up to securing a spot through hard work, strategic learning, and crucial mentorship.",
     link: "https://medium.com/@rinkitadhana/my-gsoc-journey-the-2-month-sprint-from-doubt-to-done-b92aee22dc1f",
   },
+  {
+    id: 4,
+    img: "/assets/Images/writing/gsoc2.webp",
+    head: "How I almost ruined my GSoC project: My Bonding Period Journey",
+    des: "In this blog, I’ll share my journey after getting selected for GSoC, the challenges I faced while balancing exams and project work, and how I tackled the unexpected complexities of my project.",
+    link: "https://medium.com/@rinkitadhana/how-i-almost-ruined-my-gsoc-project-my-community-bonding-period-journey-9b890d6002eb",
+  },
 ]
 
 const hireText =

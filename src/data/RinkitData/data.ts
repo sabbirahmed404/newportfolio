@@ -107,14 +107,14 @@ const rinkitFooterLink = [
     link: "https://leetcode.com/u/rinkitadhana",
     icon: SiLeetcode,
   },
+  // {
+  //   id: 6,
+  //   name: "Instagram",
+  //   link: "https://www.instagram.com/rnkktt",
+  //   icon: FaInstagram,
+  // },
   {
     id: 6,
-    name: "Instagram",
-    link: "https://www.instagram.com/rnkktt",
-    icon: FaInstagram,
-  },
-  {
-    id: 7,
     name: "Bluesky",
     link: "https://bsky.app/profile/damngruz.bsky.social",
     icon: SiBluesky,

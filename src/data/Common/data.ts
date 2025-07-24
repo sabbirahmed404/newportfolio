@@ -267,6 +267,13 @@ const writings = [
     des: "In this blog, I’ll share my journey after getting selected for GSoC, the challenges I faced while balancing exams and project work, and how I tackled the unexpected complexities of my project.",
     link: "https://medium.com/@rinkitadhana/how-i-almost-ruined-my-gsoc-project-my-community-bonding-period-journey-9b890d6002eb",
   },
+  {
+    id: 5,
+    img: "/assets/Images/writing/figma.png",
+    head: "Create Common Patterns in Figma Effortlessly",
+    des: "In this blog, I will share a simple and effective way to create some of the most common patterns in Figma. You'll learn how to design grid patterns and dotted grid patterns effortlessly",
+    link: "https://medium.com/@rinkitadhana/create-common-patterns-in-figma-effortlessly-grid-and-dotted-grid-patterns-43eadb877fe2",
+  },
 ]
 
 const hireText =

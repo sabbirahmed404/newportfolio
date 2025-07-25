@@ -1,6 +1,6 @@
 import { FaDiscord, FaLinkedinIn } from "react-icons/fa6"
 import { FaXTwitter } from "react-icons/fa6"
-import { FaInstagram } from "react-icons/fa6"
+// import { FaInstagram } from "react-icons/fa6"
 import { FaGithub } from "react-icons/fa6"
 import { SiLeetcode } from "react-icons/si"
 import { MdOutlineMail } from "react-icons/md"

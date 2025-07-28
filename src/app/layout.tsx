@@ -14,6 +14,15 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
+  title: {
+    default: "Rinkit Adhana - Portfolio",
+    template: "%s | Rinkit Adhana"
+  },
+  description: "Portfolio of Rinkit Adhana - Full Stack Developer specializing in React, Next.js, Node.js, and modern web technologies.",
+  keywords: ["Rinkit Adhana", "Portfolio", "Full Stack Developer", "React", "Next.js", "Node.js", "Web Developer"],
+  authors: [{ name: "Rinkit Adhana" }],
+  creator: "Rinkit Adhana",
+  metadataBase: new URL("https://www.rinkit.tech"),
   icons: {
     icon: [
       {
@@ -41,8 +50,8 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "Rinkit Adhana",
-    description: "This is my portfolio website.",
+    title: "Rinkit Adhana - Portfolio",
+    description: "Portfolio of Rinkit Adhana - Full Stack Developer specializing in React, Next.js, Node.js, and modern web technologies.",
     url: "https://www.rinkit.tech",
     siteName: "Switchfolio",
     images: [
@@ -50,10 +59,29 @@ export const metadata: Metadata = {
         url: "https://res.cloudinary.com/dhcocqegu/image/upload/v1749401017/og_k1rjzx.png",
         width: 1200,
         height: 630,
+        alt: "Rinkit Adhana - Portfolio"
       },
     ],
     locale: "en-IN",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Rinkit Adhana - Portfolio",
+    description: "Portfolio of Rinkit Adhana - Full Stack Developer specializing in React, Next.js, Node.js, and modern web technologies.",
+    images: ["https://res.cloudinary.com/dhcocqegu/image/upload/v1749401017/og_k1rjzx.png"],
+    creator: "@damnGruz",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 }
 

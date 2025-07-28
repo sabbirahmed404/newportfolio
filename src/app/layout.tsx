@@ -18,24 +18,24 @@ export const metadata: Metadata = {
     icon: [
       {
         media: "(prefers-color-scheme: light)",
-        url: "./assets/Images/icon/icon-light.png",
+        url: "/assets/Images/icon/icon-light.png",
         type: "image/png",
       },
       {
         media: "(prefers-color-scheme: dark)",
-        url: "./assets/Images/icon/icon-dark.png",
+        url: "/assets/Images/icon/icon-dark.png",
         type: "image/png",
       },
     ],
     shortcut: [
       {
         media: "(prefers-color-scheme: light)",
-        url: "./assets/Images/icon/icon-light.png",
+        url: "/assets/Images/icon/icon-light.png",
         type: "image/png",
       },
       {
         media: "(prefers-color-scheme: dark)",
-        url: "./assets/Images/icon/icon-dark.png",
+        url: "/assets/Images/icon/icon-dark.png",
         type: "image/png",
       },
     ],

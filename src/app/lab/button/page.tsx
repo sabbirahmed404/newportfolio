@@ -1,7 +1,8 @@
 "use client"
+import Image from "next/image"
 import React, { useRef } from "react"
 
-const page = () => {
+const Button = () => {
   const audioRef = useRef<HTMLAudioElement>(null)
 
   const handleClick = () => {
@@ -21,12 +22,12 @@ const page = () => {
           <source src="/assets/Audio/click-sound.wav" type="audio/wav" />
           Your browser does not support the audio element.
         </audio>
-        <img
+        <Image
           className="w-full h-full"
           src="/assets/Images/lab/button/base.svg"
           alt="base image"
         />
-        <img
+        <Image
           className="absolute top-0 left-0 w-full h-full brightness-100 transition-all duration-200 ease-[linear(0, 0.008 1.1%, 0.031 2.2%, 0.129 4.8%, 0.257 7.2%, 0.671 14.2%, 0.789 16.5%, 0.881 18.6%, 0.957 20.7%, 1.019 22.9%, 1.063 25.1%, 1.094 27.4%, 1.114 30.7%, 1.112 34.5%, 1.018 49.9%, 0.99 59.1%, 1)] group-hover:mt-[3px] group-active:mt-[40px]"
           src="/assets/Images/lab/button/button.svg"
           alt="button image"
@@ -44,7 +45,7 @@ const page = () => {
             fill="currentColor"
           />
         </svg>
-        <img
+        <Image
           className="absolute top-0 left-0 w-full h-full"
           src="/assets/Images/lab/button/cover.svg"
           alt="cover image"
@@ -63,4 +64,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Button

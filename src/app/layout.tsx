@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     siteName: "Switchfolio",
     images: [
       {
-        url: "https://res.cloudinary.com/dhcocqegu/image/upload/v1749401017/og_k1rjzx.png",
+        url: "https://res.cloudinary.com/dhcocqegu/image/upload/v1753737110/OGN_o7spwl.png",
         width: 1200,
         height: 630,
         alt: "Rinkit Adhana - Portfolio"
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Rinkit Adhana - Portfolio",
     description: "Portfolio of Rinkit Adhana - Full Stack Developer specializing in React, Next.js, Node.js, and modern web technologies.",
-    images: ["https://res.cloudinary.com/dhcocqegu/image/upload/v1749401017/og_k1rjzx.png"],
+    images: ["https://res.cloudinary.com/dhcocqegu/image/upload/v1753737110/OGN_o7spwl.png"],
     creator: "@damnGruz",
   },
   robots: {

@@ -15,7 +15,7 @@ body {
 }
 
 .screen {
-  @apply md:w-[800px] md:mx-auto px-4 md:py-8 py-4;
+  @apply md:w-[800px] md:mx-auto px-4 md:py-14 py-4;
 }
 .main-screen {
   @apply py-3;

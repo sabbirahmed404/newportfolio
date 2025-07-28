@@ -26,11 +26,15 @@ const Button = () => {
           className="w-full h-full"
           src="/assets/Images/lab/button/base.svg"
           alt="base image"
+          width={400}
+          height={400}
         />
         <Image
           className="absolute top-0 left-0 w-full h-full brightness-100 transition-all duration-200 ease-[linear(0, 0.008 1.1%, 0.031 2.2%, 0.129 4.8%, 0.257 7.2%, 0.671 14.2%, 0.789 16.5%, 0.881 18.6%, 0.957 20.7%, 1.019 22.9%, 1.063 25.1%, 1.094 27.4%, 1.114 30.7%, 1.112 34.5%, 1.018 49.9%, 0.99 59.1%, 1)] group-hover:mt-[3px] group-active:mt-[40px]"
           src="/assets/Images/lab/button/button.svg"
           alt="button image"
+          width={400}
+          height={400}
         />
         <svg
           className="absolute top-0 left-0 w-full h-full mix-blend-color transition-all duration-200 ease-[linear(0, 0.008 1.1%, 0.031 2.2%, 0.129 4.8%, 0.257 7.2%, 0.671 14.2%, 0.789 16.5%, 0.881 18.6%, 0.957 20.7%, 1.019 22.9%, 1.063 25.1%, 1.094 27.4%, 1.114 30.7%, 1.112 34.5%, 1.018 49.9%, 0.99 59.1%, 1)] group-hover:mt-[3px] group-active:mt-[40px]"
@@ -49,6 +53,8 @@ const Button = () => {
           className="absolute top-0 left-0 w-full h-full"
           src="/assets/Images/lab/button/cover.svg"
           alt="cover image"
+          width={400}
+          height={400}
         />
         <p
           className="font-sans text-[2rem] font-medium text-white whitespace-nowrap absolute w-full h-full top-0 left-0 text-center content-center m-0 p-0 z-10 transition-all duration-200 ease-[linear(0, 0.008 1.1%, 0.031 2.2%, 0.129 4.8%, 0.257 7.2%, 0.671 14.2%, 0.789 16.5%, 0.881 18.6%, 0.957 20.7%, 1.019 22.9%, 1.063 25.1%, 1.094 27.4%, 1.114 30.7%, 1.112 34.5%, 1.018 49.9%, 0.99 59.1%, 1)] group-hover:mt-[3px] group-active:mt-[40px]"

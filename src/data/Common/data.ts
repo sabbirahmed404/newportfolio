@@ -34,6 +34,7 @@ import {
   TbHexagonLetterC,
 } from "react-icons/tb"
 import { VscTerminalLinux } from "react-icons/vsc"
+import { ImLab } from "react-icons/im"
 
 const skills = [
   { id: 1, icon: RiReactjsLine, text: "ReactJs" },
@@ -285,27 +286,27 @@ const emailLink =
 const navLinks = [
   {
     id: 1,
-    name: "Github",
-    link: "https://github.com/rinkitadhana",
-    icon: FaGithub,
+    name: "Lab",
+    link: "/lab",
+    icon: ImLab,
   },
   {
     id: 2,
+    name: "Medium",
+    link: "https://medium.com/@rinkitadhana",
+    icon: FaMediumM,
+  },
+  {
+    id: 3,
     name: "Twitter",
     link: "https://x.com/intent/follow?screen_name=damnGruz",
     icon: FaXTwitter,
   },
   {
-    id: 3,
+    id: 4,
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/rinkitadhana",
     icon: FaLinkedinIn,
-  },
-  {
-    id: 4,
-    name: "Medium",
-    link: "https://medium.com/@rinkitadhana",
-    icon: FaMediumM,
   },
   {
     id: 5,

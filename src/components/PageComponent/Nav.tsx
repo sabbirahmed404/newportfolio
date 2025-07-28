@@ -21,7 +21,7 @@ const Nav = () => {
         <div className=" flex gap-4 items-center">
           {navLinks.map((nav) => (
             <InfoTipNav key={nav.id} text={nav.name}>
-              <a target="_blank" className=" " href={nav.link}>
+              <a className=" " href={nav.link}>
                 {<nav.icon />}
               </a>
             </InfoTipNav>

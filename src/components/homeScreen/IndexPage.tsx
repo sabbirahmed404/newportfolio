@@ -27,6 +27,9 @@ const IndexPage = () => {
           <AnimatedWrapper delay={0.25}>
             <AboutMe />
           </AnimatedWrapper>
+          <AnimatedWrapper delay={0.75}>
+            <ReachOut />
+          </AnimatedWrapper>
           {isSwitchOn ? (
             <></>
           ) : (
@@ -34,9 +37,6 @@ const IndexPage = () => {
               <HireMe />
             </AnimatedWrapper>
           )}
-          <AnimatedWrapper delay={0.45}>
-            <SupportMe />
-          </AnimatedWrapper>
           <AnimatedWrapper delay={0.45}>
             <Skills />
           </AnimatedWrapper>
@@ -49,9 +49,10 @@ const IndexPage = () => {
           <AnimatedWrapper delay={0.75}>
             <Newsletter />
           </AnimatedWrapper>
-          <AnimatedWrapper delay={0.75}>
-            <ReachOut />
+          <AnimatedWrapper delay={0.45}>
+            <SupportMe />
           </AnimatedWrapper>
+
         </div>
         <AnimatedWrapper delay={0.85}>
           <Footer />

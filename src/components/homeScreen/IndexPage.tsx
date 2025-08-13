@@ -28,37 +28,37 @@ const IndexPage = () => {
           <AnimatedWrapper delay={0.25}>
             <AboutMe />
           </AnimatedWrapper>
-          <AnimatedWrapper delay={0.75}>
+          <AnimatedWrapper delay={0.35}>
             <ReachOut />
           </AnimatedWrapper>
           {isSwitchOn ? (
             <></>
           ) : (
-            <AnimatedWrapper delay={0.35}>
+            <AnimatedWrapper delay={0.45}>
               <HireMe />
             </AnimatedWrapper>
           )}
-          <AnimatedWrapper delay={0.45}>
+          <AnimatedWrapper delay={0.55}>
             <Skills />
           </AnimatedWrapper>
-          <AnimatedWrapper delay={0.55}>
+          <AnimatedWrapper delay={0.65}>
             <Projects />
           </AnimatedWrapper>
-          <AnimatedWrapper delay={0.65}>
+          <AnimatedWrapper delay={0.75}>
             <Writings />
           </AnimatedWrapper>
-          <AnimatedWrapper delay={0.75}>
+          <AnimatedWrapper delay={0.85}>
             <Newsletter />
           </AnimatedWrapper>
-          <AnimatedWrapper delay={0.45}>
+          <AnimatedWrapper delay={0.95}>
             <SupportMe />
           </AnimatedWrapper>
-          <AnimatedWrapper delay={0.45}>
+          <AnimatedWrapper delay={1.05}>
             <Quote />
           </AnimatedWrapper>
 
         </div>
-        <AnimatedWrapper delay={0.85}>
+        <AnimatedWrapper delay={1.15}>
           <Footer />
         </AnimatedWrapper>
         <Nav />

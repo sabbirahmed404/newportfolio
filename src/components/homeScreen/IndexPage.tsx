@@ -56,7 +56,6 @@ const IndexPage = () => {
           <AnimatedWrapper delay={1.05}>
             <Quote />
           </AnimatedWrapper>
-
         </div>
         <AnimatedWrapper delay={1.15}>
           <Footer />

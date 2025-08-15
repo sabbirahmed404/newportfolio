@@ -1,13 +1,9 @@
 "use client"
 import React from "react"
 import LocalTime from "@/utils/LocalTime"
-// import { rinkitShortName } from "@/data/RinkitData/data"
-// import { useSwitch } from "../Context/SwitchContext"
-// import { gruzName } from "@/data/GruzData/data"
 import StarButton from "../StarButton"
 
 const Banner: React.FC = () => {
-  // const { isSwitchOn, toggleSwitch } = useSwitch()
 
   return (
     <>
@@ -24,21 +20,6 @@ const Banner: React.FC = () => {
         </a>
         <div className=" flex gap-2.5 items-center">
           <StarButton />
-
-          {/* <div
-            onClick={() => {
-              toggleSwitch()
-            }}
-            className="group/ms flex gap-1 justify-center cursor-pointer border border-zinc-700 rounded-md py-1 px-1.5  bg-zinc-800"
-          >
-            Meet
-            <div className="relative  w-[50px] flex justify-center overflow-hidden">
-              <div className=" absolute group-hover/ms:translate-x-0 translate-x-full inset-0 bg-zinc-200 rounded-md transition duration-300 ease-in-out"></div>
-              <span className=" relative font-semibold group-hover/ms:text-mainBlack text-white  transition-all duration-300 ease-in-out px-1 z-10">
-                {isSwitchOn ? rinkitShortName : gruzName}
-              </span>
-            </div>
-          </div> */}
         </div>
       </section>
     </>

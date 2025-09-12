@@ -13,7 +13,7 @@ import { useSwitch } from "../Context/SwitchContext"
 import Nav from "../PageComponent/Nav"
 import SupportMe from "../PageComponent/SupportMe"
 import Newsletter from "../PageComponent/Newsletter"
-import Quote from "../PageComponent/Quote"
+// import Quote from "../PageComponent/Quote"
 
 const IndexPage = () => {
   const { isSwitchOn } = useSwitch()
@@ -53,9 +53,9 @@ const IndexPage = () => {
           <AnimatedWrapper delay={0.95}>
             <SupportMe />
           </AnimatedWrapper>
-          <AnimatedWrapper delay={1.05}>
+          {/* <AnimatedWrapper delay={1.05}>
             <Quote />
-          </AnimatedWrapper>
+          </AnimatedWrapper> */}
         </div>
         <AnimatedWrapper delay={1.15}>
           <Footer />

@@ -1,27 +1,11 @@
 "use client"
 import Image from "next/image"
-import React, { useRef } from "react"
+import React from "react"
 
 const Button = () => {
-  const audioRef = useRef<HTMLAudioElement>(null)
-
-  const handleClick = () => {
-    if (audioRef.current) {
-      audioRef.current.currentTime = 0
-      audioRef.current.play().catch((error) => {
-        console.error("Error playing audio:", error)
-      })
-    }
-  }
-
   return (
     <div className="select-none flex justify-center items-center w-full h-screen cursor-pointer">
-      <div className="relative size-[400px] group" onClick={handleClick}>
-        <audio ref={audioRef} preload="auto">
-          <source src="/assets/Audio/click1.mp3" type="audio/mpeg" />
-          <source src="/assets/Audio/click-sound.wav" type="audio/wav" />
-          Your browser does not support the audio element.
-        </audio>
+      <div className="relative size-[400px] group">
         <Image
           className="w-full h-full"
           src="/assets/Images/lab/button/base.svg"

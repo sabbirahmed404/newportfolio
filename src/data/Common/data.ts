@@ -82,10 +82,10 @@ const projects = [
     title: "Old Portfolio",
     status: true,
     content:
-      "My previous portfolio website built with vanilla JavaScript and modern CSS. Features a clean, minimalistic design with smooth animations and responsive layout. Showcases earlier projects and technical skills.",
+      "My previous portfolio website built with React. Features a clean, minimalistic design with smooth animations and responsive layout. Single-page application showcasing earlier projects and technical skills.",
     github: "https://github.com/apo-bozdag/apo-bozdag.github.io",
     url: "https://apo-bozdag.github.io/",
-    skill: ["HTML", "CSS", "JavaScript"],
+    skill: ["React", "CSS", "JavaScript"],
     preview: "",
   },
 ]

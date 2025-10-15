@@ -76,6 +76,18 @@ const projects = [
     skill: ["WordPress", "PHP", "MySQL"],
     preview: "",
   },
+  {
+    id: 3,
+    img: "/assets/Images/project/old-portfolio.png",
+    title: "Old Portfolio",
+    status: true,
+    content:
+      "My previous portfolio website built with vanilla JavaScript and modern CSS. Features a clean, minimalistic design with smooth animations and responsive layout. Showcases earlier projects and technical skills.",
+    github: "https://github.com/apo-bozdag/apo-bozdag.github.io",
+    url: "https://apo-bozdag.github.io/",
+    skill: ["HTML", "CSS", "JavaScript"],
+    preview: "",
+  },
 ]
 
 const writings = [

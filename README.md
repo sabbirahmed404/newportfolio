@@ -1,4 +1,4 @@
-# Abdullah Bozdag - Portfolio
+# Sabbir Ahmed - Portfolio
 
 Personal portfolio website showcasing my work, skills, and experience as a software developer. Built with modern web technologies and features a bilingual interface (English/Turkish).
 ## Getting Started

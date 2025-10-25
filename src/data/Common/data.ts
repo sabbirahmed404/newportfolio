@@ -54,41 +54,93 @@ const skills = [
 const projects = [
   {
     id: 1,
-    img: "/assets/Images/project/parolla.png",
-    title: "parolla.app",
+    img: "/assets/Images/project/vidalsigns.png",
+    title: "VidalSigns",
     status: true,
     content:
-      "Solve daily puzzles and compete with others. Create your own question-answer sets and solve fun quizzes created by players. A Turkish word game platform built with Vue.js and Laravel.",
-    url: "https://parolla.app/",
+      "An AI powered medical assistant that converts complex lab reports into simple, actionable explanations for patients, with an emphasis on secure HIPAA style handling of medical data. Achieved 98% OCR accuracy on reports with <2s average AI response time and 100% HIPAA aligned data purge.",
+    url: "",
     github: "",
-    skill: ["Vue.js", "Laravel", "MySQL", "AWS"],
+    skill: ["AI/ML", "OCR", "HIPAA Compliance", "RAG", "Python"],
     preview: "",
   },
   {
     id: 2,
-    img: "/assets/Images/project/sanalyer.png",
-    title: "sanalyer.com",
+    img: "/assets/Images/project/textgpt.png",
+    title: "TextGPT",
     status: true,
     content:
-      "Telling stories that mainstream media won't. A modern content platform covering technology, travel, and software development with original research, in-depth analysis, and unique perspectives on Turkish tech ecosystem.",
+      "An AI text service for automated text generation and texting workflows, built to be white labeled and integrated for commercial use. Features <2 minutes end to end ingestion for 10MB PDFs, <1s vector retrieval at p95, and 95%+ OCR accuracy on scans with 100% multi tenant data isolation.",
+    url: "",
     github: "",
-    url: "https://sanalyer.com/",
-    skill: ["WordPress", "PHP", "MySQL"],
+    skill: ["RAG", "OCR", "Supabase", "pgvector", "Next.js", "Vercel"],
     preview: "",
   },
   {
     id: 3,
-    img: "/assets/Images/project/old-portfolio.png",
-    title: "Old Portfolio",
+    img: "/assets/Images/project/topfloor.png",
+    title: "Top Floor Trends",
     status: true,
     content:
-      "My previous portfolio website built with React, featuring a cyberpunk-inspired design aesthetic. Includes sections for blog posts, projects showcase, and about me. Dark theme with neon accents and futuristic UI elements.",
-    github: "https://github.com/apo-bozdag/apo-bozdag.github.io",
-    url: "https://apo-bozdag.github.io/",
-    skill: ["React", "CSS", "JavaScript"],
+      "A complete web and content update focused on improving search visibility and user experience. Built an AI pipeline that converts 180 minutes of footage into 20+ short reels automatically, with Google Ads API integration for programmatic campaign deployment, reducing publish time to under 60 seconds.",
+    url: "",
+    github: "",
+    skill: ["AI", "Video Processing", "Google Ads API", "YouTube API", "TikTok API"],
+    preview: "",
+  },
+  {
+    id: 4,
+    img: "/assets/Images/project/onvyo.png",
+    title: "Onvyo ERP",
+    status: true,
+    content:
+      "A full ERP system developed from scratch with real time admin dashboards for HR, finance, lead, and customer management. Features scheduling and email reminders, with a CPQ tool that automated lead generation and quotation workflows to boost sales efficiency.",
+    url: "",
+    github: "",
+    skill: ["ERP", "Dashboard", "CPQ", "Real-time", "Full Stack"],
     preview: "",
   },
 ]
+
+// Old projects (commented out)
+// const projects = [
+//   {
+//     id: 1,
+//     img: "/assets/Images/project/parolla.png",
+//     title: "parolla.app",
+//     status: true,
+//     content:
+//       "Solve daily puzzles and compete with others. Create your own question-answer sets and solve fun quizzes created by players. A Turkish word game platform built with Vue.js and Laravel.",
+//     url: "https://parolla.app/",
+//     github: "",
+//     skill: ["Vue.js", "Laravel", "MySQL", "AWS"],
+//     preview: "",
+//   },
+//   {
+//     id: 2,
+//     img: "/assets/Images/project/sanalyer.png",
+//     title: "sanalyer.com",
+//     status: true,
+//     content:
+//       "Telling stories that mainstream media won't. A modern content platform covering technology, travel, and software development with original research, in-depth analysis, and unique perspectives on Turkish tech ecosystem.",
+//     github: "",
+//     url: "https://sanalyer.com/",
+//     skill: ["WordPress", "PHP", "MySQL"],
+//     preview: "",
+//   },
+//   {
+//     id: 3,
+//     img: "/assets/Images/project/old-portfolio.png",
+//     title: "Old Portfolio",
+//     status: true,
+//     content:
+//       "My previous portfolio website built with React, featuring a cyberpunk-inspired design aesthetic. Includes sections for blog posts, projects showcase, and about me. Dark theme with neon accents and futuristic UI elements.",
+//     github: "https://github.com/apo-bozdag/apo-bozdag.github.io",
+//     url: "https://apo-bozdag.github.io/",
+//     skill: ["React", "CSS", "JavaScript"],
+//     preview: "",
+//   },
+// ]
 
 const writings = [
   // Add your blog posts or articles here

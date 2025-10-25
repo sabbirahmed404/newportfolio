@@ -2,19 +2,14 @@ import { FaLinkedinIn, FaXTwitter, FaGithub } from "react-icons/fa6"
 import { MdOutlineMail } from "react-icons/md"
 
 const abdullahTRImage = "/assets/Images/pfps/abdullah.png"
-const abdullahTRName = "Abdullah Bozdağ"
-const abdullahTRShortName = "Abdullah"
-const abdullahTRBio = "Yazılım Geliştirici"
+const abdullahTRName = "Sabbir Ahmed"
+const abdullahTRShortName = "Sabbir"
+const abdullahTRBio = "Sabbir Ahmed"
 const abdullahTRAbout = `
-  <p>
-    Merhaba! Ben Abdullah Bozdağ, 8+ yıllık backend ve full-stack deneyime sahip bir yazılım geliştiriciyim. Gerçek dünya problemlerini çözen ölçeklenebilir uygulamalar geliştirmeyi seviyorum.
-  </p>
-  <p>
-    Backend geliştirme için ağırlıklı olarak PHP, Python ve Node.js kullanıyorum. AWS altyapı yönetiminde kapsamlı deneyimim var. Frontend tarafında React ve Vue.js ile çalışıyorum, ayrıca Flutter ile mobil uygulamalar geliştiriyorum.
-  </p>
-  <p>
-    Şu anda Tripian Inc.'de uzaktan çalışıyorum ve RadKod'da açık kaynak projeleri ve freelance işler üzerinde çalışıyorum. Sürekli öğrenmeye ve insanların gerçekten kullandığı ürünler geliştirmeye tutkuluyum.
-  </p>
+<p>Hello! I'm Sabbir Ahmed, a software developer with years of full-stack experience. I love building scalable applications that solve real-world problems.</p>  
+<p>I primarily use PHP, Python, and Node.js for backend development and have extensive experience managing AWS infrastructure. On the frontend, I work with React and Vue.js, and I also develop mobile applications using Flutter.</p>  
+<p>Currently, I work remotely at Tripian Inc. and contribute to open-source projects and freelance work at RadKod. I’m passionate about continuous learning and creating products that people truly use.</p>
+
 `
 
 const abdullahTRLink = [

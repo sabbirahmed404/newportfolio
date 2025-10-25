@@ -282,7 +282,7 @@ function SectionContent({
             className="text-5xl md:text-6xl font-bold tracking-tight"
             style={{ color: COLORS.text }}
           >
-            Abdullah Bozdağ
+            Sabbir Ahmed
           </h1>
           <p className="text-lg max-w-lg leading-relaxed" style={{ color: `${COLORS.text}CC` }}>
             Backend developer & full-stack builder. I create web applications and solve complex problems with clean, efficient code.
@@ -291,7 +291,7 @@ function SectionContent({
 
         <div className="flex flex-wrap gap-6 text-sm" style={{ color: COLORS.text }}>
           <a
-            href="https://x.com/apo_bozdag"
+            href="https://x.com/Minhajeez"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors duration-200"
@@ -302,7 +302,7 @@ function SectionContent({
             X (Twitter)
           </a>
           <a
-            href="https://github.com/apo-bozdag"
+            href="https://github.com/sabbirahmed404"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors duration-200"
@@ -313,7 +313,7 @@ function SectionContent({
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/apo-bozdag"
+            href="https://linkedin.com/in/msabbirahmed"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors duration-200"
@@ -324,7 +324,7 @@ function SectionContent({
             LinkedIn
           </a>
           <a
-            href="mailto:abdullah@radkod.com"
+            href="mailto:msa29.cse@gmail.com"
             className="transition-colors duration-200"
             style={{ color: COLORS.text }}
             onMouseEnter={(e) => e.currentTarget.style.color = COLORS.accent}
@@ -359,41 +359,59 @@ function SectionContent({
   if (section === "experience") {
     const experiences = [
       {
-        year: "2018 - Present",
-        title: "Back-End Developer",
-        company: "Tripian Inc.",
-        location: "Remote (Toronto, Canada)",
-        description: "Core team member. Backend with PHP/Python, API design, React/Vue.js frontend, AWS infrastructure.",
+        year: "Jan 2024 - Present",
+        title: "Lead Software Engineer",
+        company: "Codemypixel",
+        location: "Remote",
+        description: "With a committed small team, I cultivate active listening and bold goal-setting, harnessing AI to fast-track iteration and produce production-grade MVP software that drives real impact. Seek opportunity to optimize engineering processes and culture. Believer in the Growth Mindset. Developed projects through pair programming and managed complex SaaS and AI agent initiatives as a Project Manager, overseeing end-to-end planning and roadmap creation for cross-functional teams. Managed client relationships & communications with professionalism, consistently achieving successful results.",
       },
       {
-        year: "2016 - Present",
+        year: "Aug 2024 - Dec 2024",
         title: "Full-Stack Developer",
-        company: "RadKod",
-        location: "Freelance/Open Source",
-        description: "Founded developer collective. Flutter apps, web games, backend services. Active GitHub contributor.",
-      },
-      {
-        year: "2015 - 2017",
-        title: "Back-End Developer",
-        company: "AvantajBizde",
-        location: "Izmir, Turkey",
-        description: "C2C e-commerce platform with Laravel, ORM, and domain-driven design.",
-      },
-      {
-        year: "2015",
-        title: "Back-End Developer",
-        company: "Promega",
-        location: "Izmir, Turkey",
-        description: "PHP backend modules, algorithm and data structure implementation.",
-      },
-      {
-        year: "2014 - 2015",
-        title: "Back-End Developer",
-        company: "TurkWebAjans",
-        location: "Izmir, Turkey",
-        description: "Client websites using classic ASP and Adobe Flash. Junior developer role.",
+        company: "Uvoy",
+        location: "Remote",
+        description: "Developed and maintained a Full-stack E-commerce platform.",
       },
     ]
+
+    // Old experiences (commented out)
+    // const experiences = [
+    //   {
+    //     year: "2018 - Present",
+    //     title: "Back-End Developer",
+    //     company: "Tripian Inc.",
+    //     location: "Remote (Toronto, Canada)",
+    //     description: "Core team member. Backend with PHP/Python, API design, React/Vue.js frontend, AWS infrastructure.",
+    //   },
+    //   {
+    //     year: "2016 - Present",
+    //     title: "Full-Stack Developer",
+    //     company: "RadKod",
+    //     location: "Freelance/Open Source",
+    //     description: "Founded developer collective. Flutter apps, web games, backend services. Active GitHub contributor.",
+    //   },
+    //   {
+    //     year: "2015 - 2017",
+    //     title: "Back-End Developer",
+    //     company: "AvantajBizde",
+    //     location: "Izmir, Turkey",
+    //     description: "C2C e-commerce platform with Laravel, ORM, and domain-driven design.",
+    //   },
+    //   {
+    //     year: "2015",
+    //     title: "Back-End Developer",
+    //     company: "Promega",
+    //     location: "Izmir, Turkey",
+    //     description: "PHP backend modules, algorithm and data structure implementation.",
+    //   },
+    //   {
+    //     year: "2014 - 2015",
+    //     title: "Back-End Developer",
+    //     company: "TurkWebAjans",
+    //     location: "Izmir, Turkey",
+    //     description: "Client websites using classic ASP and Adobe Flash. Junior developer role.",
+    //   },
+    // ]
 
     return (
       <div className="space-y-6">
@@ -404,7 +422,7 @@ function SectionContent({
         {/* Mini Overview */}
         <div className="space-y-3 pb-2">
           <p className="text-sm" style={{ color: `${COLORS.text}CC` }}>
-            <span style={{ color: COLORS.accent }} className="font-semibold">8+ years</span> building scalable web applications
+            <span style={{ color: COLORS.accent }} className="font-semibold">Years</span> building scalable web applications
           </p>
 
           {/* Primary Stack */}
@@ -504,7 +522,7 @@ function SectionContent({
           </p>
           <div className="flex flex-col gap-3 pt-4">
             <a
-              href="mailto:abdullah@radkod.com"
+              href="mailto:msa29.cse@gmail.com"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg transition-all duration-200 w-fit"
               style={{ backgroundColor: COLORS.text, color: COLORS.bg }}
               onMouseEnter={(e) => {

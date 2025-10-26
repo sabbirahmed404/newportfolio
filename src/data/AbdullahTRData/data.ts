@@ -1,10 +1,10 @@
 import { FaLinkedinIn, FaXTwitter, FaGithub } from "react-icons/fa6"
 import { MdOutlineMail } from "react-icons/md"
 
-const abdullahTRImage = "/assets/Images/pfps/abdullah.png"
+const abdullahTRImage = "/assets/Images/pfps/sabbir.png"
 const abdullahTRName = "Sabbir Ahmed"
 const abdullahTRShortName = "Sabbir"
-const abdullahTRBio = "Sabbir Ahmed"
+const abdullahTRBio = "Software Engineer"
 const abdullahTRAbout = `
 <p>Hello! I'm Sabbir Ahmed, a software developer with years of full-stack experience. I love building scalable applications that solve real-world problems.</p>  
 <p>I primarily use PHP, Python, and Node.js for backend development and have extensive experience managing AWS infrastructure. On the frontend, I work with React and Vue.js, and I also develop mobile applications using Flutter.</p>  

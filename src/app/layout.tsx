@@ -15,14 +15,14 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Abdullah Bozdag - Software Developer",
-    template: "%s | Abdullah Bozdag"
+    default: "Sabbir Ahmed - Software Engineer",
+    template: "%s | Sabbir Ahmed"
   },
-  description: "Portfolio of Abdullah Bozdag - Software Developer with 8+ years of backend and full-stack experience. Specializing in PHP, Python, Node.js, Laravel, Django, React, Vue.js, and AWS infrastructure.",
-  keywords: ["Abdullah Bozdag", "Portfolio", "Software Developer", "Backend Developer", "Full Stack Developer", "PHP", "Laravel", "Python", "Django", "Node.js", "Vue.js", "React", "AWS"],
-  authors: [{ name: "Abdullah Bozdag" }],
-  creator: "Abdullah Bozdag",
-  metadataBase: new URL("https://abdullahbozdag.com"),
+  description: "Portfolio of Sabbir Ahmed - Software Engineer with years of full-stack and low code automation experience. Specializing in Next.js, React, Python, Node.js.",
+  keywords: ["Sabbir Ahmed", "Portfolio", "Software Engineer", "Backend Software Developer", "Full Stack Developer", "SQL", "React", "next.js", "Node.js", "Vue.js", "serverless", "n8n", "low code", "automation"],
+  authors: [{ name: "Sabbir Ahmed" }],
+  creator: "Sabbir Ahmed",
+  metadataBase: new URL("https://sabbir.uvoystore.com"),
   icons: {
     icon: [
       {
@@ -50,16 +50,16 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "Abdullah Bozdag - Software Developer",
-    description: "Portfolio of Abdullah Bozdag - Software Developer with 8+ years of backend and full-stack experience. Specializing in PHP, Python, Node.js, Laravel, Django, React, Vue.js, and AWS infrastructure.",
-    url: "https://abdullahbozdag.com",
-    siteName: "Abdullah Bozdag Portfolio",
+    title: "Sabbir Ahmed - Software Engineer",
+    description: "Portfolio of Sabbir Ahmed - Software Engineer with years of full-stack and low code automation experience. Specializing in Next.js, React, Python, Node.js.",
+    url: "https://sabbir.uvoystore.com",
+    siteName: "Sabbir Ahmed Portfolio",
     images: [
       {
         url: "/assets/Images/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Abdullah Bozdag - Software Developer"
+        alt: "Sabbir Ahmed - Software Engineer"
       },
     ],
     locale: "en-US",
@@ -67,10 +67,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Abdullah Bozdag - Software Developer",
-    description: "Portfolio of Abdullah Bozdag - Software Developer with 8+ years of backend and full-stack experience.",
+    title: "Sabbir Ahmed - Software Engineer",
+    description: "Portfolio of Sabbir Ahmed - Software Engineer with years of backend and full-stack experience.",
     images: ["/assets/Images/og-image.png"],
-    creator: "@apo_bozdag",
+    creator: "@minhajeez",
   },
   robots: {
     index: true,

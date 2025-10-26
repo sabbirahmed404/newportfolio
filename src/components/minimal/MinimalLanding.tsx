@@ -1,9 +1,9 @@
 "use client"
 
-import { useState, useRef, useLayoutEffect, useCallback } from "react"
+import { useState, useRef, useLayoutEffect, useCallback, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { projects } from "@/data/Common/data"
-import { ArrowRight, ExternalLink, Briefcase, Mail, Home, BookOpen, GraduationCap } from "lucide-react"
+import { ArrowRight, ExternalLink, Briefcase, Mail, Home, BookOpen, GraduationCap, FileText } from "lucide-react"
 import { FaGithub } from "react-icons/fa"
 import Image from "next/image"
 
@@ -154,6 +154,27 @@ export default function MinimalLanding() {
         activeSection={activeSection}
         onSectionChange={handleSectionChange}
       />
+
+      {/* Quotes Section - Fixed at bottom, above mobile nav, centered */}
+      <AnimatePresence mode="wait">
+        {activeSection === "contact" && (
+          <motion.div
+            key="quotes-section"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 20 }}
+            transition={{
+              duration: 0.25,
+              ease: [0.25, 0.1, 0.25, 1],
+            }}
+            className="fixed bottom-16 md:bottom-4 left-0 right-0 md:right-24 z-40 pointer-events-none flex justify-center"
+          >
+            <div className="pointer-events-auto">
+              <QuotesSection />
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   )
 }
@@ -451,6 +472,17 @@ function SectionContent({
             >
               Email
             </a>
+            <a
+              href="https://raw.githubusercontent.com/sabbirahmed404/resume-latex/main/MyResume_2025_aug__Super_Minimal_.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors duration-200"
+              style={{ color: COLORS.text }}
+              onMouseEnter={(e) => e.currentTarget.style.color = COLORS.accent}
+              onMouseLeave={(e) => e.currentTarget.style.color = COLORS.text}
+            >
+              Resume
+            </a>
           </div>
         </div>
       </div>
@@ -674,28 +706,6 @@ function SectionContent({
             />
 
             <div className="space-y-6 pl-8">
-              {/* IEEE Student Branch GUB */}
-              <div className="relative">
-                {/* Timeline dot */}
-                <div
-                  className="absolute -left-8 top-1 w-2 h-2 rounded-full"
-                  style={{ backgroundColor: COLORS.accent }}
-                />
-
-                <div className="space-y-1">
-                  <h3 className="text-lg font-semibold" style={{ color: COLORS.text }}>
-                    Executive Committee Member
-                  </h3>
-                  <p className="text-sm font-medium" style={{ color: `${COLORS.text}CC` }}>
-                    IEEE Student Branch GUB
-                  </p>
-                  <ul className="text-sm leading-relaxed pt-1 space-y-1" style={{ color: `${COLORS.text}99` }}>
-                    <li>• Awarded IEEE Student Branch GUB chapter Best Executive of the Year</li>
-                    <li>• Organized, photographed, and designed for over 25 high-profile events within a single year as a core volunteer contributor</li>
-                  </ul>
-                </div>
-              </div>
-
               {/* Green University Photography Club */}
               <div className="relative">
                 {/* Timeline dot */}
@@ -705,14 +715,120 @@ function SectionContent({
                 />
 
                 <div className="space-y-1">
+                  <p className="text-xs font-medium" style={{ color: COLORS.accent }}>
+                    Apr 2024 - Mar 2025 (1 year)
+                  </p>
                   <h3 className="text-lg font-semibold" style={{ color: COLORS.text }}>
-                    General Secretary
+                    Secretary General
                   </h3>
                   <p className="text-sm font-medium" style={{ color: `${COLORS.text}CC` }}>
                     Green University Photography Club
                   </p>
+                  <ul className="text-sm leading-relaxed pt-1 space-y-1" style={{ color: `${COLORS.text}99` }}>
+                    <li>• My work has stretched from organizing the committee and serving as the key organizer of numerous creative events, including exhibitions, competitions, and workshops.</li>
+                    <li>• I formed and structured the committee from its inception.</li>
+                    <li>• Organized an Exhibition on 26th March 2024 for the Independence Day of Bangladesh.</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* IEEE Student Branch GUB */}
+              <div className="relative">
+                {/* Timeline dot */}
+                <div
+                  className="absolute -left-8 top-1 w-2 h-2 rounded-full"
+                  style={{ backgroundColor: COLORS.accent }}
+                />
+
+                <div className="space-y-1">
+                  <p className="text-xs font-medium" style={{ color: COLORS.accent }}>
+                    May 2024 - Jun 2025 (1 year 2 months)
+                  </p>
+                  <h3 className="text-lg font-semibold" style={{ color: COLORS.text }}>
+                    Executive Committee Member
+                  </h3>
+                  <p className="text-sm font-medium" style={{ color: `${COLORS.text}CC` }}>
+                    IEEE Student Branch GUB | Science and Technology
+                  </p>
+                  <ul className="text-sm leading-relaxed pt-1 space-y-1" style={{ color: `${COLORS.text}99` }}>
+                    <li>• Awarded IEEE Student Branch GUB chapter Best Executive of the Year</li>
+                    <li>• Organized, photographed, and designed for over 25 high-profile events within a single year as a core volunteer contributor</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* IEEE SPAC-24 */}
+              <div className="relative">
+                {/* Timeline dot */}
+                <div
+                  className="absolute -left-8 top-1 w-2 h-2 rounded-full"
+                  style={{ backgroundColor: COLORS.accent }}
+                />
+
+                <div className="space-y-1">
+                  <p className="text-xs font-medium" style={{ color: COLORS.accent }}>
+                    Nov 2024 - Dec 2024 (2 months)
+                  </p>
+                  <h3 className="text-lg font-semibold" style={{ color: COLORS.text }}>
+                    Student Branch Ambassador for SPAC-24
+                  </h3>
+                  <p className="text-sm font-medium" style={{ color: `${COLORS.text}CC` }}>
+                    IEEE | Science and Technology
+                  </p>
                   <p className="text-sm leading-relaxed pt-1" style={{ color: `${COLORS.text}99` }}>
-                    My work has stretched from organizing the committee and serving as the key organizer of numerous creative events, including exhibitions, competitions, and workshops
+                    Represented IEEE Student Branch GUB as an Ambassador for SPAC-24, fostering student-professional awareness and collaboration.
+                  </p>
+                </div>
+              </div>
+
+              {/* GUB CSE Carnival 2024 */}
+              <div className="relative">
+                {/* Timeline dot */}
+                <div
+                  className="absolute -left-8 top-1 w-2 h-2 rounded-full"
+                  style={{ backgroundColor: COLORS.accent }}
+                />
+
+                <div className="space-y-1">
+                  <p className="text-xs font-medium" style={{ color: COLORS.accent }}>
+                    Nov 2024 (1 month)
+                  </p>
+                  <h3 className="text-lg font-semibold" style={{ color: COLORS.text }}>
+                    Lead Event Photographer & Volunteer | GUB CSE Carnival 2024
+                  </h3>
+                  <p className="text-sm font-medium" style={{ color: `${COLORS.text}CC` }}>
+                    Green University of Bangladesh
+                  </p>
+                  <ul className="text-sm leading-relaxed pt-1 space-y-1" style={{ color: `${COLORS.text}99` }}>
+                    <li>• Led a team from the Green University Photography Club (GUPC), the official photography partner of GUB CSE Carnival 2024</li>
+                    <li>• Successfully covered 12 events, capturing key moments and delivering high-quality photos, videos, and promotional reels</li>
+                    <li>• Ensured all stakeholders received the materials they needed</li>
+                    <li>• Actively contributed to the event's organizing and coordination bodies</li>
+                    <li>• Played a role in sponsorship management and publication</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* 6th International Conference on STI */}
+              <div className="relative">
+                {/* Timeline dot */}
+                <div
+                  className="absolute -left-8 top-1 w-2 h-2 rounded-full"
+                  style={{ backgroundColor: COLORS.accent }}
+                />
+
+                <div className="space-y-1">
+                  <p className="text-xs font-medium" style={{ color: COLORS.accent }}>
+                    Dec 2024 (1 month)
+                  </p>
+                  <h3 className="text-lg font-semibold" style={{ color: COLORS.text }}>
+                    Volunteer of 6th International Conference on STI
+                  </h3>
+                  <p className="text-sm font-medium" style={{ color: `${COLORS.text}CC` }}>
+                    Green University of Bangladesh | Science and Technology
+                  </p>
+                  <p className="text-sm leading-relaxed pt-1" style={{ color: `${COLORS.text}99` }}>
+                    Volunteered in the Flagship event 2024 6th INTERNATIONAL CONFERENCE ON SUSTAINABLE TECHNOLOGIES FOR INDUSTRY 5.0 (STI 2024)
                   </p>
                 </div>
               </div>
@@ -1206,6 +1322,99 @@ function PublicationDetail({
           </a>
         </div>
       )}
+    </div>
+  )
+}
+
+// Quotes Section Component
+function QuotesSection() {
+  const quotes = [
+    "The more you know, the more you know you don't know.",
+    "Free Speech and personal Privacy are two of the most important human rights.",
+    "Sometimes what you need is simply minimal."
+  ]
+
+  const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentQuoteIndex((prev) => (prev + 1) % quotes.length)
+    }, 6000) // Change quote every 6 seconds
+
+    return () => clearInterval(interval)
+  }, [quotes.length])
+
+  return (
+    <div className="px-4 md:px-6">
+      <div 
+        className="max-w-md p-4 rounded-lg backdrop-blur-sm"
+        style={{ 
+          backgroundColor: `${COLORS.card}CC`,
+        }}
+      >
+        <div className="space-y-2">
+          {/* Headline */}
+          <h3 
+            className="text-xs font-semibold tracking-wide uppercase"
+            style={{ color: COLORS.accent }}
+          >
+            My Food For Thought
+          </h3>
+          
+          {/* Quote with animation */}
+          <div className="relative min-h-[60px] flex items-center">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={currentQuoteIndex}
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -10 }}
+                transition={{ duration: 0.4, ease: "easeInOut" }}
+                className="flex gap-2"
+              >
+                {/* Opening quote mark */}
+                <span 
+                  className="text-3xl font-serif leading-none mt-1 flex-shrink-0"
+                  style={{ color: COLORS.accent, opacity: 0.4 }}
+                >
+                  &ldquo;
+                </span>
+                
+                {/* Quote text */}
+                <p 
+                  className="text-sm leading-relaxed italic flex-1"
+                  style={{ color: COLORS.text }}
+                >
+                  {quotes[currentQuoteIndex]}
+                </p>
+                
+                {/* Closing quote mark */}
+                <span 
+                  className="text-3xl font-serif leading-none self-end flex-shrink-0"
+                  style={{ color: COLORS.accent, opacity: 0.4 }}
+                >
+                  &rdquo;
+                </span>
+              </motion.div>
+            </AnimatePresence>
+          </div>
+
+          {/* Dots indicator */}
+          <div className="flex gap-1.5 justify-center pt-1">
+            {quotes.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setCurrentQuoteIndex(index)}
+                className="w-1.5 h-1.5 rounded-full transition-all duration-300"
+                style={{
+                  backgroundColor: index === currentQuoteIndex ? COLORS.accent : `${COLORS.accent}40`,
+                }}
+                aria-label={`Go to quote ${index + 1}`}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

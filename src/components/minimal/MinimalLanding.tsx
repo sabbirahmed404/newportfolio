@@ -3,7 +3,7 @@
 import { useState, useRef, useLayoutEffect, useCallback, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { projects } from "@/data/Common/data"
-import { ArrowRight, ExternalLink, Briefcase, Mail, Home, BookOpen, GraduationCap, FileText } from "lucide-react"
+import { ArrowRight, ExternalLink, Briefcase, Mail, Home, BookOpen, GraduationCap } from "lucide-react"
 import { FaGithub } from "react-icons/fa"
 import Image from "next/image"
 
@@ -803,7 +803,7 @@ function SectionContent({
                     <li>• Led a team from the Green University Photography Club (GUPC), the official photography partner of GUB CSE Carnival 2024</li>
                     <li>• Successfully covered 12 events, capturing key moments and delivering high-quality photos, videos, and promotional reels</li>
                     <li>• Ensured all stakeholders received the materials they needed</li>
-                    <li>• Actively contributed to the event's organizing and coordination bodies</li>
+                    <li>• Actively contributed to the event&apos;s organizing and coordination bodies</li>
                     <li>• Played a role in sponsorship management and publication</li>
                   </ul>
                 </div>

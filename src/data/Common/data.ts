@@ -104,6 +104,32 @@ const projects = [
     preview: "",
     caseStudy: "https://codemypixel.com/vidalsigns-case-study/",
   },
+  {
+    id: 5,
+    img: "/assets/Images/project/vidalsigns.png",
+    title: "Uvoy",
+    status: true,
+    content:
+      "Developed a full-stack e-commerce platform for a local fashion brand, featuring user and admin dashboards, multi-channel payments, and scalable order management.",
+    url: "https://www.uvoystore.com/",
+    github: "",
+    skill: ["E-commerce", "Full-stack", "Payment Integration", "Dashboard", "Next.js", "React", "Node.js"],
+    preview: "",
+    caseStudy: "",
+  },
+  {
+    id: 6,
+    img: "/assets/Images/project/vidalsigns.png",
+    title: "Offshore CMP",
+    status: true,
+    content:
+      "Developed and implemented a new offshore business model for CodeMyPixel, connecting U.S. clients with managed Bangladeshi development teams to deliver AI, SaaS, and automation solutions at 88% reduced cost.",
+    url: "https://hire.codemypixel.com/",
+    github: "https://github.com/sabbirahmed404/cmp-offshore",
+    skill: ["Business Model", "Offshore", "SaaS", "AI Solutions", "Automation", "Node.js", "Next.js", "React"],
+    preview: "",
+    caseStudy: "",
+  },
 ]
 
 // Old projects (commented out)

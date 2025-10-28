@@ -47,7 +47,7 @@ const publications: Publication[] = [
   {
     id: 1,
     title: "3D Deep Learning for Brain Lesion Detection with YOLO & U-Net",
-    description: "Researched 3D medical image segmentation using YOLO & U-Net in PyTorch. Optimized data pipelines for multi-modal MRI and PET scans to improve lesion detection accuracy.",
+    description: "Researched 3D medical image segmentation using YOLO & U-Net in PyTorch. Optimized data pipelines for multi-modal MRI and PET scans to improve lesion detection accuracy. (Running)",
     details: "This research addresses a critical gap in medical imaging detection by developing a unified model capable of detecting brain tumors from both MRI and PET scans. Traditional approaches often focused on single modality detection, limiting diagnostic accuracy. Our multi-modal approach leverages the complementary strengths of both imaging techniques MRI's superior soft tissue contrast and PET's metabolic activity visualization to achieve more comprehensive and accurate lesion detection. The implementation combines YOLO's real-time detection capabilities with U-Net's precise segmentation architecture, optimized for 3D medical imaging workflows.",
     github: "https://github.com/sabbirahmed404/Brain_Tumor_Detection_Using_YOLO",
     skills: ["PyTorch", "YOLO", "U-Net", "Medical Imaging", "3D Deep Learning", "Python", "MRI", "PET Scans"],
@@ -512,7 +512,7 @@ function SectionContent({
     const experiences = [
       {
         year: "Jan 2024 - Present",
-        title: "Lead Software Engineer",
+        title: "CTO & Lead Software Engineer",
         company: "Codemypixel",
         location: "Remote",
         description: [

@@ -425,7 +425,7 @@ function SectionContent({
               Sabbir Ahmed
             </h1>
             <p className="text-lg max-w-lg leading-relaxed mx-auto md:mx-0" style={{ color: `${COLORS.text}CC` }}>
-              Engineer & full-stack builder. I create web applications and solve complex problems with clean, efficient code.
+              Software Engineer & CSE Graduate. Full-stack developer specializing in React, Next.js, Node.js, and Python. I build scalable web applications and solve complex engineering problems with clean code.
             </p>
           </div>
 

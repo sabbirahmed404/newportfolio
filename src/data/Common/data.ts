@@ -188,7 +188,7 @@ const hireText =
   "I'm currently available for freelance projects and consulting opportunities. With 8+ years of experience in backend and full-stack development, I can help bring your ideas to life with scalable, efficient solutions."
 
 const emailLink =
-  "mailto:abdullah@radkod.com?subject=Interested%20in%20Working%20Together"
+  "mailto:msa29.cse@gmail.com?subject=Interested%20in%20Working%20Together"
 
 const navLinks = [
   {
@@ -200,19 +200,19 @@ const navLinks = [
   {
     id: 2,
     name: "X",
-    link: "https://x.com/apo_bozdag",
+    link: "https://x.com/Minhajeez",
     icon: FaXTwitter,
   },
   {
     id: 3,
     name: "GitHub",
-    link: "https://github.com/apo-bozdag",
+    link: "https://github.com/sabbirahmed404",
     icon: FaGithub,
   },
   {
     id: 4,
     name: "LinkedIn",
-    link: "https://linkedin.com/in/apo-bozdag",
+    link: "https://linkedin.com/in/msabbir-ahmed",
     icon: FaLinkedinIn,
   },
 ]

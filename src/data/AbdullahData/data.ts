@@ -105,16 +105,3 @@ export {
   sabbirLink,
   sabbirFooterLink,
 }
-
-// Alias exports for compatibility
-export {
-  sabbirImage as abdullahImage,
-  sabbirBio as abdullahBio,
-  sabbirContact as abdullahContact,
-  sabbirContactLink as abdullahContactLink,
-  sabbirName as abdullahName,
-  sabbirShortName as abdullahShortName,
-  sabbirAbout as abdullahAbout,
-  sabbirLink as abdullahLink,
-  sabbirFooterLink as abdullahFooterLink,
-}

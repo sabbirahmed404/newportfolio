@@ -1,14 +1,14 @@
 "use client"
-import { abdullahTRBio, abdullahTRImage, abdullahTRLink, abdullahTRName } from "@/data/AbdullahTRData/data"
+import { sabbirTRBio, sabbirTRImage, sabbirTRLink, sabbirTRName } from "@/data/AbdullahTRData/data"
 import React, { useState } from "react"
 import { InfoTip } from "../InfoTip"
 import Available from "../Available"
 import { useSwitch } from "../Context/SwitchContext"
 import {
-  abdullahBio,
-  abdullahImage,
-  abdullahLink,
-  abdullahName,
+  sabbirBio,
+  sabbirImage,
+  sabbirLink,
+  sabbirName,
 } from "@/data/AbdullahData/data"
 import { AnimatePresence } from "framer-motion"
 import { motion } from "framer-motion"
@@ -16,7 +16,7 @@ import Image from "next/image"
 const InfoCard: React.FC = () => {
   const { isSwitchOn } = useSwitch()
   const [isOpen, setIsOpen] = useState(false)
-  const socialLink = isSwitchOn ? abdullahTRLink : abdullahLink
+  const socialLink = isSwitchOn ? sabbirTRLink : sabbirLink
   return (
     <section>
       <div className=" flex flex-col gap-2">
@@ -30,7 +30,7 @@ const InfoCard: React.FC = () => {
             className=" cursor-pointer hover:brightness-75 transition duration-200 select-none w-1/3 md:w-auto"
           >
             <Image
-              src={isSwitchOn ? abdullahTRImage : abdullahImage}
+              src={isSwitchOn ? sabbirTRImage : sabbirImage}
               alt="Profile Picture"
               className="pro-pic"
               width={200}
@@ -41,13 +41,13 @@ const InfoCard: React.FC = () => {
           <div className="flex flex-col gap-2">
             <div className="flex gap-4 items-center">
               <h1 className=" head-name ">
-                {isSwitchOn ? abdullahTRName : abdullahName}
+                {isSwitchOn ? sabbirTRName : sabbirName}
               </h1>
               <div className=" md:block hidden">
                 <Available text="Available" />
               </div>
             </div>
-            <p>{isSwitchOn ? abdullahTRBio : abdullahBio}</p>
+            <p>{isSwitchOn ? sabbirTRBio : sabbirBio}</p>
             <div className="flex flex-wrap gap-1.5">
               {socialLink.map((link) => (
                 <InfoTip key={link.id} text={link.name}>
@@ -103,7 +103,7 @@ const InfoCard: React.FC = () => {
               onClick={(e) => e.stopPropagation()}
             >
               <Image
-                src={isSwitchOn ? abdullahTRImage : abdullahImage}
+                src={isSwitchOn ? sabbirTRImage : sabbirImage}
                 alt="Profile Picture"
                 className=" rounded-lg w-full h-full object-contain"
                 width={200}

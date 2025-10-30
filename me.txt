@@ -1,100 +1,73 @@
-ABDULLAH BOZDAG - SOFTWARE DEVELOPER
+SABBIR AHMED - SOFTWARE ENGINEER
 ================================================================================
 
 CONTACT
 -------
-Email: abdullah@radkod.com
-Phone: +90 545 787 8918
-Location: Izmir, Turkey
-GitHub: github.com/apo-bozdag
-LinkedIn: linkedin.com/in/apo-bozdag
+Email: msa29.cse@gmail.com
+Location: Dhaka, Bangladesh
+GitHub: github.com/sabbirahmed404
+LinkedIn: linkedin.com/in/msabbir-ahmed
+X/Twitter: x.com/Minhajeez
 
 SUMMARY
 -------
-Software developer with 8+ years backend/full-stack experience. Primary focus:
-PHP, Python, Node.js for scalable APIs and web applications. AWS infrastructure
-management. Frontend work in React, Vue.js. Mobile development with Flutter.
-Remote work experience in cross-functional teams. Active in open-source.
+Software Engineer with years of full-stack experience. Primary focus:
+Node.js, Python, Next.js for scalable APIs and web applications. Low code
+automation expertise. Frontend work in React, Next.js.
+Remote work experience in cross-functional teams. Active in AI and SaaS development.
 
 PROFESSIONAL EXPERIENCE
 -----------------------
 
-Back-End Developer | Tripian Inc.
-May 2018 - Present | Remote (Toronto, Canada)
+CTO & Lead Software Engineer | CodeMyPixel
+January 2024 - Present | Remote
 
-- Core team member since company founding
-- Backend development: PHP, Python
-- API design and maintenance
-- Frontend contributions: React, Vue.js, SCSS
-- AWS infrastructure management (performance, scalability, cost)
-- Agile workflows, cross-team collaboration
-
----
-
-Full-Stack Developer (Freelance/Open Source) | RadKod
-September 2016 - Present
-
-- Founded developer collective for open-source and freelance work
-- Projects: Flutter mobile apps, web games, backend services, APIs
-- Active GitHub contributor
-- Focus: continuous learning and experimentation
+- Lead small committed team with active listening and bold goal-setting
+- Harness AI to fast-track iteration and produce production-grade MVP software
+- Developed projects through pair programming
+- Managed complex SaaS and AI agent initiatives as Project Manager
+- End-to-end planning and roadmap creation for cross-functional teams
+- Managed client relationships with professionalism
 
 ---
 
-Back-End Developer | AvantajBizde
-December 2015 - April 2017 | Izmir, Turkey
+Full-Stack Developer | Uvoy
+August 2024 - December 2024 | Remote
 
-- C2C e-commerce platform development
-- Laravel, ORM, domain-driven design implementation
-
----
-
-Back-End Developer | Promega
-August 2015 - December 2015 | Izmir, Turkey
-
-- PHP backend modules
-- Algorithm and data structure work
-
----
-
-Back-End Developer | TurkWebAjans
-February 2014 - January 2015 | Izmir, Turkey
-
-- Client websites: classic ASP, Adobe Flash
-- Junior developer role, initial industry experience
+- Developed and maintained Full-stack E-commerce platform
+- Implemented user and admin dashboards
+- Multi-channel payment integration
+- Scalable order management system
 
 EDUCATION
 ---------
 
-Information Technology and Web Programming
-Atatürk Anatolian Technical and Industrial Vocational High School
-2013 - 2016 | Izmir, Turkey
-
-Computer Programming
-Mehmet Akif Ersoy University
-2017 | Burdur, Turkey
-Note: Focused on independent professional development alongside formal studies
+BSc in Computer Science and Engineering
+Green University of Bangladesh
+February 2022 - February 2026 | Dhaka, Bangladesh
 
 TECHNICAL SKILLS
 ----------------
 
-Backend:
-  PHP, Python, Node.js, Laravel, ORM, Django, Flask, Playwright, Camoufox,
-  Scrapy, Selenium, Domain-Driven Design (DDD)
+Languages:
+  Python, TypeScript, Node.js, JavaScript, C, SQL, LaTeX
 
-Frontend:
-  React, Vue.js, SCSS
+Backend & Frameworks:
+  Next.js, React, Express, PyTorch
 
-Mobile:
-  Flutter
+Technologies:
+  REST API, GitHub, Supabase, Vercel, Firebase, noSQL, Telnyx, OpenAI,
+  Stripe, Make, n8n, Twilio, MongoDB, Hugging Face, Docker
 
-DevOps & Cloud:
-  AWS, server management
+Expertise:
+  Machine Learning, Data Analysis, Prompt Engineering, 
+  Model Context Protocol (MCP), Retrieval-Augmented Generation (RAG),
+  AI Agent Development, Low Code Automation
 
 Version Control:
-  Git (GitHub, GitLab)
+  Git (GitHub)
 
 Other:
-  RESTful APIs, web game development, e-commerce platforms
+  RESTful APIs, SaaS development, E-commerce platforms
 
 ================================================================================

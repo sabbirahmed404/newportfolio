@@ -5,7 +5,7 @@ const parser = new Parser()
 
 export async function GET() {
   try {
-    const feed = await parser.parseURL("https://medium.com/feed/@apo-bozdag")
+    const feed = await parser.parseURL("https://medium.com/feed/@sabbirahmed404")
 
     const posts = feed.items?.slice(0, 6).map((item) => {
       // Extract thumbnail from content

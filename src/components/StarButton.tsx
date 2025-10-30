@@ -18,7 +18,7 @@ const StarButton = () => {
     const fetchStars = async () => {
       try {
         const response = await fetch(
-          `https://api.github.com/repos/apo-bozdag/abdullahbozdag.com`,
+          `https://api.github.com/repos/sabbirahmed404/sabbir.com`,
           {
             headers: {
               Accept: "application/vnd.github.v3+json",
@@ -45,7 +45,7 @@ const StarButton = () => {
     <a
       className="  px-3 border border-zinc-700 hidden md:flex items-center gap-2 rounded-[8px] bg-zinc-900 hover:bg-zinc-900/60 transition-all duration-200"
       target="_blank"
-      href="https://github.com/apo-bozdag/abdullahbozdag.com"
+      href="https://github.com/sabbirahmed404/sabbir.com"
     >
       <FaRegStar className="size-[16px]" />
       <span className="text-sm">{"Star"}</span>

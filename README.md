@@ -12,8 +12,8 @@ Personal portfolio website showcasing my work, skills, and experience as a softw
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/apo-bozdag/abdullahbozdag.com.git
-cd abdullahbozdag.com
+git clone https://github.com/sabbirahmed404/sabbir.com.git
+cd sabbir.com
 ```
 
 2. Install dependencies:
@@ -59,10 +59,10 @@ This project is based on Switchfolio. Please check the [original repository](htt
 
 ## Contact
 
-- **Email**: abdullah@radkod.com
-- **X/Twitter**: [@apo_bozdag](https://x.com/apo_bozdag)
-- **LinkedIn**: [apo-bozdag](https://linkedin.com/in/apo-bozdag)
-- **GitHub**: [@apo-bozdag](https://github.com/apo-bozdag)
+- **Email**: msa29.cse@gmail.com
+- **X/Twitter**: [@Minhajeez](https://x.com/Minhajeez)
+- **LinkedIn**: [msabbir-ahmed](https://linkedin.com/in/msabbir-ahmed)
+- **GitHub**: [@sabbirahmed404](https://github.com/sabbirahmed404)
 
 ---
 

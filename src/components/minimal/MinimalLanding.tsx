@@ -155,26 +155,6 @@ export default function MinimalLanding() {
         onSectionChange={handleSectionChange}
       />
 
-      {/* Quotes Section - Fixed at bottom, above mobile nav, centered */}
-      <AnimatePresence mode="wait">
-        {activeSection === "contact" && (
-          <motion.div
-            key="quotes-section"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: 20 }}
-            transition={{
-              duration: 0.25,
-              ease: [0.25, 0.1, 0.25, 1],
-            }}
-            className="fixed bottom-16 md:bottom-4 left-0 right-0 md:right-24 z-40 pointer-events-none flex justify-center"
-          >
-            <div className="pointer-events-auto">
-              <QuotesSection />
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
     </div>
   )
 }

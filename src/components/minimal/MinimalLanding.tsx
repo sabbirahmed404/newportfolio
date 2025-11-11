@@ -473,7 +473,7 @@ function SectionContent({
               Email
             </a>
             <a
-              href="https://raw.githubusercontent.com/sabbirahmed404/resume-latex/main/MyResume_2025_aug__Super_Minimal_.pdf"
+              href="https://raw.githubusercontent.com/sabbirahmed404/resume-latex/main/Sabbir-Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-colors duration-200"

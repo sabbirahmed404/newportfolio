@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useRef, useLayoutEffect, useCallback, useEffect } from "react"
+import { useState, useRef, useLayoutEffect, useCallback } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { projects } from "@/data/Common/data"
 import { ArrowRight, ExternalLink, Briefcase, Mail, Home, BookOpen, GraduationCap } from "lucide-react"
